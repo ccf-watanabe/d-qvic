@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+// ============================================================
+// table style
+// ============================================================
+
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+
+caption, th{
+	text-align:left;
+}
+
+.baseTable {
+	width: 100%;
+	background: $md-white;
+	@include box-sizing(border-box);
+	
+	th, td {
+		padding: 15px;
+		line-height: 120%;
+		border: 1px solid $md-grey-300;
+		@include box-sizing(border-box);
+		vertical-align: top;
+		
+		@include sp {
+			padding: 12px 8px;
+		} //sp
+	}
+	
+	td {
+		vertical-align: middle;
+		
+		p {
+			&:first-child {
+				margin: 0 0 1em;
+			}
+			
+			&:last-child {
+				margin: 1em 0 0;
+			}
+		}
+		
+		ul {
+			padding-left: 25px;
+		}
+	}
+	
+	th {
+		width: 20%;
+		background: $md-grey-50;
+		font-weight: 400;
+		text-align: left;
+	}
+	
+	
+	&-sp {
+		tr {
+			display: block;
+			width: 100%;
+		}
+		
+		th, td {
+			margin-top: -1px;
+			display: block;
+			width: 100%;
+		}
+	}
+} //tableBase
+
+

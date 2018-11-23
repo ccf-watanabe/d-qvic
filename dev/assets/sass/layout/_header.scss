@@ -1,0 +1,718 @@
+@charset "utf-8";
+
+/*----------------------------------------
+	header
+----------------------------------------*/
+header {
+	width:100%;
+	padding: 15px 15px 17px;
+	@include display-flex;
+	@include flex-direction(row);
+	@include justify-content(space-between);
+	@include align-items(center);
+	background: $md-white;
+	border-bottom: 4px solid $md-deep-orange-900;
+	@include box-sizing(border-box);
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:1;
+
+	@include tablet1 {
+		padding: 15px;
+	} //tablet1
+	
+	@include tablet2 {
+		padding: 10px;
+	} //tablet2
+
+	@include sp {
+		padding: 10px;
+	} //sp
+	
+	&.headerLine {
+		@include box-shadow(0, 0, 10px, 0, rgba(0, 0, 0, .1));
+	}
+} //header
+
+
+.hTop {
+	margin-right: auto;
+	@include display-flex;
+	@include flex-direction(row);
+	@include justify-content(space-between);
+	@include box-sizing(border-box);
+	
+	@include tablet1 {
+		margin: 0 20px 0 0;
+		width: calc(100% - 20px);
+	} //tablet1
+
+	@include tablet2 {
+		margin: 0 10px 0 0;
+		width: calc(100% - 10px);
+	} //tablet2
+
+	@include sp {
+		margin: 0 10px 0 0;
+		width: calc(100% - 10px);
+	} //sp
+}
+
+	
+.hlLogo {
+	margin: 0 0 0 40px;
+	padding: 0;
+	@include display-flex;
+	@include align-items(center);
+	
+	@include tablet {
+		margin: 0 0 0 20px;
+	} //tablet
+
+	@include tablet1 {
+		margin: 0 5px 0 10px;
+	} //tablet1
+	
+	@include tablet2 {
+		margin: 0 5px 0 10px;
+	} //tablet2
+	
+	@include sp {
+		margin: 0 5px 0 0;
+	} //sp
+
+	a {
+		&:hover {
+			@include opacity(0.8);
+		}
+	} //a
+
+	img {
+		max-height: 66px;
+		vertical-align: bottom;
+		
+		@include tablet {
+			max-height: 56px;
+		} //tablet
+		
+		@include tablet1 {
+			max-height: 56px;
+		} //tablet1
+
+		@include tablet2 {
+			max-height: 56px;
+		} //tablet2
+
+		@include sp {
+			max-height: 44px;
+		} //sp
+	}
+} //hlLogo
+
+
+
+.hContents {
+	margin-left: auto;
+	@include display-flex;
+	@include flex-direction(row);
+	@include align-items(center);
+}
+
+.hContact {
+	margin: 0;
+	@include display-flex;
+	@include flex-direction(column);
+	@include align-items(flex-end);
+
+	dt {
+		@include fs(20);
+		color: $cBase1;
+		letter-spacing: -.05em;
+		font-weight: 700;
+		
+		@include sp {
+			@include fs(13);
+		} //sp
+	}
+
+	dd {
+		margin: 0;
+		line-height: 120%;
+		@include fs(22);
+		letter-spacing: .04em;
+
+		@include tablet2 {
+			@include fs(20);
+		} //tablet2
+
+		@include sp {
+			@include fs(16);
+		} //sp
+		
+		& * {
+			line-height: 120%;
+		}
+
+		span {
+			color: $cBase1;
+			font-weight: 700;
+
+			a {
+				text-decoration: none;
+				color: $cBase1;
+			}
+		}
+		
+		.fa {
+			margin: 0 5px 0 0;
+			@include fs(17);
+			position: relative;
+			top: -2px;
+			
+			@include tablet2 {
+				@include fs(13);
+			} //tablet2
+			
+			@include sp {
+				@include fs(12);
+				top: -1px;
+			} //sp
+		}
+	}
+}
+
+.hRead {
+	margin: 0;
+	@include fs(15);
+	font-weight: 400;
+	text-align: right;
+	
+	@include tablet2 {
+		@include fs(13);
+	} //tablet2
+	
+	@include sp {
+		display: none;
+		@include fs(10);
+	} //sp
+}
+
+.gNav {
+	margin: 0 40px 0 auto;
+	background: $md-white;
+	border-top:1px solid rgba($md-white, .15);
+	@include box-sizing(border-box);
+	position: relative;
+	
+	@include tablet {
+		margin: 0 20px 0 auto;
+	} //tablet
+
+	@include tablet1 {
+		margin: 0 10px 0 auto;
+		width: 40px;
+		height:40px;
+		background: none;
+		border: none;
+		position: static;
+	} //tablet1
+
+	@include tablet2 {
+		margin: 0 10px 0 auto;
+		width: 40px;
+		height:40px;
+		background: none;
+		border: none;
+		position: static;
+	} //tablet2
+	
+	@include sp {
+		margin: 0 0 0 auto;
+		width: 40px;
+		height:40px;
+		background: none;
+		border: none;
+		position: static;
+	} //sp
+} //gNav
+
+
+.btnSpMenu {
+	width: 40px;
+	height: 40px;
+	background: $md-grey-900;
+	@include border-radius(4px);
+	display:none;
+	cursor:pointer;
+
+	@include tablet1 {
+		@include display-flex;
+		@include align-items(center);
+		@include justify-content(center);
+	} //tablet1
+
+	@include tablet2 {
+		@include display-flex;
+		@include align-items(center);
+		@include justify-content(center);
+	} //tablet2
+
+	@include sp {
+		@include display-flex;
+		@include align-items(center);
+		@include justify-content(center);
+	} //sp
+
+	i {
+		@include fs(26);
+		color:$md-white;
+	}
+} //btnSpMenu
+
+
+.nav-menu-box {
+	padding:0;
+	display: block;
+	
+	@include tablet {
+		width: 100%;
+	} //tablet
+
+	@include tablet1 {
+		width: 100%;
+		height: 100%;
+		display:none;
+		position: fixed;
+		top: 0;
+		right: 0;
+		z-index: 2;
+	} //tablet1
+
+	@include tablet2 {
+		width: 100%;
+		height: 100%;
+		display:none;
+		position: fixed;
+		top: 0;
+		right: 0;
+		z-index: 2;
+	} //tablet2
+
+	@include sp {
+		width: 100%;
+		height: 100%;
+		display:none;
+		position: fixed;
+		top: 0;
+		right: 0;
+		z-index: 2;
+	} //sp
+}
+
+.nav-menu-boxInner {
+	@include tablet1 {
+		width: 260px;
+		height: 100%;
+		background: $md-white;
+		@include display-flex;
+		@include flex-direction(column);
+		@include transition(all 0.5s ease);
+		@include transform(translate3d(260px, 0, 0));
+		overflow: auto;
+		-webkit-overflow-scrolling: touch;
+		position: absolute;
+		top: 0;
+		right: 0;
+		z-index: 9;
+	} //tablet1
+
+	@include tablet2 {
+		width: 260px;
+		height: 100%;
+		background: $md-white;
+		@include display-flex;
+		@include flex-direction(column);
+		@include transition(all 0.5s ease);
+		@include transform(translate3d(260px, 0, 0));
+		overflow: auto;
+		-webkit-overflow-scrolling: touch;
+		position: absolute;
+		top: 0;
+		right: 0;
+		z-index: 9;
+	} //tablet2
+
+	@include sp {
+		width: 260px;
+		height: 100%;
+		background: $md-white;
+		@include display-flex;
+		@include flex-direction(column);
+		@include transition(all 0.5s ease);
+		@include transform(translate3d(260px, 0, 0));
+		overflow: auto;
+		-webkit-overflow-scrolling: touch;
+		position: absolute;
+		top: 0;
+		right: 0;
+		z-index: 9;
+	} //sp
+
+	&.openMenu {
+		@include transform(translate3d(0, 0, 0));
+	}
+}
+
+
+.btnCloseMenu {
+	width: 32px;
+	height: 32px;
+	display: none;
+	background: $md-white;
+	@include justify-content(center);
+	@include align-items(center);
+	@include border-radius(4px);
+	cursor: pointer;
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	z-index: 9;
+
+	i {
+		@include fs(20);
+		color: $md-grey-900;
+	}
+
+	@include tablet1 {
+		@include display-flex;
+	} //tablet1
+
+	@include tablet2 {
+		@include display-flex;
+	} //tablet2
+
+	@include sp {
+		@include display-flex;
+	} //sp
+}
+
+.nav-menu {
+	margin:0 auto;
+	padding:0;
+	@include display-flex;
+	@include flex-direction(row);
+
+	@include tablet1 {
+		padding-bottom: 120px;
+		width: 100%;
+		display: block;
+	} //tablet1
+
+	@include tablet2 {
+		padding-bottom: 120px;
+		width: 100%;
+		display: block;
+	} //tablet2
+
+	@include sp {
+		padding-bottom: 120px;
+		width: 100%;
+		display: block;
+	} //sp
+
+	.nav-item {
+		margin-left: 30px;
+		list-style:none;
+		@include flex-grow(1);
+		@include box-sizing(border-box);
+		border-right:1px solid rgba($md-white,.15);
+		position: relative;
+		
+		@include tablet {
+			margin-left: 20px;
+		} //tablet
+
+		@include tablet1 {
+			margin: 0;
+			width:100%;
+			border-right: none;
+		} //tablet1
+
+		@include tablet2 {
+			margin: 0;
+			width:100%;
+			border-right: none;
+		} //tablet2
+
+		@include sp {
+			margin: 0;
+			width:100%;
+			border-right: none;
+		} //sp
+
+		&:first-child {
+			border-left:1px solid rgba($md-white,.15);
+
+			@include tablet1 {
+				border-left: none;
+				
+				a {
+					padding: 0 0 0 20px;
+					margin-right: 44px;
+					width: calc(100% - 48px);
+					border-top: none;
+				}
+			} //tablet1
+
+			@include tablet2 {
+				border-left: none;
+
+				a {
+					padding: 0 0 0 20px;
+					margin-right: 44px;
+					width: calc(100% - 48px);
+					border-top: none;
+				}
+			} //tablet2
+
+			@include sp {
+				border-left: none;
+
+				a {
+					padding: 0 0 0 20px;
+					margin-right: 44px;
+					width: calc(100% - 48px);
+					border-top: none;
+				}
+			} //sp
+		}
+		
+		&:last-child {
+			@include tablet1 {
+				a {
+					border-bottom: 1px solid rgba($md-grey-800, .8);
+				}
+			} //tablet1
+			
+			@include tablet2 {
+				a {
+					border-bottom: 1px solid rgba($md-grey-800, .8);
+				}
+			} //tablet2
+			
+			@include sp {
+				a {
+					border-bottom: 1px solid rgba($md-grey-800, .8);
+				}
+			} //sp
+		}
+
+		> a {
+			width:auto;
+			height: 48px;
+			line-height: 120%;
+			@include display-flex;
+			@include justify-content(center);
+			@include align-items(center);
+			@include box-sizing(border-box);
+			@include fs(14);
+			color:$md-grey-800 !important;
+			text-decoration:none;
+			position:relative;
+
+			@include tablet {
+				width:100%;
+				white-space: nowrap;
+			} //tablet
+
+			@include tablet1 {
+				padding: 0 20px;
+				@include justify-content(flex-start);
+				border-top: 1px solid rgba($md-grey-800, .8);
+				width: 100%;
+			} //tablet1
+
+			@include tablet2 {
+				padding:  0 20px;
+				@include justify-content(flex-start);
+				border-top: 1px solid rgba($md-grey-800, .8);
+				width: 100%;
+			} //tablet2
+
+			@include sp {
+				padding: 0 20px;
+				@include justify-content(flex-start);
+				border-top: 1px solid rgba($md-grey-800, .8);
+				width: 100%;
+			} //sp
+
+			&:after {
+				margin-left: -48%;
+				content: '';
+				width: 96%;
+				height: 1px;
+				display: block;
+				background: rgba($cBase2, 0);
+				position: absolute;
+				bottom: -1px;
+				left: 50%;
+				@include transition(all 0.5s ease);
+
+				@include tablet1 {
+					display: none;
+				} //tablet1
+
+				@include tablet2 {
+					display: none;
+				} //tablet2
+
+				@include sp {
+					display: none;
+				} //sp
+			}
+
+			&:hover {
+				background:rgba($md-white, .07);
+
+				&:after {
+					background: rgba($cBase2, .4);
+					bottom:3px;
+				}
+			} //hover
+		} //a
+
+		&.current {
+			a {
+				&:after {
+					background: rgba($cBase2, .4);
+					bottom:3px;
+				}
+			}
+		} //current
+	} //li
+
+	&-sub {
+		width: 100%;
+		display: none;
+		border:1px solid rgba($md-grey-800, .8);
+		border-top:none;
+		@include box-sizing(border-box);
+		position: absolute;
+		top: 63px;
+		left: 0;
+		z-index: 2;
+
+		@include tablet {
+			top: 49px;
+		} //tablet
+
+		@include tablet1 {
+			display: block !important;
+			position: static;
+			border: none;
+		} //tablet1
+
+		@include tablet2 {
+			display: block !important;
+			position: static;
+			border: none;
+		} //tablet2
+
+		@include sp {
+			display: block !important;
+			position: static;
+			border: none;
+		} //sp
+
+		> .menu {
+			margin: 0;
+			padding: 0;
+		}
+
+		.menu-content {
+			padding: 0;
+			background:$cBase1;
+			list-style: none;
+
+			> a {
+				width: 100%;
+				height: 44px;
+				@include display-flex;
+				@include align-items(center);
+				@include justify-content(center);
+				@include box-sizing(border-box);
+				background:$cBase1;
+				border-top:1px solid rgba($md-grey-800, .8);
+				@include fs(14);
+				color: $md-white;
+				text-decoration: none;
+
+				@include tablet {
+					height: 48px;
+					background: rgba($md-grey-900, .6);
+				} //tablet
+
+				@include tablet1 {
+					padding: 0 20px 0 35px;
+					height: 48px;
+					@include justify-content(flex-start);
+					background: rgba($md-grey-900, .6);
+				} //tablet1
+
+				@include tablet2 {
+					padding: 0 20px 0 35px;
+					height: 48px;
+					@include justify-content(flex-start);
+					background: rgba($md-grey-900, .6);
+				} //tablet2
+
+				@include sp {
+					padding: 0 20px 0 35px;
+					height: 48px;
+					@include justify-content(flex-start);
+					background: rgba($md-grey-900, .6);
+				} //sp
+
+				&:hover {
+					background:rgba($md-white,.07);
+				}
+			}
+		}
+	}
+}
+
+
+.spMenuOverflow {
+	width: 100%;
+	height: 100%;
+	display: none;
+	background: rgba($md-black, .8);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	z-index: 2;
+	
+	@include tablet1 {
+		display: block;
+	} //tablet1
+	
+	@include tablet2 {
+		display: block;
+	} //tablet2
+
+	@include sp {
+		display: block;
+	} //sp
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,329 @@
+@charset "utf-8";
+
+// ============================================================
+// form style
+// ============================================================
+
+input, select {
+	padding:2px 4px;
+	height:28px;
+	@include box-sizing(border-box);
+	@include border-radius(4px);
+	background: $md-white;
+	border:1px solid $md-grey-300;
+	vertical-align: top;
+	@include input-placeholder {
+		color: $md-grey-400;
+		@include fs(12);
+	}
+
+	@include tablet {
+		-webkit-appearance:none;
+	} //tablet
+
+	@include sp {
+		-webkit-appearance:none;
+	} //sp
+
+	&:focus {
+		outline: 0;
+		background: rgba($md-green-50, .3);
+	}
+}
+
+input[type='search'] {
+	-webkit-appearance: none;
+}
+
+input[type='time'] {
+	font-family: $fontNotoSans;
+}
+
+label {
+	cursor: pointer;
+}
+
+textarea {
+	padding:4px 6px;
+	@include box-sizing(border-box);
+	@include border-radius(4px);
+	background: $md-white;
+	border:1px solid $md-grey-300;
+	@include input-placeholder {
+		color: $md-grey-400;
+	}
+
+	&:focus {
+		outline: 0;
+		background: rgba($md-green-50, .3);
+	}
+}
+
+#FieldMessageName1, #FieldMessageNameKana1 {
+	margin-right: 20px;
+	@include display-flex(inline-flex);
+	@include align-items(center);
+
+	.mail-before-attachment {
+		margin-right: 5px;
+	}
+}
+
+#FieldMessageName2, #FieldMessageNameKana2 {
+	@include display-flex(inline-flex);
+	@include align-items(center);
+
+	.mail-before-attachment {
+		margin-right: 5px;
+	}
+}
+
+#FieldMessageSex {
+	@include display-flex;
+	@include align-items(center);
+	
+	label {
+		margin-right: 20px;
+	}
+}
+
+#MailMessageEmail1 {
+	margin: 5px 0;
+}
+
+#FieldMessageTel1, #FieldMessageTel2, #FieldMessageTel3 {
+	@include display-flex(inline-flex);
+	@include flex-direction(row);
+	@include align-items(center);
+	
+	.mail-after-attachment {
+		margin: 0 5px;
+	}
+}
+
+#MailMessageTel1, #MailMessageTel2, #MailMessageTel3 {
+	width: 80px;
+}
+
+#FieldMessageZip {
+	@include display-flex;
+	@include align-items(center);
+	
+	.mail-before-attachment {
+		margin-right: 5px;
+	}
+	
+	.mail-attention {
+		margin-left: 5px;
+	}
+}
+
+#FieldMessageAddress1, #FieldMessageAddress2 {
+	margin: 5px 0;
+	display: block;
+}
+
+#FieldMessageCategory {
+	@include display-flex;
+	@include flex-direction(column);
+	@include justify-content(center);
+}
+
+#MailMessageMessage {
+	width: 100%;
+}
+
+#FieldMessageRoot {
+	margin-bottom: 5px;
+	display: block;
+}
+
+.form-s {
+	width: 200px;
+}
+
+.form-l {
+	width: 400px;
+}
+
+.error-message {
+	margin: 5px 0 0;
+	color: $md-red-900;
+	@include fs(14);
+}
+
+.auth-captcha {
+	margin-top: 20px;
+	@include display-flex;
+	@include flex-direction(row);
+	@include align-items(center);
+	@include justify-content(center);
+	@include flex-wrap(wrap);
+	
+	@include tablet2 {
+		@include flex-direction(column);
+	} //tablet2
+	
+	@include sp {
+		@include flex-direction(column);
+	} //sp
+	
+	&-message {
+		margin-left: 10px;
+	}
+	
+	.error-message {
+		width: 100%;
+	}
+}
+
+
+#MailMessageAuthCaptcha {
+	width:200px;
+
+	@include tablet2 {
+		width:96%;
+	} //tablet2
+
+	@include sp {
+		width:94%;
+	} //sp
+} //MessageAuthCaptcha
+
+
+.submit {
+	margin-top: 40px;
+	@include display-flex;
+	@include flex-direction(row);
+	@include justify-content(center);
+	
+	input {
+		margin: 0 10px;
+	}
+} //submit
+
+
+// checkbox style
+//
+// （例）
+// <label>
+// 	<input name="checkboxname" class="checkboxInput" value="1" type="checkbox">
+// 	<span class="checkboxInput-style">ラベル名</span>
+// </label>
+
+.checkboxInput {
+	display: none;
+
+	&:checked + .checkboxInput-style{
+		color: $md-cyan-600;
+	}
+
+	&:checked + .checkboxInput-style {
+		&:after{
+			content: "";
+			width: 6px;
+			height: 12px;
+			display: block;
+			border-bottom: 4px solid $md-cyan-600;
+			border-right: 4px solid $md-cyan-600;
+			@include transform(rotate(40deg));
+			position: absolute;
+			top: -3px;
+			left: 5px;
+			cursor: pointer;
+		}
+	}
+}
+
+.checkboxInput-style {
+	padding-left: 22px;
+	position: relative;
+	white-space: nowrap;
+	top: -1px;
+
+	&:before {
+		content: "";
+		display: block;
+		width: 16px;
+		height: 16px;
+		background: $md-blue-grey-50;
+		@include box-shadow(0 0 0 2px rgba($md-white, 1.0) inset);
+		border: 1px solid $md-blue-grey-200;
+		@include border-radius(2px);
+		@include box-sizing(border-box);
+		position: absolute;
+		top: 2px;
+		left: 0;
+		cursor: pointer;
+	}
+
+	&-noText {
+		padding-left: 15px;
+	}
+}
+
+// radio style
+//
+// （例）
+// <label>
+//	<input name="radioname" class="radioInput" value="1" type="radio">
+//	<span class="radioInput-style">ラベル名</span>
+// </label>
+// <label>
+//	<input name="radioname" class="radioInput" value="1" type="radio">
+//	<span class="radioInput-style">ラベル名</span>
+// </label>
+
+.radioInput {
+	display: none;
+
+	&:checked + .radioInput-style{
+		color: $md-cyan-600;
+	}
+
+	&:checked + .radioInput-style {
+		&:after{
+			content: "";
+			width: 10px;
+			height: 10px;
+			display: block;
+			background: $md-cyan-600;
+			@include border-radius(50%);
+			position: absolute;
+			top: 5px;
+			left: 3px;
+			cursor: pointer;
+		}
+	}
+}
+
+.radioInput-style {
+	margin-right: 20px;
+	padding-left: 22px;
+	position: relative;
+	white-space: nowrap;
+
+	&:before {
+		content: "";
+		display: block;
+		width: 16px;
+		height: 16px;
+		background: $md-blue-grey-50;
+		@include box-shadow(0 0 0 2px rgba($md-white, 1.0) inset);
+		border: 1px solid $md-blue-grey-200;
+		@include border-radius(50%);
+		@include box-sizing(border-box);
+		position: absolute;
+		top: 2px;
+		left: 0;
+		cursor: pointer;
+	}
+}
+
+
+
+.btnContainer {
+	@include display-flex;
+	@include flex-direction(row);
+	@include justify-content(center);
+}

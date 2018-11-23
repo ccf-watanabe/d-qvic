@@ -1,0 +1,509 @@
+@charset "utf-8";
+
+// ============================================================
+// 共通部分
+// ============================================================
+
+/*----------------------------------------
+	body
+----------------------------------------*/
+body {
+	background: $md-white;
+	font-family: $fontNotoSans;
+	@include fs(16);
+	color: $textColor;
+	text-align: center;
+	font-weight: 300;
+	@include imgmax;
+	
+	@include sp {
+		@include fs(14);
+	} //sp
+	
+	& * {
+		line-height: $lineHeight;
+	}
+
+	&.fixed {
+		position: fixed;
+		width: 100%;
+		z-index: -1;
+	}
+}
+
+a {
+	color: $linkColor;
+	outline: none;
+	@include transition(all 0.5s ease);
+	
+	& * {
+		@include transition(all 0.5s ease);
+	}
+	
+	&:hover {
+		color: $linkColor_hover;
+		
+		//iOS 8.4.1以降のopacity対策
+		@include tablet {
+			@include opacity(1,important);
+			
+			img {
+				@include opacity(1,important);
+			}
+		} //tablet
+		
+		//iOS 8.4.1以降のopacity対策
+		@include sp {
+			@include opacity(1,important);
+			
+			img {
+				@include opacity(1,important);
+			}
+		} //sp
+	}
+	
+	&:active {
+		color: $linkColor_active;
+	}
+} //a
+
+h1, h2, h3, h4, h5, h6, b, strong {
+	font-weight: 400;
+}
+
+@include clearfixBase;
+
+
+/*----------------------------------------
+	container
+----------------------------------------*/
+.container {
+	margin: 0 auto;
+	width: $baseWidth;
+	text-align: left;
+	position: relative;
+	@extend %clear;
+	
+	@include tablet {
+		width: auto;
+		margin: 0 20px;
+	} //tablet
+	
+	@include sp {
+		width: auto;
+		margin: 0 15px;
+	} //sp
+} //container
+
+
+
+/*----------------------------------------
+	contents
+----------------------------------------*/
+.contents {
+	padding-bottom: 100px;
+	
+	@include sp {
+		padding-bottom: 50px;
+	} //sp
+} //contents
+
+.hlTitle {
+	margin-bottom: 80px;
+	width: 100%;
+	background: url(../img/common/bg_subtle_dots.png);
+	
+	@include tablet2 {
+		margin-bottom: 60px;
+	} //tablet2
+	
+	@include sp {
+		margin-bottom: 30px;
+	} //sp
+	
+	h2 {
+		margin: 0;
+		width: 100%;
+		height: 140px;
+		line-height: 110%;
+		@include display-flex;
+		@include flex-direction(column);
+		@include justify-content(center);
+		@include align-items(center);
+		border-bottom: 1px solid $md-blue-grey-50;
+		vertical-align: middle;
+		text-align: center;
+		@include fs(30);
+		font-weight: 400;
+		color: $cBase1;
+		
+		@include tablet2 {
+			height: 120px;
+			@include fs(26);
+		} //tablet2
+		
+		@include sp {
+			height: 100px;
+			@include fs(22);
+		} //sp
+	} //h2
+} //hlTitle
+
+
+
+.secArea {
+	margin: 120px 0;
+	@extend %clear;
+	
+	@include tablet {
+		margin: 80px 0;
+	} //tablet
+	
+	@include sp {
+		margin: 50px 0;
+	} //sp
+	
+	.hlSecTitle {
+		margin: 0 0 50px;
+		padding-bottom: 25px;
+		line-height: 120%;
+		@include fs(30);
+		position: relative;
+		text-align: center;
+		font-weight: 400;
+		color: $cBase1;
+		
+		@include tablet2 {
+			margin: 0 0 40px;
+			padding-bottom: 15px;
+			@include fs(24);
+		} //tablet2
+		
+		@include sp {
+			margin: 0 0 30px;
+			padding-bottom: 15px;
+			@include fs(20);
+		} //sp
+		
+		&:before {
+			margin-left: -30px;
+			content: '';
+			width: 60px;
+			height: 1px;
+			background: $cBase3;
+			position: absolute;
+			bottom: 0;
+			left: 50%;
+			
+			@include sp {
+				margin-left: -15px;
+				width: 30px;
+			} //sp
+		}
+	} //h2
+	
+	
+	.hlSecTitleSub {
+		@include fs(20);
+		line-height: 120%;
+		font-weight: 400;
+		color: $cBase5;
+		
+		@include tablet2 {
+			@include fs(18);
+		} //tablet2
+
+		@include sp {
+			@include fs(16);
+		} //sp
+	}
+
+
+	.secContainer {
+		margin: 40px 0;
+		position: relative;
+		@extend %clear;
+		
+		@include sp {
+			margin: 20px 0;
+		} //sp
+		
+		&:first-of-type {
+			margin-top: 0;
+		}
+	} //secContainer
+} //secArea
+
+
+.contentsCenter {
+	margin: 0 auto;
+	text-align: center;
+	
+	@include sp {
+		text-align: left;
+	} //sp
+} //contentsCenter
+
+
+//flexbox contents 
+.rowBox {
+	&-2elem {
+		margin: 40px 0;
+		@include display-flex;
+		@include flex-direction(row);
+		@include justify-content(space-between);
+
+		@include tablet2 {
+			margin: 0;
+			display: block;
+		} //tablet2
+
+		@include sp {
+			margin: 0;
+			display: block;
+		} //sp
+
+		.boxInner {
+			width: calc(50% - 20px);
+			
+			@include tablet2 {
+				margin: 10px 0;
+				width: 100%;
+			} //tablet2
+			
+			@include sp {
+				margin: 10px 0;
+				width: 100%;
+			} //sp
+			
+			&.w35 {
+				width: calc(35% - 20px);
+				
+				@include tablet2 {
+					width: 100%;
+				} //tablet2
+				
+				@include sp {
+					width: 100%;
+				} //sp
+			}
+
+			&.w65 {
+				width: calc(65% - 20px);
+
+				@include tablet2 {
+					width: 100%;
+				} //tablet2
+
+				@include sp {
+					width: 100%;
+				} //sp
+			}
+		}
+	}
+	
+	&-2elem-reverse {
+		margin: 40px 0;
+		@include display-flex;
+		@include flex-direction(row-reverse);
+		@include justify-content(space-between);
+
+		@include tablet2 {
+			margin: 0;
+			display: block;
+		} //tablet2
+
+		@include sp {
+			margin: 0;
+			display: block;
+		} //sp
+
+		.boxInner {
+			width: calc(50% - 20px);
+
+			@include tablet2 {
+				margin: 10px 0;
+				width: 100%;
+			} //tablet2
+
+			@include sp {
+				margin: 10px 0;
+				width: 100%;
+			} //sp
+
+			&.w35 {
+				width: calc(35% - 20px);
+
+				@include tablet2 {
+					width: 100%;
+				} //tablet2
+
+				@include sp {
+					width: 100%;
+				} //sp
+			}
+
+			&.w65 {
+				width: calc(65% - 20px);
+
+				@include tablet2 {
+					width: 100%;
+				} //tablet2
+
+				@include sp {
+					width: 100%;
+				} //sp
+			}
+		}
+	}
+	
+	&-3elem {
+		margin: 40px 0;
+		@include display-flex;
+		@include flex-direction(row);
+		@include justify-content(space-between);
+
+		@include tablet2 {
+			margin: 0;
+			display: block;
+		} //tablet2
+
+		@include sp {
+			margin: 0;
+			display: block;
+		} //sp
+
+		.boxInner {
+			width: calc(33.333% - 30px);
+
+			@include tablet2 {
+				margin: 10px 0;
+				width: 100%;
+			} //tablet2
+
+			@include sp {
+				margin: 10px 0;
+				width: 100%;
+			} //sp
+		}
+	}
+
+	&-3elem-reverse {
+		margin: 40px 0;
+		@include display-flex;
+		@include flex-direction(row-reverse);
+		@include justify-content(space-between);
+
+		@include tablet2 {
+			margin: 0;
+			display: block;
+		} //tablet2
+
+		@include sp {
+			margin: 0;
+			display: block;
+		} //sp
+
+		.boxInner {
+			width: calc(33.333% - 30px);
+
+			@include tablet2 {
+				margin: 10px 0;
+				width: 100%;
+			} //tablet2
+
+			@include sp {
+				margin: 10px 0;
+				width: 100%;
+			} //sp
+		}
+	}
+
+	&-4elem {
+		margin: 40px 0;
+		@include display-flex;
+		@include flex-direction(row);
+		@include justify-content(space-between);
+
+		@include tablet2 {
+			margin: 0;
+			display: block;
+		} //tablet2
+
+		@include sp {
+			margin: 0;
+			display: block;
+		} //sp
+
+		.boxInner {
+			width: calc(25% - 20px);
+
+			@include tablet2 {
+				margin: 10px 0;
+				width: 100%;
+			} //tablet2
+
+			@include sp {
+				margin: 10px 0;
+				width: 100%;
+			} //sp
+		}
+	}
+
+	&-4elem-reverse {
+		margin: 40px 0;
+		@include display-flex;
+		@include flex-direction(row-reverse);
+		@include justify-content(space-between);
+
+		@include tablet2 {
+			margin: 0;
+			display: block;
+		} //tablet2
+
+		@include sp {
+			margin: 0;
+			display: block;
+		} //sp
+
+		.boxInner {
+			width: calc(25% - 20px);
+
+			@include tablet2 {
+				margin: 10px 0;
+				width: 100%;
+			} //tablet2
+
+			@include sp {
+				margin: 10px 0;
+				width: 100%;
+			} //sp
+		}
+	}
+}
+
+
+.preContents {
+	padding: 20px;
+	line-height: 100%;
+	background: $md-grey-50;
+	border: 1px solid $md-grey-200;
+	@include border-radius(4px);
+	
+	.preContentsHead {
+		margin-bottom: 2px;
+		display: block;
+		font-family: $fontNotoSans;
+		font-weight: 700;
+		color: $md-grey-500;
+	}
+	
+	code {
+		line-height: 100%;
+		@include fs(12);
+		overflow: auto;
+		white-space: pre-wrap;
+		word-wrap: break-word;
+	}
+}
+

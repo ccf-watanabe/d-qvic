@@ -1,0 +1,41 @@
+@charset "utf-8";
+// ============================================================
+// Web Font
+// ============================================================
+
+// Noto Sans
+@import url(https://fonts.googleapis.com/earlyaccess/notosansjp.css);
+$fontNotoSans : 'Noto Sans JP', 'Noto Sans', sans-serif;
+
+.fontNotoSans {
+	font-family: $fontNotoSans;
+}
+
+// Noto Serif
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700);
+$fontNotoSerif : 'Noto Serif Japanese', 'Noto Serif', serif;
+
+.fontNotoSerif {
+	font-family: $fontNotoSerif;
+}
+
+// Noto Sans font weight
+// Thin      100
+// Light     300
+// DemiLight 350
+// Regular   400
+// Medium    500
+// Bold      700
+// Black     900
+
+// Roboto
+// @import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+// $fontRoboto : 'Roboto', sans-serif;
+
+// Lato
+// @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+// $fontLato : 'Lato', sans-serif;
+
+// Quicksand
+// @import url(https://fonts.googleapis.com/css?family=Quicksand:400,700);
+// $fontQuicksand : 'Quicksand', sans-serif;

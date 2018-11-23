@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+@mixin appearance($appearance) {
+  -moz-appearance: $appearance;
+  -webkit-appearance: $appearance;
+}

@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+// ----------------------------------------------------------------------
+// opacity 透過
+// ----------------------------------------------------------------------
+
+@mixin opacity($opacity, $important: false) {
+	@if $important == 'important' or $important == true {
+		$important: ' !important';
+	} @else {
+		$important: '';
+	}
+	
+	opacity:$opacity#{$important};
+	$opacityIE:$opacity * 100;
+	filter:alpha(opacity=$opacityIE);
+}

@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+// ----------------------------------------------------------------------
+// 画像置換（テキスト飛ばし）
+// ----------------------------------------------------------------------
+
+// overflowでの画像置換
+@mixin replace {
+	text-indent:100%;
+	white-space:nowrap;
+	overflow:hidden;
+}
+@mixin replaceClear { //画像置換解除
+	text-indent:0;
+	white-space:normal;
+	overflow:visible;
+}
+
+// text-indentでの画像置換
+@mixin replaceIndent {
+	text-indent:-9999px;
+}
+@mixin replaceIndentClear { //画像置換解除
+	text-indent:inherit;
+}
+

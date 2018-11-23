@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+/*----------------------------------------
+	privacy
+----------------------------------------*/
+.contentsPrivacy {
+	.secArea {
+		margin: 100px 0;
+		
+		@include tablet2 {
+			margin: 70px 0;
+		} //tablet2
+		
+		@include sp {
+			margin: 50px 0;
+		} //sp
+	}
+	
+	.hlSecTitle {
+		margin-bottom: 0;
+		text-align: left;
+		
+		&:before {
+			display: none;
+		}
+	}
+}
+
+.privacyList {
+	padding-left: 24px;
+}
+
+.privacyBox {
+	margin: 40px 0;
+	padding: 10px 20px;
+	border: 1px solid $md-grey-200;
+}
+
+.hlPrivacyBox {
+	@include fs(18);
+	font-weight: 500;
+}
+
+

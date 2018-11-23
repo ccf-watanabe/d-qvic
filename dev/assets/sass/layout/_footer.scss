@@ -1,0 +1,268 @@
+@charset "utf-8";
+
+/*----------------------------------------
+	footer
+----------------------------------------*/
+footer {
+	padding: 45px 0 20px;
+	width: 100%;
+	background: $md-white;
+	@include box-sizing(border-box);
+	position: relative;
+
+	@include tablet2 {
+		padding: 30px 0 5px;
+	} //tablet2
+
+	@include sp {
+		padding: 30px 0 5px;
+	} //sp
+	
+	&:before {
+		content: '';
+		width: 100%;
+		height: 4px;
+		display: block;
+		background: $md-deep-orange-900;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+	}
+
+	.container {
+		@include display-flex;
+		@include flex-direction(column);
+
+		@include tablet2 {
+			@include flex-direction(column);
+		} //tablet2
+
+		@include sp {
+			@include flex-direction(column);
+		} //sp
+	}
+} //footer
+
+
+.fNav-menu {
+	margin: 0 0 40px;
+	padding: 0;
+	@include display-flex(inline-flex);
+	@include flex-direction(row);
+	@include justify-content(center);
+	
+	@include tablet2 {
+		margin: 0 auto 20px;
+		@include flex-direction(column);
+		@include align-items(flex-start);
+	} //tablet2
+	
+	@include sp {
+		margin: 0 auto;
+		@include flex-direction(column);
+		@include align-items(flex-start);
+	} //sp
+	
+	li {
+		margin: 0 20px;
+		line-height: 120%;
+		list-style: none;
+		
+		@include tablet2 {
+			margin: 3px 20px;
+			list-style: disc inside;
+			color: $md-white;
+		} //tablet2
+		
+		@include sp {
+			margin: 5px 20px;
+			list-style: disc inside;
+			color: $md-white;
+		} //sp
+		
+		a {
+			line-height: 120%;
+			@include fs(13);
+			text-decoration: none;
+			color: $cBase1;
+			font-weight: 500;
+			
+			@include sp {
+				@include fs(14);
+			} //sp
+			
+			&:hover {
+				color: $cBase5;
+			}
+		}
+	}
+}
+
+
+.fCompany {
+	@include display-flex;
+	@include flex-direction(column);
+	@include align-items(center);
+	@include flex-grow(1);
+
+	@include tablet2 {
+		margin-top: 10px;
+		width: auto;
+		text-align: center;
+	} //tablet2
+
+	@include sp {
+		margin-top: 10px;
+		width: auto;
+		text-align: center;
+	} //sp
+} //fLeft
+
+
+.shopName {
+	margin: 5px 0;
+	@include fs(17);
+	
+	@include tablet2 {
+		margin: 20px auto 0;
+	} //tablet2
+	
+	@include sp {
+		margin: 20px auto 0;
+	} //sp
+}
+
+
+.fAddress {
+	margin:0 auto;
+	padding:0;
+	text-align:left;
+	
+	@include tablet2 {
+		margin: 10px auto 0;
+	} //tablet2
+	
+	@include sp {
+		margin: 10px auto 0;
+	} //sp
+	
+	dt {
+		width:68px;
+		float:left;
+		clear:left;
+		@include fs(14);
+		position: relative;
+		
+		@include sp {
+			width:58px;
+			@include fs(12);
+		} //sp
+
+		&:before {
+			content: '：';
+			position: absolute;
+			top: 0;
+			right: 0;
+		}
+	} //dt
+	
+	dd {
+		margin:0;
+		padding-left:68px;
+		@include fs(14);
+		
+		@include sp {
+			padding-left:58px;
+			@include fs(12);
+		} //sp
+	} //dd
+} //fAddress
+
+
+.fBnr {
+	margin: 45px auto 30px;
+	padding: 0;
+	@include display-flex;
+	@include flex-direction(row);
+	@include justify-content(center);
+	
+	@include sp {
+		margin: 30px auto 20px;
+		@include flex-direction(column);
+		@include align-items(center);
+	} //sp
+	
+	li {
+		margin: 0 30px;
+		@include display-flex;
+		@include align-items(center);
+		list-style: none;
+		
+		@include sp {
+			margin: 15px auto;
+		} //sp
+		
+		img {
+			vertical-align: bottom;
+		}
+		
+		a {
+			&:hover {
+				@include opacity(.6);
+			}
+		}
+	}
+	
+	&-yamaguchibank {
+		img {
+			width: auto;
+			height: 38px;
+		}
+	}
+
+	&-momijibank {
+		img {
+			width: auto;
+			height: 30px;
+		}
+	}
+
+	&-kitakyushubank {
+		img {
+			width: auto;
+			height: 34px;
+		}
+	}
+}
+
+.fCopy {
+	line-height: 120%;
+	text-align: center;
+
+	@include tablet2 {
+		margin-top: 10px;
+		padding-top: 15px;
+		width: 100%;
+		border-top: 1px solid rgba($cBase5,.1);
+	} //tablet2
+
+	@include sp {
+		margin-top: 10px;
+		padding-top: 15px;
+		width: 100%;
+		border-top: 1px solid rgba($cBase5,.1);
+	} //sp
+
+	small {
+		@include fs(12);
+	}
+} //copy
+
+
+
+
+
+
+
+

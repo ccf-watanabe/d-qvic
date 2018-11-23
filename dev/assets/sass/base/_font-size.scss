@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+// ============================================================
+// font-size style
+// ============================================================
+
+@for $i from 10 through 32 {
+	.fs#{$i} {
+		font-size: #{$i}px;
+		font-size: ($i / 16) * 1rem;
+	}
+	.fs#{$i}-100 {
+		font-size: #{$i}px;
+		font-size: ($i / 16) * 1rem;
+		font-weight: 100;
+	}
+	.fs#{$i}-300 {
+		font-size: #{$i}px;
+		font-size: ($i / 16) * 1rem;
+		font-weight: 300;
+	}
+	.fs#{$i}-350 {
+		font-size: #{$i}px;
+		font-size: ($i / 16) * 1rem;
+		font-weight: 350;
+	}
+	.fs#{$i}-400 {
+		font-size: #{$i}px;
+		font-size: ($i / 16) * 1rem;
+		font-weight: 400;
+	}
+	.fs#{$i}-500 {
+		font-size: #{$i}px;
+		font-size: ($i / 16) * 1rem;
+		font-weight: 500;
+	}
+	.fs#{$i}-700 {
+		font-size: #{$i}px;
+		font-size: ($i / 16) * 1rem;
+		font-weight: 700;
+	}
+	.fs#{$i}-900 {
+		font-size: #{$i}px;
+		font-size: ($i / 16) * 1rem;
+		font-weight: 900;
+	}
+}
+
+
+.fw100 {font-weight: 100;}
+.fw300 {font-weight: 300;}
+.fw350 {font-weight: 350;}
+.fw400 {font-weight: 400;}
+.fw500 {font-weight: 500;}
+.fw700 {font-weight: 700;}
+.fw900 {font-weight: 900;}

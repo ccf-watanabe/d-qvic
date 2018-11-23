@@ -1,0 +1,448 @@
+@charset "utf-8";
+
+/*----------------------------------------
+	index
+----------------------------------------*/
+.index {
+} //index
+
+
+/* main visual */
+.contaierVisual {
+	margin-bottom: 60px;
+}
+
+.mainVisual {
+	width:100%;
+	height:520px !important;
+	@include display-flex;
+	@include justify-content(center);
+	@include align-items(center);
+	position:relative;
+	
+	@include tablet1 {
+		height:400px !important;
+	} //tablet1
+	
+	@include tablet2 {
+		height:340px !important;
+	} //tablet2
+	
+	@include sp {
+		height:220px !important;
+	} //sp
+	
+	&:after {
+		content: '';
+		width: 100%;
+		height: 8px;
+		background: rgba($md-black,.15);
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
+	
+	.vegas-wrapper {
+		width:100%;
+		@include display-flex;
+		@include align-items(center);
+		@include justify-content(center);
+	}
+} //mainVisual
+
+.hlMainVisual {
+	margin-top: -10px;
+	
+	@include tablet2 {
+		margin: 0 20px;
+	} //tablet2
+	
+	@include sp {
+		margin: 0 10px;
+	} //sp
+	
+	img {
+		width: 960px;
+		height: auto;
+		
+		@include tablet1 {
+			width: auto;
+			max-height: 170px;
+		} //tablet1
+		
+		@include tablet2 {
+			width: auto;
+			max-height: 130px;
+		} //tablet2
+		
+		@include sp {
+			width: auto;
+			max-height: 100px;
+		} //sp
+	}
+}
+
+.mainVisualList {
+	display:none;
+}
+
+
+
+/* index contents */
+.indexContents {
+	margin:0 0 160px;
+	
+	@include tablet1 {
+		margin:0 0 50px;
+	} //tablet1
+	
+	@include tablet2 {
+		margin:0 0 50px;
+	} //tablet2
+	
+	@include sp {
+		margin:0 0 20px;
+	} //sp
+} //indexContents
+
+
+.secTopNews {
+	margin: -120px 0 80px;
+	padding: 20px;
+	@include display-flex;
+	@include flex-direction(row);
+	@include justify-content(space-between);
+	background: $md-white;
+	@include box-shadow(0 0 10px 0 rgba(0,0,0,.2));
+
+	@include tablet1 {
+		margin:-100px 0 60px;
+	} //tablet1
+
+	@include tablet2 {
+		margin:-100px 0 60px;
+		padding: 15px;
+		@include flex-direction(column);
+	} //tablet2
+
+	@include sp {
+		margin:-90px 0 40px;
+		padding: 10px;
+		@include flex-direction(column);
+	} //sp
+	
+
+	.hTitleNewsBox {
+		margin: 0;
+		width:20%;
+		background: $cBase5;
+		@include display-flex;
+		@include flex-direction(column);
+		@include justify-content(center);
+		@include align-items(center);
+
+		@include tablet2 {
+			padding:10px 0;
+			width:100%;
+		} //tablet2
+
+		@include sp {
+			padding:10px 0;
+			width:100%;
+		} //sp
+
+		.hTitleNews {
+			margin:0 auto;
+			width:100%;
+			@include fs(18);
+			color:$md-white;
+			text-align: center;
+
+			@include sp {
+				@include fs(18);
+			} //sp
+
+			span {
+				margin-top: 5px;
+				display: block;
+				@include fs(11);
+				color: $md-white;
+				font-weight: 400;
+				line-height: 100%;
+
+				@include sp {
+					@include fs(10);
+				} //sp
+			}
+		} //h2
+	} //hTitleNews
+
+
+	.articleTopNews {
+		width:80%;
+
+		@include tablet2 {
+			width:100%;
+		} //tablet2
+
+		@include sp {
+			width:100%;
+		} //sp
+	} //articleTopNews
+
+	.entryTopNews {
+
+		&:nth-child(even) {
+			a {
+				background: $md-grey-100;
+			}
+		}
+
+		a {
+			padding: 10px 20px;
+			width: 100%;
+			@include display-flex;
+			@include flex-direction(row);
+			@include box-sizing(border-box);
+			background: $md-grey-200;
+			text-decoration: none;
+			@include fs(14);
+			color: $textColor;
+
+			@include tablet2 {
+				@include flex-wrap(wrap);
+			} //tablet2
+
+			@include sp {
+				@include flex-wrap(wrap);
+			} //sp
+
+			&:hover {
+				background:rgba($cBase3, .1);
+			}
+		}
+
+		time {
+			width:90px;
+			@include fs(16);
+			order: 1;
+		} //time
+		
+		.cateEntryTopNews {
+			margin: 0 10px 0 0;
+			width: 120px;
+			height: 26px;
+			@include display-flex;
+			@include justify-content(center);
+			@include align-items(center);
+			@include box-sizing(border-box);
+			@include border-radius(4px);
+			background: $cBase5;
+			color: $md-white;
+			@include fs(14);
+			order: 2;
+			
+			@include sp {
+				margin: 2px 0 0 0;
+				height: 22px;
+				@include fs(13);
+			} //sp
+		}
+
+		.hlEntryTopNews {
+			margin: 0;
+			font-weight:400;
+			order: 3;
+
+			@include tablet2 {
+				margin: 5px 0 !important;
+				width: 100%;
+			} //tablet2
+
+			@include sp {
+				margin: 5px 0 !important;
+				width: 100%;
+			} //sp
+		}
+
+		.hlNoEntry {
+			margin: 0;
+			padding: 20px;
+			background: $md-grey-200;
+			@include fs(16);
+			font-weight: 400;
+		} //hlNoEntry
+	} //entryTopNews
+} //secTopNews
+
+
+.figCompany {
+	margin: 60px .5em 40px;
+	text-align: center;
+
+	@include sp {
+		margin: 30px .5em 20px;
+	} //sp
+}
+
+
+.topBtnBox {
+	@include display-flex;
+	@include flex-direction(row);
+	@include justify-content(center);
+	
+	@include tablet2 {
+		@include flex-direction(column);
+	} //tablet2
+
+	@include sp {
+		@include flex-direction(column);
+	} //sp
+	
+	.topBtn {
+		width: 50%;
+		text-align: center;
+		
+		@include tablet2 {
+			width: 100%;
+		} //tablet2
+		
+		@include sp {
+			width: 100%;
+		} //sp
+		
+		a {
+			margin: 0 auto;
+			width: 360px;
+			height: 80px;
+			@include display-flex;
+			@include justify-content(center);
+			@include align-items(center);
+			@include box-shadow(2px, 2px, 5px, 0, rgba(0, 0, 0, .3));
+			text-decoration: none;
+			@include fs(22);
+			color: $md-white;
+			font-weight: 500;
+			
+			@include tablet2 {
+				width: 280px;
+			} //tablet2
+			
+			@include sp {
+				width: 260px;
+				height: 60px;
+				@include fs(18);
+			} //sp
+
+			&:hover {
+				@include opacity(.6);
+			}
+		}
+		
+		&-data {
+			a {
+				background: $md-blue-500;
+			}
+		}
+
+		&-media {
+			a {
+				background: $md-deep-orange-400;
+			}
+		}
+	}
+}
+
+
+.indexContainer {
+	margin: 0 auto;
+	max-width: 1800px;
+}
+
+.secTop {
+	margin: 80px 0 100px;
+	
+	@include tablet1 {
+		margin: 70px 0;
+	} //tablet1
+	
+	@include tablet2 {
+		margin: 50px 0;
+	} //tablet2
+	
+	@include sp {
+		margin: 50px 0;
+	} //sp
+	
+	.hlTop {
+		margin:20px 0 30px;
+		line-height:130%;
+		@include fs(30);
+		border-right: 1px solid $cBase3;
+		font-weight: 400;
+		color: $cBase1;
+		
+		@include tablet1 {
+			margin:5px 0 20px;
+			@include fs(28);
+		} //tablet1
+		
+		@include tablet2 {
+			margin:30px 0 20px;
+			@include fs(26);
+			text-align: center;
+			border-right: none;
+		} //tablet2
+		
+		@include sp {
+			margin:20px 0 15px;
+			padding-right:10px;
+			border-right: none;
+			@include fs(24);
+			text-align: center;
+		} //sp
+	} //h2
+	
+	p {
+		line-height:180%;
+	}
+	
+	img {
+		vertical-align:bottom;
+	}
+} //secTop
+
+.rowBox-2elem {
+	.boxInnerTopImg {
+		width: calc(40% - 20px);
+		
+		@include tablet2 {
+			margin: 0 auto;
+			width: 80%;
+		} //tablet2
+		
+		@include sp {
+			margin: 0 auto;
+			width: 80%;
+		} //sp
+	}
+	
+	.boxInnerTopRead {
+		width: calc(60% - 20px);
+		@include fs(18);
+
+		@include tablet2 {
+			margin: 0 auto;
+			width: auto;
+		} //tablet2
+
+		@include sp {
+			margin: 0 auto;
+			width: auto;
+			@include fs(16);
+		} //sp
+	}
+}
+
+

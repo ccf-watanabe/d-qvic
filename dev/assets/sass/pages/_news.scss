@@ -1,0 +1,293 @@
+@charset "utf-8";
+
+/*----------------------------------------
+	news
+----------------------------------------*/
+.entryContainer {
+	@include display-flex;
+	@include flex-direction(row-reverse);
+	
+	@include tablet2 {
+		@include flex-direction(column);
+	} //tablet2
+	
+	@include sp {
+		@include flex-direction(column);
+	} //sp
+}
+
+.entryArea {
+	margin-left: auto;
+	padding-bottom:80px;
+	width:71%;
+	
+	@include tablet2 {
+		padding-bottom:60px;
+		width:100%;
+		float:none;
+	}
+	
+	@include sp {
+		padding-bottom:20px;
+		width:100%;
+		float:none;
+	} //sp
+	
+	
+	.entryList {
+		margin-bottom:80px;
+		@extend %clear;
+		
+		@include sp {
+			margin-bottom:40px;
+		} //sp
+	} //entryList
+	
+	.entryEyeCatch {
+		margin:0;
+		width:33.419%;
+		float:left;
+		
+		@include sp {
+			width:100%;
+			float:none;
+		} //sp
+		
+		a {
+			&:hover {
+				@include opacity(0.6);
+			}
+		} //a
+	} //entryEyeCatch
+	
+	.entryListTitle {
+		width:62.724%;
+		position:relative;
+		float:right;
+		
+		@include sp {
+			margin-top:10px;
+			width:100%;
+			float:none;
+		} //sp
+		
+		h4 {
+			margin:0 0 16px;
+			padding:36px 0 16px;
+			line-height:120%;
+			border-bottom:1px solid #DDD;
+			@include fs(20);
+			text-align:left;
+			
+			@include tablet {
+				padding-bottom:8px;
+			} //tablet
+			
+			@include tablet2 {
+				padding-top:40px;
+			} //tablet2
+			
+			@include sp {
+				padding-top:40px;
+				@include fs(18);
+			} //sp
+			
+			a {
+				color: $cBase5;
+				text-decoration:none;
+				
+				&:hover {
+					color:$cBase1;
+				}
+			} //a
+		} //h4
+		
+		time {
+			position:absolute;
+			top:0;
+			left:0;
+			line-height:160%;
+			@include fs(16);
+			color:$md-grey-600;
+		}
+		
+		.categoryLink {
+			margin:0;
+			position:absolute;
+			top:0;
+			right:0;
+			
+			a {
+				padding:6px 10px;
+				line-height:100%;
+				display:inline-block;
+				@include border-radius(4px);
+				background:$cBase5;
+				@include fs(13);
+				color:$md-white !important;
+				text-align:center;
+				text-decoration:none;
+				
+				&:hover {
+					background:$cBase1;
+				}
+			} //a
+		} //categoryLink
+		
+		.entryBody {
+			margin-bottom:0;
+			padding:0;
+			border-bottom:0;
+			@extend %clear;
+			
+			p {
+				margin:0;
+				@include fs(16);
+			}
+			
+			.more {
+				float:right;
+				
+				@include sp {
+					margin-top:10px;
+				} //sp
+				
+				i {
+					margin-right:5px;
+					display:inline-block;
+					position:relative;
+					top:1px;
+					color:$cBase5;
+				} //i
+				
+				a {
+					text-decoration:none;
+					
+					&:hover {
+						i {
+							color:$cBase1;
+						}
+					}
+				} //a
+			} //more
+		} //entryBody
+	} //entryListTitle
+} //entryArea
+
+
+.entry {
+	padding-bottom:80px;
+	
+	@include sp {
+		padding-bottom:40px;
+	} //sp
+	
+	&:last-child {
+		padding-bottom:20px;
+	}
+	
+	h3 {
+		margin:0 0 25px;
+		padding:0 10px 25px;
+		width:auto;
+		border-bottom:1px solid $md-grey-300;
+		@include fs(22);
+		font-weight:400;
+		line-height:120%;
+		color: $cBase1;
+		
+		@include sp {
+			@include fs(18);
+		} //sp
+		
+		a {
+			color:$linkColor_hover;
+			text-decoration:none;
+			
+			&:hover {
+				color:$linkColor;
+			}
+		} //a
+	} //h3
+	
+	time {
+		padding-left:10px;
+		display:block;
+	}
+} //entry
+
+
+.detailArea {
+	padding-bottom:0;
+	
+	.entry {
+		margin-top:10px;
+		padding-bottom:0;
+		
+		h3 {
+			font-weight:700;
+		}
+	} //entry
+} //detailArea
+
+.entryBody, .eyeCatch, .post-body {
+	margin:0 !important;
+	padding:20px 10px;
+	clear:both;
+} //entryBody
+
+.post-detail, #post-detail {
+	margin:0 !important;
+	padding:0 10px 60px;
+	
+	@include sp {
+		padding: 0 10px 30px;
+	} //sp
+} //entryDetail
+
+.metaArea {
+	padding-top:20px;
+	width:100%;
+	border-top:1px solid $md-grey-300;
+	@extend %clear;
+	
+	ul {
+		margin:0;
+		padding-left:0;
+		float:right;
+		@extend %clear;
+		
+		li {
+			margin-right:20px;
+			float:left;
+			@include fs(14);
+			list-style:none;
+		}
+	} //ul
+} //metaArea
+
+
+.archiveTitle {
+	
+	h3 {
+		margin:0 0 40px;
+		padding:10px 15px;
+		background:$cBase1;
+		@include border-radius(4px);
+		@include fs(18);
+		font-weight:400;
+		color:$md-white;
+		
+		@include sp {
+			@include fs(16);
+		} //sp
+	} //h3
+} //archiveTitle
+
+
+.tag {
+	padding:0 !important;
+	@include fs(14,16,important);
+}
+
+

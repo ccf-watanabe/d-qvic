@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+// ----------------------------------------------------------------------
+// html5
+// ----------------------------------------------------------------------
+@function s($value) {
+	@if $html5 {
+		@return $value
+	}
+	@else if $value == header or $value == footer {
+		@return unquote("div#" + $value)
+	}
+	@else {
+		@return unquote("div." + $value)
+	}
+}
+
+

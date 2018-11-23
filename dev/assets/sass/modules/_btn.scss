@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+// ============================================================
+// btn style
+// ============================================================
+
+.btn {
+	height: 50px;
+	@include display-flex;
+	@include justify-content(center);
+	@include align-items(center);
+	@include border-radius(4px);
+	@include box-sizing(border-box);
+	background: $md-grey-100;
+	border: 1px solid $md-grey-300;
+	color: $textColor;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	white-space: nowrap;
+	position: relative;
+	@include transition(all 0.5s ease);
+	
+	&-reset {
+		width: 150px;
+		@include fs(18);
+	}
+	
+	&-submit {
+		width: 300px;
+		background: $cBase6;
+		border: 1px solid $cBase6;
+		color: $md-white;
+		@include fs(18);
+		font-weight: 500;
+	}
+	
+	&-comment {
+		width: 300px;
+	}
+}

@@ -1,0 +1,471 @@
+@charset "utf-8";
+// ============================================================
+// mixin
+// ============================================================
+
+// ----------------------------------------------------------------------
+// compass reset
+// ----------------------------------------------------------------------
+// ブラウザサポート 記述順番をwebkitが一番上に来るように変更
+@mixin experimental($property, $value, $moz: $experimental-support-for-mozilla, $webkit: $experimental-support-for-webkit, $o: $experimental-support-for-opera, $ms: $experimental-support-for-microsoft, $khtml: $experimental-support-for-khtml, $official: true) {
+  @if $webkit and $experimental-support-for-webkit {
+    -webkit-#{$property}: $value; }
+  @if $moz and $experimental-support-for-mozilla {
+    -moz-#{$property}: $value; }
+  @if $o and $experimental-support-for-opera {
+    -o-#{$property}: $value; }
+  @if $ms and $experimental-support-for-microsoft {
+    -ms-#{$property}: $value; }
+  @if $khtml and $experimental-support-for-khtml {
+    -khtml-#{$property}: $value; }
+  @if $official {
+    #{$property}: $value; } }
+
+@mixin experimental-value($property, $value, $moz: $experimental-support-for-mozilla, $webkit: $experimental-support-for-webkit, $o: $experimental-support-for-opera, $ms: $experimental-support-for-microsoft, $khtml: $experimental-support-for-khtml, $official: true) {
+  @if $webkit and $experimental-support-for-webkit {
+    #{$property}: -webkit-#{$value}; }
+  @if $moz and $experimental-support-for-mozilla {
+    #{$property}: -moz-#{$value}; }
+  @if $o and $experimental-support-for-opera {
+    #{$property}: -o-#{$value}; }
+  @if $ms and $experimental-support-for-microsoft {
+    #{$property}: -ms-#{$value}; }
+  @if $khtml and $experimental-support-for-khtml {
+    #{$property}: -khtml-#{$value}; }
+  @if $official {
+    #{$property}: #{$value}; } }
+
+// transition-propertyにはベンダープレフィックスをつける用追加「experimental」
+@mixin experimental-prop-value($property, $value, $moz: $experimental-support-for-mozilla, $webkit: $experimental-support-for-webkit, $o: $experimental-support-for-opera, $ms: $experimental-support-for-microsoft, $khtml: $experimental-support-for-khtml, $official: true) {
+  @if $webkit and $experimental-support-for-webkit {
+    -webkit-#{$property}: -webkit-#{$value}; }
+  @if $moz and $experimental-support-for-mozilla {
+    -moz-#{$property}: -moz-#{$value}; }
+  @if $o and $experimental-support-for-opera {
+    -o-#{$property}: -o-#{$value}; }
+  @if $ms and $experimental-support-for-microsoft {
+    -ms-#{$property}: -ms-#{$value}; }
+  @if $khtml and $experimental-support-for-khtml {
+    -khtml-#{$property}: -khtml-#{$value}; }
+  @if $official {
+    #{$property}: $value; } }
+
+// transition初期だとmsが吐き出されないように not になっているものを修正
+// transformにベンダープレフィックスをつけてくれない。ちょっと大幅変更?が必要なので考え中
+@mixin transition($transition-1: default, $transition-2: false, $transition-3: false, $transition-4: false, $transition-5: false, $transition-6: false, $transition-7: false, $transition-8: false, $transition-9: false, $transition-10: false) {
+  $legacy: type-of($transition-1) == string and type-of(if($transition-2, $transition-2, 0)) == number and type-of(if($transition-3, $transition-3, "")) == string and type-of(if($transition-4, $transition-4, 0)) == number and ($transition-2 or $transition-3 or $transition-4);
+  @if $legacy {
+    @warn "Passing separate arguments for a single transition to transition is deprecated. " + "Pass the values as a single space-separated list, or use the single-transition mixin.";
+    @include single-transition(if($transition-1, $transition-1, $default-transition-property), if($transition-2, $transition-2, $default-transition-duration), if($transition-3, $transition-3, $default-transition-function), if($transition-4, $transition-4, $default-transition-delay)); }
+  @else {
+    @if $transition-1 == default {
+      $transition-1: -compass-space-list(compact($default-transition-property, $default-transition-duration, $default-transition-function, $default-transition-delay)); }
+    $transition: compact($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10);
+    @include experimental(transition, $transition, -moz, -webkit, -o, -ms, not -khtml, official); } }
+
+// transition-propertyにはtransformにベンダープレフィックスをつけるように変更
+// transition-propertyなどには複数選択することができない
+// 特に動かしたい要素を限定しない場合はtransition-property : all;で良い気がします
+@mixin transition-property($properties: $default-transition-property) {
+	
+	@if $properties == transform {
+		@include experimental-prop-value(transition-property, unquote($properties), -moz, -webkit, -o, -ms, not -khtml, official);
+	}
+	@else {
+		@include experimental(transition-property, unquote($properties), -moz, -webkit, -o, -ms, not -khtml, official);
+	} }
+
+// transition初期だとmsが吐き出されないように not になっているものを修正
+@mixin transition-duration($duration: $default-transition-duration) {
+  @if type-of($duration) == string {
+    $duration: unquote($duration); }
+  @include experimental(transition-duration, $duration, -moz, -webkit, -o, -ms, not -khtml, official); }
+@mixin transition-timing-function($function: $default-transition-function) {
+  @include experimental(transition-timing-function, unquote($function), -moz, -webkit, -o, -ms, not -khtml, official); }
+@mixin transition-delay($delay: $default-transition-delay) {
+  @if type-of($delay) == string {
+    $delay: unquote($delay); }
+  @include experimental(transition-delay, $delay, -moz, -webkit, -o, -ms, not -khtml, official); }
+
+
+
+// ----------------------------------------------------------------------
+// css3
+// ----------------------------------------------------------------------
+// 最大高さ min-height
+@mixin min_height($value : 1%) {
+	min-height: $value;
+	@if $legacy-support-for-ie6 {
+	_height: $value;
+	}
+}
+
+// inline-block
+@mixin inline-block {
+	display: inline-block;
+	@if $legacy-support-for-ie6 or $legacy-support-for-ie7 {
+		*display: inline;
+		*zoom: 1;
+	}
+}
+
+// 同じテキストシャドウ 繰り返し
+$text-shadowList: ' ';
+@mixin text-shadow-repeat($value : 0 0 1px rgba(0,0,0,0.3),$num : 1) {
+	$text-shadowList : $value;
+	@for $i from 1 through $num - 1 {
+		$text-shadowList : unquote($text-shadowList + "," + $value);
+	}
+	text-shadow: $text-shadowList;
+}
+
+
+
+// ----------------------------------------------------------------------
+// html5
+// ----------------------------------------------------------------------
+@function s($value) {
+	@if $html5 {
+		@return $value
+	}
+	@else if $value == header or $value == footer {
+		@return unquote("div#" + $value)
+	}
+	@else {
+		@return unquote("div." + $value)
+	}
+}
+
+
+
+// ----------------------------------------------------------------------
+// font-size rem
+// ----------------------------------------------------------------------
+
+@mixin fs($size: 24, $base: 16, $important: false) {
+	@if $important == 'important' or $important == true {
+		$important: ' !important';
+	} @else {
+		$important: '';
+	}
+	
+	font-size: $size + px#{$important};
+	font-size: ($size / $base) * 1rem#{$important};
+}
+
+
+
+// ----------------------------------------------------------------------
+// clearfix
+// ----------------------------------------------------------------------
+
+// @extend %clear; を記述でフロート解除＆プレースホルダーセレクタでまとめ
+
+/*----------------------------------------
+	clearfix
+----------------------------------------*/
+@mixin clear {
+	&:after {
+		content:"";
+		clear:both;
+		height:0;
+		display:block;
+		visibility:hidden;
+	}
+}
+
+%clear{
+	@include clear;
+}
+
+
+@mixin clearfixBase {
+	.clearfix {
+		@if $legacy-support-for-ie7 {
+		min-height: 1px;
+	}
+	
+	@if $legacy-support-for-ie6 {
+		_height: 1%;
+	}
+	
+		&:after {
+			content:"";
+			clear:both;
+			height:0;
+			display:block;
+			visibility:hidden;
+		}
+	}
+}
+
+
+
+// ----------------------------------------------------------------------
+// opacity 透過
+// ----------------------------------------------------------------------
+
+@mixin opacity($opacity) {
+	opacity:$opacity;
+	$opacityIE:$opacity * 100;
+	filter:alpha(opacity=$opacityIE);
+}
+
+
+
+// ----------------------------------------------------------------------
+// 正円
+// ----------------------------------------------------------------------
+
+@mixin circle($size){
+	width: $size + px;
+	height: $size + px;
+	@include border-radius(100%);
+}
+
+
+
+// ----------------------------------------------------------------------
+// MediaQuery
+// ----------------------------------------------------------------------
+
+@mixin desk {
+	// PC表示
+	@media only screen and (min-width: $width-tablet + $width-scrollbar) {
+		@content;
+	}
+}
+
+@mixin tablet {
+	// タブレット表示
+	@media only screen and (min-width: $width-smartphone + $width-scrollbar) and (max-width: $width-tablet + $width-scrollbar - 1) {
+		@content;
+	}
+}
+
+@mixin tablet1 {
+	// タブレット表示 1段階目(大)
+	@media only screen and (min-width: $width-tablet2 + $width-scrollbar) and (max-width: $width-tablet1 + $width-scrollbar - 1) {
+		@content;
+	}
+}
+
+@mixin tablet2 {
+	// タブレット表示 2段階目(小)
+	@media only screen and (min-width: $width-smartphone + $width-scrollbar) and (max-width: $width-tablet2 + $width-scrollbar - 1) {
+		@content;
+	}
+}
+
+@mixin sp {
+	// スマートフォン表示
+	@media only screen and (max-width: $width-smartphone + $width-scrollbar - 1) {
+		@content;
+	}
+}
+
+
+
+// ----------------------------------------------------------------------
+// img のレスポンシブ対応
+// ----------------------------------------------------------------------
+
+@mixin imgmax {
+	img {
+		max-width:100%;
+		height:auto;
+	}
+}
+
+
+
+// ----------------------------------------------------------------------
+// text-overflow 文字数末尾に「...」
+// ----------------------------------------------------------------------
+
+@mixin textover($textover) {
+	width:$textover;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow: ellipsis;
+	-webkit-text-overflow: ellipsis;
+	-o-text-overflow:ellipsis;
+}
+
+
+
+// ----------------------------------------------------------------------
+// 画像置換（テキスト飛ばし）
+// ----------------------------------------------------------------------
+
+// overflowでの画像置換
+@mixin replace {
+	text-indent:100%;
+	white-space:nowrap;
+	overflow:hidden;
+}
+@mixin replaceClear { //画像置換解除
+	text-indent:0;
+	white-space:normal;
+	overflow:visible;
+}
+
+// text-indentでの画像置換
+@mixin replaceIndent {
+	text-indent:-9999px;
+}
+@mixin replaceIndentClear { //画像置換解除
+	text-indent:inherit;
+}
+
+
+
+// ----------------------------------------------------------------------
+// スマホ用のボールド
+// ----------------------------------------------------------------------
+@mixin bold($bcolor) {
+	//@include text-shadow(1px 0 1px $bcolor);
+	font-weight:700;
+	-webkit-text-stroke-width:1px;
+	-webkit-text-stroke-color:$bcolor;
+	-webkit-text-fill-color:$bcolor;
+}
+
+
+
+// ----------------------------------------------------------------------
+// アニメーション
+// ----------------------------------------------------------------------
+$prefixes: ("-webkit-", "-moz-", null);
+@mixin keyframes($name){
+	@-webkit-keyframes $name {
+		@content;
+	}
+	@-moz-keyframes $name {
+		@content;
+	}
+	@keyframes $name {
+		@content;
+	}
+}
+@mixin animation($name, $duration, $timing, $delay, $count, $direction: null) {
+	@each $prefix in $prefixes {
+		#{$prefix}#{animation}: $name $duration $timing $delay $count $direction;
+	}
+}
+
+
+
+// ----------------------------------------------------------------------
+// 縦方向2色のグラデーション
+// ----------------------------------------------------------------------
+@mixin bgGra($bg_color,$from,$to){
+	@include background($bg_color, linear-gradient(top, $from 0%, $to 100%));
+}
+
+
+
+// ----------------------------------------------------------------------
+// SuperGradient
+// ----------------------------------------------------------------------
+@function contains($colors,$var) {
+	$contains: false;
+	@each $item in $colors { @if $item == $var { $contains: true; } }
+	@return $contains;
+}
+
+@function orientation-string($type, $from, $w3c:false) {
+  $string: '';
+
+  @if $w3c {
+
+    @if $type == 'linear' {
+      @if $from == 'top' or $from == 'bottom' { $string: 'to bottom, '; }
+      @else if $from == 'left' or $from == 'right' { $string: 'to right, '; }
+      @else if $from == (left top) or $from == (top left) or $from == (right bottom) or $from == (bottom right) { $string: '135deg, '; }
+      @else { $string: '45deg, '; }
+
+    } @else if $type == 'radial' { $string: 'ellipse at ' + $from + ', '; }
+
+  } @else { // new webkit, moz, ms, o
+
+    @if $type == 'linear' {
+      @if $from == 'top' or $from == 'bottom' { $string: 'top, '; }
+      @else if $from == 'left' or $from == 'right' { $string: 'left, '; }
+      @else if $from == (left top) or $from == (top left) or $from == (right bottom) or $from == (bottom right) { $string: '-45deg, '; }
+      @else { $string: '45deg, '; }
+
+    } @else if $type == 'radial' { $string: $from + ', ellipse cover, '; }
+
+  }
+
+  @return $string;
+}
+
+@function color-substring($colors) {
+  $i: 1;
+  $substring: '';
+  $string: '';
+
+  @while $i < length($colors) {
+
+    $substring: nth($colors, $i) + ' ' + nth($colors, $i+1);
+    $string: $string + $substring;
+    $i: $i + 1;
+
+  }
+
+  @return $string;
+}
+
+@function color-string($colors) {
+  $i: 1;
+  $spacer: ', ';
+  $substring: '';
+  $string: '';
+
+  @while $i <= length($colors) {
+    @if $i == length($colors) { $spacer: ''; }
+
+    $substring: color-substring(nth($colors, $i)) + $spacer;
+    $string: $string + $substring;
+    $i: $i + 1;
+
+  }
+
+  @return $string;
+}
+
+@function ie-gradient-type($direction) {
+  @if $first-color { @return nth(nth($colors, 1), 1) }
+  @else { @return nth(nth($colors, length($colors)), 1) }
+}
+
+
+@function ie-colors($colors, $first-color:true) {
+  @if $first-color { @return nth(nth($colors, 1), 1) }
+  @else { @return nth(nth($colors, length($colors)), 1) }
+}
+
+@mixin sgradient($type:'linear', $from:'top', $colors:((rgba(42,179,221,1), 0%),(rgba(183,80,80,1), 100%))) {
+
+  $orientation-string: orientation-string($type, $from);
+  $orientation-string-w3c: orientation-string($type, $from, $w3c:true);
+
+  $color-string: #{color-string($colors)};
+
+  $css-string: gradient(#{$orientation-string}#{$color-string});
+  $css-string-w3c: gradient(#{$orientation-string-w3c}#{$color-string});
+
+  $ie-gradient-type: 0;
+  @if $type != 'vertical' { $ie-gradient-type: 1 }
+
+  background-color: #{ie-colors($colors, false)};
+  background: -webkit-#{$type}-#{$css-string};
+  background:    -moz-#{$type}-#{$css-string};
+  background:     -ms-#{$type}-#{$css-string};
+  background:      -o-#{$type}-#{$css-string};
+  background:         #{$type}-#{$css-string-w3c};
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=#{$ie-gradient-type}, StartColorStr='#{ie-colors($colors)}', EndColorStr='#{ie-colors($colors, false)}');
+}
+

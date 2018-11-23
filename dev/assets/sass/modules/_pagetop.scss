@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+// ============================================================
+// pagetop style
+// ============================================================
+
+.pagetop {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 9999;
+	
+	@include sp {
+		bottom: 40px;
+		right: 10px;
+	} //sp
+	
+	a {
+		padding-top: 7px;
+		width: 40px;
+		height: 40px;
+		display: block;
+		background: $cBase3;
+		@include border-radius(4px);
+		@include box-sizing(border-box);
+		text-align: center;
+		text-decoration: none;
+		position: relative;
+		letter-spacing: 1px;
+		
+		&:hover {
+			@include opacity(0.5);
+		}
+		
+		i {
+			display: block;
+			@include fs(22);
+			color: $md-white;
+		}
+	} //a
+} //pagetop
+
+
+
+

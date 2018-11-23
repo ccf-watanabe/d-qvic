@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ja">
+	<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
+		<meta charset="utf-8">
+		<title>お問い合わせ | 株式会社データ・キュービック</title>
+		<meta name="keywords" content="キーワード,キーワード,キーワード">
+		<meta name="description" content="ディスクリプション">
+		<meta name="author" content="会社名">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+		<meta property="og:title" content="ページタイトル">
+		<meta property="og:description" content="ディスクリプション">
+		<meta property="og:url" content="http://www.example.com/">
+		<meta property="og:image" content="http://www.example.com/theme/d-qvic/img/common/ogp_img.png">
+		<meta property="og:site_name" content="サイトネーム">
+		<meta property="og:type" content="website">
+		<link href="../theme/d-qvic/css/style.css" rel="stylesheet">
+		<script src="../theme/d-qvic/js/bundle.js"></script>
+	</head>
+
+<body id="top">
+	<header>
+		<div class="hTop">
+			<h1 class="hlLogo"><a href="/"><img src="../theme/d-qvic/img/logo.png" alt="株式会社データ・キュービック"></a></h1>
+		</div>
+		<nav class="gNav">
+			<div class="btnSpMenu"><i class="fa fa-bars"></i></div>
+			<div class="nav-menu-box">
+				<div class="nav-menu-boxInner">
+					<div class="btnCloseMenu"><i class="fa fa-times"></i></div>
+					<ul class="ul-level-1 nav-menu">
+						<li class="nav-item menu-content li-level-1"><a href="/">トップページ</a></li>
+						<li class="nav-item menu-content li-level-1"><a href="/company/">会社概要</a></li>
+						<li class="nav-item menu-content li-level-1"><a href="/data/">情報活用事業</a></li>
+						<li class="nav-item menu-content li-level-1"><a href="/media/">メディア事業</a></li>
+						<li class="nav-item menu-content li-level-1"><a href="/news/">ニュースリリース</a></li>
+					</ul>
+				</div>
+				<div class="spMenuOverflow">&nbsp;</div>
+			</div>
+		</nav>
+	</header>
+
+
+	<aside class="breadcrumb">
+		<nav class="container">
+			<a href="/">ホーム</a> &gt; <a href="/contact/">お問い合わせ</a>
+		</nav>
+	</aside>
+
+
+	<article class="contents">
+		<div class="hlTitle">
+			<h2>お問い合わせ</h2>
+		</div>
+		<div class="container">
+			<section class="secArea">
+				<h3 class="hlSecTitle">フォームからのお問い合わせ</h3>
+				<div class="mail-description">
+					<p>当店へのお問い合わせは、下記フォームの必要事項にご入力いただき、内容をよくご確認の上「入力内容を確認する」ボタンを押してください。<br>
+						<span class="color-red-500">※必須項目は、必ずご入力ください。</span></p>
+				</div>
+				<script type="text/javascript">
+					$(document).ready(function(){
+						$('input[type="submit"]').prop('disabled', true);
+					});
+					$(window).load(function(){
+						var getTokenUrl = '/contact/ajax_get_token';
+						$.ajaxSetup({cache: false});
+						$.get(getTokenUrl, function(result) {
+							$('input[name="data[_Token][key]"]').val(result);
+							$('input[type="submit"]').removeAttr('disabled');
+						});
+					});
+				</script>
+				<script type="text/javascript">
+					$(function(){
+						$(".form-submit").click(function(){
+							var mode = $(this).attr('id').replace('BtnMessage', '');
+							$("#MailMessageMode").val(mode);
+							return true;
+						});
+					});
+				</script>
+				<form action="/contact/confirm" novalidate id="MessageIndexForm" enctype="multipart/form-data" method="post" accept-charset="utf-8">
+					<div style="display:none;">
+						<input type="hidden" name="_method" value="POST"/>
+						<input type="hidden" name="data[_Token][key]" value="8f5f0eaeabfabd006491250737413a88de270789" id="Token614080161"/>
+					</div>
+					<input type="hidden" name="data[Message][mode]" id="MessageMode"/>
+					<table class="baseTable">
+						<tr id="RowMessageName1">
+							<th class="col-head" width="150"><label for="MailMessageName1">お名前</label><span class="required">*</span></th>
+							<td class="col-input">
+								<span id="FieldMessageName1">
+									<span class="mail-before-attachment"><small>[姓]</small></span>
+									<input name="data[MailMessage][name_1]" size="8" maxlength="255" class="form-s" type="text" id="MailMessageName1"/>
+									<span class="mail-after-attachment"></span>
+									<span class="mail-attention"></span>
+								</span>
+								<span id="FieldMessageName2">
+									<span class="mail-before-attachment"><small>[名]</small></span>
+									<input name="data[MailMessage][name_2]" size="8" maxlength="255" class="form-s" type="text" id="MailMessageName2"/>
+									<span class="mail-after-attachment"></span>
+									<span class="mail-attention"></span>
+								</span>
+							</td>
+						</tr>
+						<tr id="RowMessageNameKana1">
+							<th class="col-head" width="150"><label for="MailMessageNameKana1">フリガナ</label></th>
+							<td class="col-input">
+								<span id="FieldMessageNameKana1">
+									<span class="mail-before-attachment"><small>[姓]</small></span>
+									<input name="data[MailMessage][name_kana_1]" size="8" maxlength="255" class="form-s" type="text" id="MailMessageNameKana1"/>
+									<span class="mail-after-attachment"></span>
+									<span class="mail-attention"></span>
+								</span>
+								<span id="FieldMessageNameKana2">
+									<span class="mail-before-attachment"><small>[名]</small></span>
+									<input name="data[MailMessage][name_kana_2]" size="8" maxlength="255" class="form-s" type="text" id="MailMessageNameKana2"/>
+									<span class="mail-after-attachment"></span>
+									<span class="mail-attention"></span>
+								</span>
+							</td>
+						</tr>
+						<tr id="RowMessageEmail1">
+							<th class="col-head" width="150"><label for="MailMessageEmail1">メールアドレス</label><span class="required">*</span></th>
+							<td class="col-input">
+								<span id="FieldMessageEmail1">
+									<span class="mail-description"><small>確認の為、２回入力して下さい。</small><br></span>
+									<span class="mail-before-attachment"></span>
+									<input name="data[MailMessage][email_1]" size="25" maxlength="50" class="form-l" type="text" id="MailMessageEmail1"/>
+									<span class="mail-after-attachment"></span>
+									<span class="mail-attention"></span>
+								</span>
+								<span id="FieldMessageEmail2">
+									<span class="mail-before-attachment"></span>
+									<input name="data[MailMessage][email_2]" size="25" maxlength="50" class="form-l" type="text" id="MailMessageEmail2"/>
+									<span class="mail-after-attachment"></span>
+									<span class="mail-attention"><small>[確認]</small></span>
+								</span>
+							</td>
+						</tr>
+						<tr id="RowMessageTel1">
+							<th class="col-head" width="150"><label for="MailMessageTel1">電話番号</label></th>
+							<td class="col-input">
+								<span id="FieldMessageTel1">
+									<span class="mail-before-attachment"></span>
+									<input name="data[MailMessage][tel_1]" size="5" maxlength="5" class="" type="text" id="MailMessageTel1"/>
+									<span class="mail-after-attachment">-</span>
+									<span class="mail-attention"></span>
+								</span>
+								<span id="FieldMessageTel2">
+									<span class="mail-before-attachment"></span>
+									<input name="data[MailMessage][tel_2]" size="5" maxlength="5" class="" type="text" id="MailMessageTel2"/>
+									<span class="mail-after-attachment">-</span>
+									<span class="mail-attention"></span>
+								</span>
+								<span id="FieldMessageTel3">
+									<span class="mail-before-attachment"></span>
+									<input name="data[MailMessage][tel_3]" size="5" maxlength="5" class="" type="text" id="MailMessageTel3"/>
+									<span class="mail-after-attachment"></span>
+									<span class="mail-attention"></span>
+								</span>
+							</td>
+						</tr>
+						<tr id="RowMessageZip">
+							<th class="col-head" width="150"><label for="MailMessageZip">住所</label></th>
+							<td class="col-input">
+								<span id="FieldMessageZip">
+									<span class="mail-before-attachment">〒</span>
+									<script type="text/javascript" src="/js/admin/vendors/ajaxzip3.js"></script>
+									<input name="data[MailMessage][zip]" size="10" maxlength="8" class="" onKeyUp="AjaxZip3.zip2addr(this,'','data[MailMessage][address_1]','data[MailMessage][address_2]')" type="text" id="MailMessageZip"/>
+									<span class="mail-after-attachment"></span>
+									<span class="mail-attention"><small>[半角数字]</small><br></span>
+								</span>
+								<span id="FieldMessageAddress1">
+									<span class="mail-before-attachment"></span>
+									<select name="data[MailMessage][address_1]" class="" id="MailMessageAddress1">
+										<option value="">都道府県</option>
+										<option value="1">北海道</option>
+										<option value="2">青森県</option>
+										<option value="3">岩手県</option>
+										<option value="4">宮城県</option>
+										<option value="5">秋田県</option>
+										<option value="6">山形県</option>
+										<option value="7">福島県</option>
+										<option value="8">茨城県</option>
+										<option value="9">栃木県</option>
+										<option value="10">群馬県</option>
+										<option value="11">埼玉県</option>
+										<option value="12">千葉県</option>
+										<option value="13">東京都</option>
+										<option value="14">神奈川県</option>
+										<option value="15">新潟県</option>
+										<option value="16">富山県</option>
+										<option value="17">石川県</option>
+										<option value="18">福井県</option>
+										<option value="19">山梨県</option>
+										<option value="20">長野県</option>
+										<option value="21">岐阜県</option>
+										<option value="22">静岡県</option>
+										<option value="23">愛知県</option>
+										<option value="24">三重県</option>
+										<option value="25">滋賀県</option>
+										<option value="26">京都府</option>
+										<option value="27">大阪府</option>
+										<option value="28">兵庫県</option>
+										<option value="29">奈良県</option>
+										<option value="30">和歌山県</option>
+										<option value="31">鳥取県</option>
+										<option value="32">島根県</option>
+										<option value="33">岡山県</option>
+										<option value="34">広島県</option>
+										<option value="35">山口県</option>
+										<option value="36">徳島県</option>
+										<option value="37">香川県</option>
+										<option value="38">愛媛県</option>
+										<option value="39">高知県</option>
+										<option value="40">福岡県</option>
+										<option value="41">佐賀県</option>
+										<option value="42">長崎県</option>
+										<option value="43">熊本県</option>
+										<option value="44">大分県</option>
+										<option value="45">宮崎県</option>
+										<option value="46">鹿児島県</option>
+										<option value="47">沖縄県</option>
+										</select>
+									<span class="mail-after-attachment"><br></span>
+									<span class="mail-attention"></span>
+								</span>
+								<span id="FieldMessageAddress2">
+									<span class="mail-before-attachment"></span>
+									<input name="data[MailMessage][address_2]" size="30" maxlength="200" class="form-l" type="text" id="MailMessageAddress2"/>
+									<span class="mail-after-attachment"></span>
+									<span class="mail-attention"></span>
+								</span>
+								<span id="FieldMessageAddress3">
+									<span class="mail-before-attachment"></span>
+									<input name="data[MailMessage][address_3]" size="30" maxlength="200" class="form-l" type="text" id="MailMessageAddress3"/>
+									<span class="mail-after-attachment"></span>
+									<span class="mail-attention"></span>
+								</span>
+							</td>
+						</tr>
+						<tr id="RowMessageMessage">
+							<th class="col-head" width="150"><label for="MailMessageMessage">お問い合わせ内容</label></th>
+							<td class="col-input">
+								<span id="FieldMessageMessage">
+									<span class="mail-before-attachment"></span>
+									<textarea name="data[MailMessage][message]" rows="12" class="form-l" cols="48" id="MailMessageMessage"></textarea>
+									<span class="mail-after-attachment"></span>
+									<span class="mail-attention"></span>
+								</span>
+							</td>
+						</tr>
+						<tr id="RowMessageRoot">
+							<th class="col-head" width="150"><label for="MailMessageRoot">どうやってこのサイトをお知りになりましたか？</label><span class="required">*</span></th>
+							<td class="col-input">
+								<span id="FieldMessageRoot">
+									<span class="mail-before-attachment"></span>
+									<select name="data[MailMessage][root]" class="" id="MailMessageRoot">
+										<option value=""></option>
+										<option value="1">検索エンジン</option>
+										<option value="2">web広告</option>
+										<option value="3">紙面広告</option>
+										<option value="4">求人案内</option>
+										<option value="5">その他</option>
+									</select>
+									<span class="mail-after-attachment"><br></span>
+									<span class="mail-attention"></span>
+								</span>
+								<span id="FieldMessageRootEtc">
+									<span class="mail-before-attachment"></span>
+									<input name="data[MailMessage][root_etc]" size="30" maxlength="50" class="form-l" type="text" id="MailMessageRootEtc"/>
+									<span class="mail-after-attachment"></span>
+									<span class="mail-attention"><br><small>その他を選択された場合は内容をご入力下さい。</small></span>
+								</span>
+							</td>
+						</tr>
+					</table>
+					<div class="auth-captcha">
+						<img src="../theme/d-qvic/img/contact/74106646.jpg" alt="認証画像" class="auth-captcha-image"/>
+						<input name="data[MailMessage][auth_captcha]" type="text" id="MailMessageAuthCaptcha"/>
+						<input type="hidden" name="data[MailMessage][captcha_id]" value="74106646" id="MailMessageCaptchaId"/>
+						<span class="auth-captcha-message">画像の文字を入力してください</span>
+						<div class="error-message">入力された文字が間違っています。入力をやり直してください。</div>
+					</div>
+					<!-- /auth-captcha -->
+
+					<div class="submit">
+						<input name="resetdata" value="　取り消す　" type="reset" class="btn btn-reset" />
+						<input class="btn btn-submit form-submit" id="BtnMessageConfirm" type="submit" value="　入力内容を確認する　"/>
+					</div>
+					<div style="display:none;">
+						<input type="hidden" name="data[_Token][fields]" value="646d2a8ed98c6bf1c8bade497a79e5300c5e0c74%3A" id="TokenFields1170059321"/>
+						<input type="hidden" name="data[_Token][unlocked]" value="MAX_FILE_SIZE%7CMessage.mode%7Cx%7Cy" id="TokenUnlocked1889900885"/>
+					</div>
+				</form>
+			</section>
+		</div>
+	</article>
+
+
+	<footer>
+		<div class="pagetop"><a href="#top"><i class="fa fa-chevron-up"></i></a></div>
+		<ul class="fNav-menu">
+			<li class="nav-item menu-content current"><a href="/">トップページ</a></li>
+			<li class="nav-item menu-content"><a href="/company/">会社概要</a></li>
+			<li class="nav-item menu-content"><a href="/data/">情報活用事業</a></li>
+			<li class="nav-item menu-content"><a href="/media/">メディア事業</a></li>
+			<li class="nav-item menu-content"><a href="/news/">ニュースリリース</a></li>
+			<li class="nav-item menu-content"><a href="/privacy/">個人データ安全管理方針</a></li>
+			<li class="nav-item menu-content"><a href="/sns/">SNS利用規約</a></li>
+			<li class="nav-item menu-content"><a href="/policy/">プライバシーポリシー</a></li>
+		</ul>
+		<div class="fCompany">
+			<p class="shopName">株式会社データ・キュービック</p>
+			<dl class="fAddress">
+				<dt>住所</dt>
+				<dd>山口県下関市竹崎町四丁目2番36号</dd>
+				<dt>電話番号</dt>
+				<dd><span class="telLink">083-227-2902</span>（平日9:00~17:00）</dd>
+			</dl>
+		</div>
+		<ul class="fBnr">
+			<li class="fBnr-ymfg"><a href="http://www.ymfg.co.jp/" target="_blank"><img src="../theme/d-qvic/img/common/logo_footer.png" alt="YMFG - Yamaguchi Financial Group"></a></li>
+			<li class="fBnr-yamaguchibank"><a href="https://www.yamaguchibank.co.jp/" target="_blank"><img src="../theme/d-qvic/img/common/img_visual_yamagin.png" alt="山口銀行"></a></li>
+			<li class="fBnr-momijibank"><a href="https://www.momijibank.co.jp/" target="_blank"><img src="../theme/d-qvic/img/common/img_visual_momizi.png" alt="もみじ銀行"></a></li>
+			<li class="fBnr-kitakyushubank"><a href="https://www.kitakyushubank.co.jp/" target="_blank"><img src="../theme/d-qvic/img/common/img_visual_kita.png" alt="北九州銀行"></a></li>
+		</ul>
+		<p class="fCopy"><small>copyrighit 2018 dataqvic.inc all righits reserved.</small></p>
+	</footer>
+
+</body>
+</html>

@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+/*----------------------------------------
+	sidebar
+----------------------------------------*/
+.sideNav {
+	margin-bottom:60px;
+	width:25%;
+	
+	@include tablet2 {
+		width:100%;
+		float:none;
+	} //tablet2
+	
+	@include sp {
+		margin-bottom:20px;
+		width:100%;
+		float:none;
+	} //sp
+	
+	.articleArea {
+		padding:0;
+	}
+} //sideNav
+
+
+.blogWidget {
+	width:100%;
+	margin-bottom:40px;
+	
+	h3 {
+		margin-bottom:20px;
+		width:100%;
+		@include border-radius(4px);
+		background: $cBase1;
+		line-height:40px;
+		font-weight:400;
+		@include fs(16);
+		color:$md-white;
+		text-indent:10px;
+	}
+	
+	ul {
+		padding-left:0;
+		
+		li {
+			padding:0 10px 15px 30px;
+			line-height:120%;
+			position:relative;
+			list-style:none;
+			
+			a {
+				&:before {
+					margin-right:5px;
+					display:inline-block;
+					font-family: "Font Awesome 5 Free";
+					content:'\f105';
+					font-weight: bold;
+					position:absolute;
+					top:0;
+					left:14px;
+				}
+			}
+		} //li
+	} //ul
+} //blogWidget
+
+.blogWidgetCalender {
+	padding:20px;
+	width:auto;
+	@include border-radius(4px);
+	background:$md-grey-50;
+	border: 1px solid $md-grey-200;
+	
+	h3 {
+		margin:0 0 15px 0;
+		@include fs(18);
+		background:none;
+		color:$linkColor;
+		text-align:center;
+		line-height:18px;
+	}
+} //blogWidgetCalender
+
+.blogCalendar {
+	width:100%;
+	
+	tr {
+		border-bottom:1px solid $md-grey-300;
+		
+		&:first-child {
+			padding-bottom:5px;
+		}
+	} //tr
+	
+	th, td {
+		padding:5px 0;
+		text-align:center;
+		font-weight:400;
+		@include fs(14);
+		
+		a {
+			@include fs(14);
+		}
+	}
+} //blogCalendar
+
+.saturday {
+	color:$md-blue-600;
+}
+
+.sunday {
+	color:$md-red-600;
+}
+
+.today {
+	font-weight:700 !important;
+	background:rgba($md-black,.2);
+	color:$md-black;
+	
+	a {
+		color:$md-black;
+	}
+} //today
+
+
+#ContentSearchForm {
+	input[type="text"] {
+		width:100%;
+	}
+} //ContentSearchForm
+

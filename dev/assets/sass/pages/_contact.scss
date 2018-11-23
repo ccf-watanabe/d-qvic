@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+/*----------------------------------------
+	contact
+----------------------------------------*/
+.mail-description {
+	margin-bottom:40px;
+	
+	@include sp {
+		margin-bottom:20px;
+	} //sp
+}
+
+.alert-message {
+	margin: 15px auto !important;
+	padding: 10px 20px;
+	color: #C30;
+	font-weight: 700;
+	border: 5px solid #C30;
+}
+
+.thanks {
+	padding-bottom:200px;
+	
+	@include tablet2 {
+		padding-bottom:80px;
+	} //tablet2
+	
+	@include sp {
+		padding-bottom:40px;
+	} //sp
+} //thanks

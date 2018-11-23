@@ -1,0 +1,183 @@
+@charset "utf-8";
+
+// ============================================================
+// display style
+// ============================================================
+
+/* width */
+// 1% - 49% まで 1% きざみ
+$i: 1;
+@while $i < 50{
+	$width-low: percentage($i * 0.01);
+
+	.w#{$i}{
+		width: $width-low;
+	}
+	$i: $i+1
+}
+
+// 50% - 100% まで 5% きざみ
+$j: 50;
+@while $j <= 100{
+	$width-low: percentage($j * 0.01);
+
+	.w#{$j}{
+		width: $width-low;
+	}
+	$j: $j+5
+}
+
+
+/* align */
+.aLeft {
+	text-align:left !important;
+}
+.aRight {
+	text-align:right !important;
+}
+.aCenter {
+	text-align:center !important;
+}
+.vTop {
+	vertical-align:top !important;
+}
+.vMiddle {
+	vertical-align:middle !important;
+}
+.vBottom {
+	vertical-align:bottom !important;
+}
+
+
+/* flex box */
+.fb-row {
+	@include display-flex;
+	@include flex-direction(row);
+
+	&-justify-center {
+		@include justify-content(center);
+	}
+	&-justify-start {
+		@include justify-content(flex-start);
+	}
+	&-justify-end {
+		@include justify-content(flex-end);
+	}
+
+	&-align-center {
+		@include align-items(center);
+	}
+	&-align-start {
+		@include align-items(flex-start);
+	}
+	&-align-end {
+		@include align-items(flex-end);
+	}
+}
+
+.fb-column {
+	@include display-flex;
+	@include flex-direction(column);
+
+	&-justify-center {
+		@include justify-content(center);
+	}
+	&-justify-start {
+		@include justify-content(flex-start);
+	}
+	&-justify-end {
+		@include justify-content(flex-end);
+	}
+
+	&-align-center {
+		@include align-items(center);
+	}
+	&-align-start {
+		@include align-items(flex-start);
+	}
+	&-align-end {
+		@include align-items(flex-end);
+	}
+}
+
+
+/* float */
+.fl {
+	float:left;
+
+	@include tablet2 {
+		float:none;
+	} //tablet2
+
+	@include sp {
+		float:none;
+	} //sp
+} //fl
+
+.fr {
+	float:right;
+
+	@include tablet2 {
+		float:none;
+	} //tablet2
+
+	@include sp {
+		float:none;
+	} //sp
+} //fr
+
+
+/* visivle style */
+.spNone {
+	@include sp {
+		display:none !important;
+	} //sp
+}
+
+.tabNone {
+	@include tablet {
+		display:none !important;
+	} //tablet
+}
+
+.pcNone {
+	@include desk {
+		display:none !important;
+	} //desk
+}
+
+
+.spVisible {
+	@include desk {
+		display:none;
+	} //desk
+
+	@include tablet {
+		display:none;
+	} //tablet
+}
+
+
+.tabVisible {
+	@include desk {
+		display:none;
+	} //desk
+
+	@include sp {
+		display:none;
+	} //sp
+}
+
+
+.pcVisible {
+	@include tablet {
+		display:none;
+	} //tablet
+
+	@include sp {
+		display:none;
+	} //sp
+}
+
+
+

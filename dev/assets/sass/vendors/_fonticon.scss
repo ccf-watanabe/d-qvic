@@ -1,0 +1,66 @@
+@charset "utf-8";
+/*----------------------------------------
+	Web Font Icon
+----------------------------------------*/
+
+// Font Awesome
+@import url(https://use.fontawesome.com/releases/v5.2.0/css/all.css);
+
+
+// Material icons
+@font-face {
+	font-family: 'Material Icons';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Material Icons'), local('MaterialIcons-Regular'), url(https://fonts.gstatic.com/s/materialicons/v21/2fcrYFNaTjcS6g4U3t-Y5UEw0lE80llgEseQY3FEmqw.woff2) format('woff2');
+}
+
+.material-icons {
+	font-family: 'Material Icons';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 24px;
+	line-height: 1;
+	letter-spacing: normal;
+	text-transform: none;
+	display: inline-block;
+	white-space: nowrap;
+	word-wrap: normal;
+	direction: ltr;
+	-moz-font-feature-settings: 'liga';
+	-moz-osx-font-smoothing: grayscale;
+	position: relative;
+	top: .6rem;
+}
+
+.material-icons {
+	// Rules for sizing the icon.
+	&.md-18 {
+		font-size: 18px;
+	}
+	&.md-24 {
+		font-size: 24px;
+	}
+	&.md-36 {
+		font-size: 36px;
+	}
+	&.md-48 {
+		font-size: 48px;
+	}
+	
+	// Rules for using icons as black on a light background.
+	&.md-dark {
+		color: rgba(0, 0, 0, 0.54);
+		&.md-inactive {
+			color: rgba(0, 0, 0, 0.26);
+		}
+	}
+	
+	// Rules for using icons as white on a dark background.
+	&.md-light {
+		color: rgba(255, 255, 255, 1);
+		&.md-inactive {
+			color: rgba(255, 255, 255, 0.3);
+		}
+	}
+}

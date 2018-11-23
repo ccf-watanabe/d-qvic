@@ -1,0 +1,88 @@
+/* link */
+
+a {
+	color: LINK !important;
+}
+
+a:hover {
+	color: HOVER !important;
+}
+
+a:active {
+	color: LINK !important;
+}
+
+a:visited {
+	color: LINK !important;
+}
+
+.entry h3 a {
+	color: MAIN !important;
+}
+
+.entry h3 a:hover {
+	color: SUB !important;
+}
+
+.categoryLink a {
+	background: MAIN !important;
+}
+
+.entryArea .entryBody .more i {
+	color: LINK !important;
+}
+
+.archiveTitle h3 {
+	background: MAIN !important;
+}
+
+/* header */
+
+/* header {
+	background: MAIN !important;
+}
+
+.gNav {
+	background: MAIN !important;
+}
+
+.gNav ul {
+	background: MAIN !important;
+}
+
+.gNav ul li a {
+	background: MAIN !important;
+} */
+
+/* button */
+
+.button {
+	background: MAIN !important;
+}
+
+/* side navi */
+
+.blogWidget h3 {
+	background: MAIN !important;
+}
+
+/* footer */
+
+/*footer {
+	background: MAIN !important;
+}*/
+
+footer:before {
+	background: MAIN !important;
+}
+
+.pagetop a {
+	background: LINK !important;
+}
+
+/* index */
+
+/* .secTopNews .hTitleNewsBox {
+	background: MAIN !important;
+} */
+

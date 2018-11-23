@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+/*----------------------------------------
+	data
+----------------------------------------*/
+.readData {
+	@include fs(19);
+	
+	@include sp {
+		@include fs(17);
+	} //sp
+}
+
+.figData {
+	margin: 40px .5em;
+}
+
+
+.businessList {
+	padding-left: 25px;
+}

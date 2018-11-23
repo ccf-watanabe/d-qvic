@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+/*----------------------------------------
+	media
+----------------------------------------*/
+.readMedia {
+	@include fs(19);
+	
+	@include sp {
+		@include fs(17);
+	} //sp
+}
+
+.figMedia {
+	margin: 40px .5em;
+}
+

@@ -1,0 +1,186 @@
+@charset "UTF-8";
+
+/*!---------------------------------------
+ * Omotenashi
+ * built 2013-07-01
+ * last updated 2015-09-30
+ * Licensed under the MIT License.
+ * ---------------------------------------
+ * (C) 2015 Munenori Nishimura
+ * https://twitter.com/mune_nori
+ * -------------------------------------*/
+
+
+
+//-------------------------------------------
+// config
+//-------------------------------------------
+
+// Color
+@import "config/material_colors";
+@import "config/colors";
+
+// Setting
+@import "config/setting";
+
+// MediaQuery Size
+@import "config/media_size";
+
+
+//-------------------------------------------
+// Vendors (Web Font & Icon)
+//-------------------------------------------
+
+// Web Font
+@import "vendors/webfont";
+
+// Web Font Icon
+@import "vendors/fonticon";
+
+
+//-------------------------------------------
+// Mixins
+//-------------------------------------------
+
+//@import "mixins/compass_reset";
+@import "mixins/flex-container";
+@import "mixins/border-radius";
+@import "mixins/box-sizing";
+@import "mixins/background-size";
+@import "mixins/transition";
+@import "mixins/transform";
+@import "mixins/box-shadow";
+@import "mixins/input-placeholder";
+@import "mixins/filter";
+@import "mixins/html5";
+@import "mixins/clearfix";
+@import "mixins/mediaquery";
+@import "mixins/fontsize";
+@import "mixins/opacity";
+@import "mixins/ellipsis";
+@import "mixins/replace";
+@import "mixins/keyframes";
+@import "mixins/bg_gradation";
+@import "mixins/super_gradient";
+@import "mixins/img_responsive";
+@import "mixins/animation";
+@import "mixins/appearance";
+@import "mixins/font-smoothing";
+
+
+
+//-------------------------------------------
+// Base
+//-------------------------------------------
+
+// Normalize CSS
+@import "base/normalize";
+
+// Reset CSS
+//@import "base/reset";
+
+// dispay
+@import "base/display";
+
+// font size
+@import "base/font-size";
+
+// margin
+//@import "base/margin";
+
+// padding
+//@import "base/padding";
+
+// letter spacing
+//@import "base/letter_spacing";
+
+// IE6 Upgrade Warning
+//@import "base/ie6warning";
+
+
+//-------------------------------------------
+// Vendors (Plugin)
+//-------------------------------------------
+
+// Magnific Popup
+@import "vendors/magnific-popup1.1.0";
+
+// Vegas
+@import "vendors/vegas2.4.0";
+
+
+//-------------------------------------------
+// Module & Parts
+//-------------------------------------------
+
+// loading
+@import "modules/loading";
+
+// btn
+@import 'modules/btn';
+
+// table
+@import 'modules/table';
+
+// form
+@import 'modules/form';
+
+// pagetop
+@import 'modules/pagetop';
+
+// breadcrumb
+@import 'modules/breadcrumb';
+
+// sns btn
+// @import "modules/sns";
+
+// pagenavi
+@import "modules/pagenavi";
+
+// WordPress post style
+// @import "modules/wp_post";
+
+// WordPress contact form7 style
+// @import "modules/contact_form7";
+
+// Sprite
+//@import "modules/sprite";
+
+// icon
+// @import "modules/icon";
+
+// comment
+@import 'modules/comment';
+
+
+//-------------------------------------------
+// Layout
+//-------------------------------------------
+
+// body
+@import "layout/common";
+
+// header
+@import "layout/header";
+
+// footer
+@import "layout/footer";
+
+// sidebar
+@import "layout/sidebar";
+
+
+//-------------------------------------------
+// Page
+//-------------------------------------------
+
+@import "pages/index";
+@import "pages/company";
+@import "pages/data";
+@import "pages/media";
+@import "pages/news";
+@import "pages/contact";
+@import "pages/privacy";
+@import "pages/policy";
+@import "pages/sns";
+@import "pages/sharedprivacy";

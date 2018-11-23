@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+// ============================================================
+// パンくず
+// ============================================================
+
+/* breadcrumb */
+.breadcrumb {
+	width: 100%;
+	background: $md-grey-200;
+	
+	nav {
+		margin: 0 40px;
+		padding:10px 0;
+		width: auto;
+		
+		@include tablet {
+			margin: 0 20px;
+		} //tablet
+		
+		@include sp {
+			margin: 0 10px;
+			padding: 5px 0;
+		} //sp
+		
+		a {
+			margin: 0 10px;
+			display: inline-block;
+			@include fs(13);
+			text-decoration: none;
+			color: $textColor !important;
+			
+			&:hover {
+				@include opacity(.5);
+			}
+		} //a
+		
+		strong {
+			margin: 0 10px;
+			display: inline-block;
+			font-weight: 400;
+			@include fs(13);
+		}
+	} //nav
+} //breadcrumb

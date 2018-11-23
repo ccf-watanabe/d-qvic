@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+// ============================================================
+// pagenavi style
+// ============================================================
+
+.pagination {
+	padding-bottom:60px;
+	text-align:center;
+	
+	@include sp {
+		padding-bottom:40px;
+	} //sp
+	
+	.current, .disabled {
+		border:1px solid $md-grey-300;
+		margin:0 1px;
+		padding:4px 7px;
+	}
+	
+	span {
+		margin:0 2px;
+		display:inline-block;
+		@include border-radius(2px);
+		
+		@include sp {
+			margin:0;
+		} //sp
+	}
+	
+	a {
+		margin:0 1px;
+		padding:4px 7px;
+		display:inline-block;
+		@include border-radius(2px);
+		border:1px solid $cBase5;
+		background:$cBase5;
+		text-decoration:none;
+		white-space:nowrap;
+		color:$md-white;
+		
+		&:hover {
+			background:$md-white;
+			color:$cBase5;
+		}
+	} //a
+	
+	@include sp {
+		.prev, .next {
+			margin:8px auto;
+			padding:5px 10px;
+			width:25%;
+			@include box-sizing(border-box);
+			display:block;
+		}
+	} //sp
+} //pagination
+
+.disabled {
+	display:none;
+}
+
+
+
+.contentsNavi {
+	margin:20px 0 0;
+	position:relative;
+	@extend %clear;
+	
+	@include tablet2 {
+		margin:20px 0 40px;
+	} //tablet2
+	
+	@include sp {
+		margin:20px 0 40px;
+	} //sp
+	
+	.prev-link {
+		float:left;
+	}
+	
+	.next-link {
+		float:right;
+	}
+} //contentsNavi
+
+
+
+
+
+
+

@@ -1,0 +1,1804 @@
+"id","contents","draft","page_template","code","modified","created"
+"1","<section class=""secArea"">
+<h3 class=""hlSecTitle"">データ・キュービックについて</h3>
+
+<p>YMFGのグループ会社として地域内のデータ、情報通信技術を駆使し、活力みなぎる地域を取り戻し、地域住民の皆様に豊かな生活環境を提供することを目的に設立されました。</p>
+</section>
+
+<section class=""secArea"">
+<h3 class=""hlSecTitle"">事業概要</h3>
+
+<p>情報の「蓄積と活用」、「収集と発信」を事業の柱とし、地域の事業者様、地域社会が抱える様々な課題の解決に向けたソリューションを提供します。<br />
+マーケティングなどのデータ分析ソリューションによる生産性向上、AIの活用による業務の高度化、効率化の実現などを支援や、地域の生産者のこだわりや、商品のストーリー性にフォーカスをしたコンテンツ（記事）制作を通じた地域内外への情報発信、ユーザーの行動分析、新商品開発時のテストマーケティングなど、マーケティング支援などを行います。</p>
+
+<figure class=""figCompany""><img alt="""" src=""<?php $this->BcBaser->themeUrl() ?>/img/index/img_about.png"" /></figure>
+
+<div class=""topBtnBox"">
+<p class=""topBtn topBtn-data""><a href=""<?php $this->BcBaser->baseUrl(); ?>data"">情報活用事業</a></p>
+
+<p class=""topBtn topBtn-media""><a href=""<?php $this->BcBaser->baseUrl(); ?>media"">メディア事業</a></p>
+</div>
+</section>","","","","2018-08-27 23:18:09","2016-07-29 17:26:25"
+"6","<div class=""hlTitle"">
+		<h2>御品書き</h2>
+	</div>
+	<div class=""container"">
+		<section class=""secArea"">
+			<h3 class=""hlSecTitle"">お昼のお献立</h3>
+			<div class=""rowBox-2elem"">
+				<div class=""boxInner"">
+					<table class=""menuTable"">
+						<tr>
+							<th>おまかせにぎり</th>
+							<td>1,200円</td>
+						</tr>
+						<tr>
+							<th>おまかせ上にぎり</th>
+							<td>2,860円</td>
+						</tr>
+						<tr>
+							<th>特選海鮮丼</th>
+							<td>1,080円</td>
+						</tr>
+						<tr>
+							<th>てんぷらとお刺身御膳</th>
+							<td>1,840円</td>
+						</tr>
+						<tr>
+							<th>あらかぶと大根の煮つけ御膳</th>
+							<td>1,840円</td>
+						</tr>
+						<tr>
+							<th>部井紗御前</th>
+							<td>2,160円</td>
+						</tr>
+					</table>
+				</div>
+				<div class=""boxInner aCenter"">
+					<img src=""<?php $this->BcBaser->themeUrl() ?>/img/menu/pho_menu01.jpg"" alt="""">
+				</div>
+			</div>
+		</section>
+	</div>","","","","2018-02-25 21:57:25","2016-07-29 17:30:00"
+"8","<div class=""hlTitle"">
+<h2>会社概要</h2>
+</div>
+
+<div class=""container"">
+<div class=""secArea"">
+<table class=""baseTable companyTable"">
+	<tbody>
+		<tr>
+			<th>会社名</th>
+			<td>株式会社データ・キュービック</td>
+		</tr>
+		<tr>
+			<th>代表者</th>
+			<td>矢儀　一仁</td>
+		</tr>
+		<tr>
+			<th>本店所在地</th>
+			<td>山口県下関市竹崎町四丁目2番36号（山口銀行本店内）</td>
+		</tr>
+		<tr>
+			<th>設立年月日</th>
+			<td>平成30年6月22日</td>
+		</tr>
+		<tr>
+			<th>資本金</th>
+			<td>5,000万円（資本準備金 5,000万円）</td>
+		</tr>
+		<tr>
+			<th>株主構成</th>
+			<td>山口フィナンシャルグループ：80％<br />
+			Fusic：20％</td>
+		</tr>
+		<tr>
+			<th>事業内容</th>
+			<td>
+			<p>【情報活用事業】<br />
+			地域内事業者が抱える経営課題に対するデータ管理・分析・改善、AI<br />
+			活用による効率化支援<br />
+			?データ分析サービス<br />
+			?ＡＩソリューションサービス<br />
+			?ＡＩの普及促進活動</p>
+
+			<p>【メディア事業】<br />
+			地域情報の効果的な発信および広告サービス、プロモーション支援<br />
+			?広告サービス<br />
+			?プロモーション支援サービス</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<section class=""secArea"">
+<h3 class=""hlSecTitle"">社名の由来</h3>
+
+<table class=""baseTable companyTable"">
+	<tbody>
+		<tr>
+			<th>社名</th>
+			<td>株式会社 データ・キュービック　（DATA QVIC）</td>
+		</tr>
+		<tr>
+			<th>由来</th>
+			<td><b class=""fw900"">Q</b>uality and <b class=""fw900"">V</b>itality of our region, improved with <b class=""fw900"">I</b>nformation and <b class=""fw900"">C</b>ommunication Technology<br />
+			私たちは、データ・情報通信技術を駆使し、活力みなぎる地域を取り戻し、地域住民に豊かな生活環境を提供します。</td>
+		</tr>
+		<tr>
+			<th>意味</th>
+			<td>キュービックは立方体を指すことから、<br />
+			（1）地域住民の生活質の向上<br />
+			（2）地域企業の活力の向上<br />
+			（3）そして、それによりもたらされるYMFGの持続的発展<br />
+			の3方向を、同時実現することを意味します。</td>
+		</tr>
+	</tbody>
+</table>
+</section>
+
+<section class=""secArea"">
+<h3 class=""hlSecTitle"">事業理念と事業ビジョン</h3>
+
+<table class=""baseTable companyTable"">
+	<tbody>
+		<tr>
+			<th>将来の理想像<br />
+			（Vision）</th>
+			<td>私たちは、データ・情報活用のプロ集団として地域に誇りと活力を生み出します。</td>
+		</tr>
+		<tr>
+			<th>存在意義・使命<br />
+			（Mission）</th>
+			<td>
+			<ul>
+				<li>地域内企業の生産性向上に貢献し、競争力を高めます。</li>
+				<li>地域や地域内企業の魅力を多くの人に届けることで、稼ぐ地域をつくります。</li>
+			</ul>
+			</td>
+		</tr>
+		<tr>
+			<th>行動基準・方針<br />
+			（Policy）</th>
+			<td>
+			<ul>
+				<li>地域情報に新たな価値を見出し最適なソリューションを提供します。</li>
+				<li>信頼性を確保するために、常に正確かつ最新の情報を提供します。</li>
+				<li>生産者、サービス・商品提供者の想いやこだわりを大切にします。</li>
+			</ul>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</section>
+
+<section class=""secArea"">
+<h3 class=""hlSecTitle"">アクセス</h3>
+<?php $this->BcBaser->googleMaps(array(""width"" => ""100%"",""height"" => 400)) ?></section>
+</div>","","","","2018-08-06 16:31:02","2017-01-05 23:06:26"
+"9","<div class=""hlTitle"">
+<h2>御品書き</h2>
+</div>
+
+<div class=""container"">
+<section class=""secArea"">
+<h3 class=""hlSecTitle"">夜のお献立</h3>
+
+<div class=""rowBox-2elem"">
+<div class=""boxInner"">
+<table class=""menuTable"">
+	<tbody>
+		<tr>
+			<th>博多地鶏の水炊き（2人前からのご注文）</th>
+			<td>2,160円</td>
+		</tr>
+		<tr>
+			<th>牛もつ鍋（みそ味、しょうゆ味）</th>
+			<td>2,160円</td>
+		</tr>
+		<tr>
+			<th>追加もつ（1人前）</th>
+			<td>980円</td>
+		</tr>
+		<tr>
+			<th>追加野菜</th>
+			<td>440円</td>
+		</tr>
+		<tr>
+			<th>とうふ</th>
+			<td>300円</td>
+		</tr>
+		<tr>
+			<th>〆のうどん</th>
+			<td>300円</td>
+		</tr>
+		<tr>
+			<th>〆の雑炊</th>
+			<td>300円</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div class=""boxInner aCenter""><img alt="""" src=""<?php $this->BcBaser->themeUrl() ?>/img/menu/pho_menu02.jpg"" /></div>
+</div>
+
+<div class=""rowBox-2elem-reverse"">
+<div class=""boxInner"">
+<table class=""menuTable"">
+	<tbody>
+		<tr>
+			<th>博多地鶏の水炊き（2人前からのご注文）</th>
+			<td>2,160円</td>
+		</tr>
+		<tr>
+			<th>牛もつ鍋（みそ味、しょうゆ味）</th>
+			<td>2,160円</td>
+		</tr>
+		<tr>
+			<th>追加もつ（1人前）</th>
+			<td>980円</td>
+		</tr>
+		<tr>
+			<th>追加野菜</th>
+			<td>440円</td>
+		</tr>
+		<tr>
+			<th>とうふ</th>
+			<td>300円</td>
+		</tr>
+		<tr>
+			<th>〆のうどん</th>
+			<td>300円</td>
+		</tr>
+		<tr>
+			<th>〆の雑炊</th>
+			<td>300円</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div class=""boxInner aCenter""><img alt="""" src=""<?php $this->BcBaser->themeUrl() ?>/img/menu/pho_menu03.jpg"" /></div>
+</div>
+</section>
+</div>","","","","2018-03-03 11:01:49","2018-02-24 15:56:21"
+"10","<div class=""hlTitle"">
+<h2>御品書き</h2>
+</div>
+
+<div class=""container"">
+<section class=""secArea"">
+<h3 class=""hlSecTitle"">お酒</h3>
+
+<table class=""menuTable rowBox-3elem"">
+	<tbody class=""boxInner"">
+		<tr>
+			<th>生ビール</th>
+			<td>540円</td>
+		</tr>
+		<tr>
+			<th>焼酎（芋・麦・米）</th>
+			<td>432円</td>
+		</tr>
+	</tbody>
+	<tbody class=""boxInner"">
+		<tr>
+			<th>日本酒（冷、熱燗）1合</th>
+			<td>540円</td>
+		</tr>
+		<tr>
+			<th>チューハイ各種</th>
+			<td>480円</td>
+		</tr>
+	</tbody>
+	<tbody class=""boxInner"">
+		<tr>
+			<th>カクテル各種</th>
+			<td>520円</td>
+		</tr>
+	</tbody>
+</table>
+</section>
+
+<section class=""secArea"">
+<h3 class=""hlSecTitle"">ソフトドリンク</h3>
+
+<table class=""menuTable rowBox-2elem"">
+	<tbody class=""boxInner"">
+		<tr>
+			<th>ウーロン茶</th>
+			<td>300円</td>
+		</tr>
+		<tr>
+			<th>コーラ</th>
+			<td>300円</td>
+		</tr>
+	</tbody>
+	<tbody class=""boxInner"">
+		<tr>
+			<th>オレンジジュース</th>
+			<td>300円</td>
+		</tr>
+		<tr>
+			<th>ノンアルコールビール</th>
+			<td>450円</td>
+		</tr>
+	</tbody>
+</table>
+</section>
+</div>","","","","2018-03-03 11:02:04","2018-02-24 15:58:26"
+"11","<div class=""hlTitle"">
+<h2>コードサンプル<br />
+<span class=""fs16-700"">- 基本コード -</span></h2>
+</div>
+
+<div class=""container"">
+<section class=""secArea"">
+<h3 class=""hlSecTitle"">基本的な固定ページのコード</h3>
+
+<pre class=""preContents"">
+<span class=""preContentsHead"">Example code</span>
+<code>&lt;div class=&quot;hlTitle&quot;&gt;
+  &lt;h2&gt;ここにタイトル&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class=&quot;container&quot;&gt;
+  &lt;section class=&quot;secArea&quot;&gt;
+    &lt;h3 class=&quot;hlSecTitle&quot;&gt;ここに見出し1&lt;/h3&gt;
+    ～ ここにコンテンツ1を入れてください ～
+  &lt;/section&gt;
+  &lt;section class=&quot;secArea&quot;&gt;
+    &lt;h3 class=&quot;hlSecTitle&quot;&gt;ここに見出し2&lt;/h3&gt;
+    ～ ここにコンテンツ2を入れてください ～
+  &lt;/section&gt;
+&lt;/div&gt;
+
+※ class=&quot;container&quot; の要素で囲むと、固定幅 1,100px で表示されます。
+タブレットおよびスマートフォンサイズでは固定幅は解除されます。</code>
+</pre>
+</section>
+</div>","","","","2018-02-27 20:30:14","2018-02-25 22:07:05"
+"12","<div class=""hlTitle"">
+		<h2>コードサンプル<br><span class=""fs16-700"">- レイアウト -</span></h2>
+	</div>
+	<div class=""container"">
+		<section class=""secArea"">
+			<h3 class=""hlSecTitle"">2要素横並び</h3>
+			<div class=""rowBox-2elem"">
+				<div class=""boxInner"">
+					<img src=""<?php $this->BcBaser->themeUrl() ?>/img/news/pho_dummy.jpg"" alt="""">
+				</div>
+				<div class=""boxInner"">
+					<p>ここにコンテンツ内容がはいります。ここにコンテンツ内容がはいります。ここにコンテンツ内容がはいります。</p>
+					<p>ここにコンテンツ内容がはいります。ここにコンテンツ内容がはいります。ここにコンテンツ内容がはいります。ここにコンテンツ内容がはいります。ここにコンテンツ内容がはいります。</p>
+					<p>ここにコンテンツ内容がはいります。ここにコンテンツ内容がはいります。ここにコンテンツ内容がはいります。ここにコンテンツ内容がはいります。ここにコンテンツ内容がはいります。</p>
+				</div>
+			</div>
+			<pre class=""preContents"">
+<span class=""preContentsHead"">Example code</span>
+<code>&lt;div class=&quot;rowBox-2elem&quot;&gt;
+  &lt;div class=&quot;boxInner&quot;&gt;
+   コンテンツ
+  &lt;/div&gt;
+  &lt;div class=&quot;boxInner&quot;&gt;
+   コンテンツ
+  &lt;/div&gt;
+&lt;/div&gt;
+
+※逆並びの場合 class=""rowBox-2elem-reverse""
+※スマホ表示のときは縦並びになります。</code>
+</pre>
+		</section>
+
+		<section class=""secArea"">
+			<h3 class=""hlSecTitle"">3要素横並び</h3>
+			<div class=""rowBox-3elem"">
+				<div class=""boxInner"">
+					<img src=""<?php $this->BcBaser->themeUrl() ?>/img/news/pho_dummy.jpg"" alt="""">
+				</div>
+				<div class=""boxInner"">
+					<img src=""<?php $this->BcBaser->themeUrl() ?>/img/news/pho_dummy.jpg"" alt="""">
+				</div>
+				<div class=""boxInner"">
+					<img src=""<?php $this->BcBaser->themeUrl() ?>/img/news/pho_dummy.jpg"" alt="""">
+				</div>
+			</div>
+			<pre class=""preContents"">
+<span class=""preContentsHead"">Example code</span>
+<code>&lt;div class=&quot;rowBox-3elem&quot;&gt;
+  &lt;div class=&quot;boxInner&quot;&gt;
+   コンテンツ
+  &lt;/div&gt;
+  &lt;div class=&quot;boxInner&quot;&gt;
+   コンテンツ
+  &lt;/div&gt;
+  &lt;div class=&quot;boxInner&quot;&gt;
+   コンテンツ
+  &lt;/div&gt;
+&lt;/div&gt;
+
+※逆並びの場合 class=""rowBox-3elem-reverse""
+※スマホ表示のときは縦並びになります。</code>
+</pre>
+		</section>
+
+		<section class=""secArea"">
+			<h3 class=""hlSecTitle"">4要素横並び</h3>
+			<div class=""rowBox-4elem"">
+				<div class=""boxInner"">
+					<img src=""<?php $this->BcBaser->themeUrl() ?>/img/news/pho_dummy.jpg"" alt="""">
+				</div>
+				<div class=""boxInner"">
+					<img src=""<?php $this->BcBaser->themeUrl() ?>/img/news/pho_dummy.jpg"" alt="""">
+				</div>
+				<div class=""boxInner"">
+					<img src=""<?php $this->BcBaser->themeUrl() ?>/img/news/pho_dummy.jpg"" alt="""">
+				</div>
+				<div class=""boxInner"">
+					<img src=""<?php $this->BcBaser->themeUrl() ?>/img/news/pho_dummy.jpg"" alt="""">
+				</div>
+			</div>
+			<pre class=""preContents"">
+<span class=""preContentsHead"">Example code</span>
+<code>&lt;div class=&quot;rowBox-4elem&quot;&gt;
+  &lt;div class=&quot;boxInner&quot;&gt;
+   コンテンツ
+  &lt;/div&gt;
+  &lt;div class=&quot;boxInner&quot;&gt;
+   コンテンツ
+  &lt;/div&gt;
+  &lt;div class=&quot;boxInner&quot;&gt;
+   コンテンツ
+  &lt;/div&gt;
+  &lt;div class=&quot;boxInner&quot;&gt;
+   コンテンツ
+  &lt;/div&gt;
+&lt;/div&gt;
+
+※逆並びの場合 class=""rowBox-4elem-reverse""
+※スマホ表示のときは縦並びになります。</code>
+</pre>
+		</section>
+
+		<section class=""secArea"">
+			<h3 class=""hlSecTitle"">横配置（左・右・中央）</h3>
+			<div class=""rowBox-3elem"">
+				<div class=""boxInner"">
+					<div class=""bgColor-grey-200"">
+						<b class=""aLeft"">class=""aLeft""</b><br>
+						左配置
+					</div>
+<pre class=""preContents"">
+<span class=""preContentsHead"">Example code</span>
+<code>&lt;div class=&quot;aLeft&quot;&gt;
+   左配置
+&lt;/div&gt;</code>
+</pre>
+				</div>
+				<div class=""boxInner"">
+					<div class=""bgColor-grey-200"">
+						<b class=""aLeft"">class=""aCenter""</b><br>
+						<div class=""aCenter"">中央配置</div>
+					</div>
+<pre class=""preContents"">
+<span class=""preContentsHead"">Example code</span>
+<code>&lt;div class=&quot;aCenter&quot;&gt;
+   中央配置
+&lt;/div&gt;</code>
+</pre>
+				</div>
+				<div class=""boxInner"">
+					<div class=""bgColor-grey-200"">
+						<b class=""aLeft"">class=""aRight""</b><br>
+						<div class=""aRight"">右配置</div>
+					</div>
+<pre class=""preContents"">
+<span class=""preContentsHead"">Example code</span>
+<code>&lt;div class=&quot;aRight&quot;&gt;
+   右配置
+&lt;/div&gt;</code>
+</pre>
+				</div>
+			</div>
+		</section>","","","","2018-02-27 20:29:57","2018-02-27 20:29:00"
+"13","<div class=""hlTitle"">
+		<h2>コードサンプル<br><span class=""fs16-700"">- 表組み -</span></h2>
+	</div>
+	<div class=""container"">
+		<section class=""secArea"">
+			<h3 class=""hlSecTitle"">基本的な表組み</h3>
+			<table class=""baseTable"">
+				<tr>
+					<th>見出し1</th>
+					<td>ここに内容が入ります</td>
+				</tr>
+				<tr>
+					<th>見出し2</th>
+					<td>ここに内容が入ります</td>
+				</tr>
+				<tr>
+					<th>見出し3</th>
+					<td>ここに内容が入ります</td>
+				</tr>
+			</table>
+<pre class=""preContents"">
+<span class=""preContentsHead"">Example code</span>
+<code>&lt;table class=&quot;baseTable&quot;&gt;
+  &lt;tr&gt;
+    &lt;th&gt;見出し1&lt;/th&gt;
+    &lt;td&gt;ここに内容が入ります&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th&gt;見出し2&lt;/th&gt;
+    &lt;td&gt;ここに内容が入ります&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th&gt;見出し3&lt;/th&gt;
+    &lt;td&gt;ここに内容が入ります&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;</code>
+</pre>
+			<br>
+			<table class=""baseTable"">
+				<tr>
+					<th>見出し1</th>
+					<th>見出し2</th>
+					<th>見出し3</th>
+				</tr>
+				<tr>
+					<td>ここに内容が入ります</td>
+					<td>ここに内容が入ります</td>
+					<td>ここに内容が入ります</td>
+				</tr>
+			</table>
+<pre class=""preContents"">
+<span class=""preContentsHead"">Example code</span>
+<code>&lt;table class=&quot;baseTable&quot;&gt;
+  &lt;tr&gt;
+    &lt;th&gt;見出し1&lt;/th&gt;
+    &lt;th&gt;見出し2&lt;/th&gt;
+    &lt;th&gt;見出し3&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;ここに内容が入ります&lt;/td&gt;
+    &lt;td&gt;ここに内容が入ります&lt;/td&gt;
+    &lt;td&gt;ここに内容が入ります&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;</code>
+</pre>
+		</section>
+		<section class=""secArea"">
+			<h3 class=""hlSecTitle"">2要素横並び（table版）</h3>
+			<table class=""menuTable rowBox-2elem"">
+				<tbody class=""boxInner"">
+					<tr>
+						<th>ウーロン茶</th>
+						<td>300円</td>
+					</tr>
+					<tr>
+						<th>コーラ</th>
+						<td>300円</td>
+					</tr>
+				</tbody>
+				<tbody class=""boxInner"">
+					<tr>
+						<th>オレンジジュース</th>
+						<td>300円</td>
+					</tr>
+					<tr>
+						<th>ノンアルコールビール</th>
+						<td>450円</td>
+					</tr>
+				</tbody>
+			</table>
+<pre class=""preContents"">
+<span class=""preContentsHead"">Example code</span>
+<code>&lt;table class=&quot;menuTable rowBox-2elem&quot;&gt;
+  &lt;tbody class=&quot;boxInner&quot;&gt;
+    &lt;tr&gt;
+        &lt;th&gt;ウーロン茶&lt;/th&gt;
+        &lt;td&gt;300円&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;th&gt;コーラ&lt;/th&gt;
+        &lt;td&gt;300円&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tbody class=&quot;boxInner&quot;&gt;
+    &lt;tr&gt;
+        &lt;th&gt;オレンジジュース&lt;/th&gt;
+        &lt;td&gt;300円&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;th&gt;ノンアルコールビール&lt;/th&gt;
+        &lt;td&gt;450円&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+※table要素に「rowBox-2elem」のクラスを付与し、子要素の tbodyに「boxInner」のクラスを付与します。
+※逆並びの場合 class=""rowBox-2elem-reverse""
+※スマホ表示のときは縦並びになります。</code>
+</pre>
+		</section>
+		
+		<section class=""secArea"">
+			<h3 class=""hlSecTitle"">3要素横並び（table版）</h3>
+			<table class=""menuTable rowBox-3elem"">
+				<tbody class=""boxInner"">
+					<tr>
+						<th>生ビール</th>
+						<td>540円</td>
+					</tr>
+					<tr>
+						<th>焼酎（芋・麦・米）</th>
+						<td>432円</td>
+					</tr>
+				</tbody>
+				<tbody class=""boxInner"">
+					<tr>
+						<th>日本酒（冷、熱燗）1合</th>
+						<td>540円</td>
+					</tr>
+					<tr>
+						<th>チューハイ各種</th>
+						<td>480円</td>
+					</tr>
+				</tbody>
+				<tbody class=""boxInner"">
+					<tr>
+						<th>カクテル各種</th>
+						<td>520円</td>
+					</tr>
+				</tbody>
+			</table>
+<pre class=""preContents"">
+<span class=""preContentsHead"">Example code</span>
+<code>&lt;table class=&quot;menuTable rowBox-3elem&quot;&gt;
+  &lt;tbody class=&quot;boxInner&quot;&gt;
+    &lt;tr&gt;
+      &lt;th&gt;生ビール&lt;/th&gt;
+      &lt;td&gt;540円&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;焼酎（芋・麦・米）&lt;/th&gt;
+      &lt;td&gt;432円&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tbody class=&quot;boxInner&quot;&gt;
+    &lt;tr&gt;
+      &lt;th&gt;日本酒（冷、熱燗）1合&lt;/th&gt;
+      &lt;td&gt;540円&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;チューハイ各種&lt;/th&gt;
+      &lt;td&gt;480円&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tbody class=&quot;boxInner&quot;&gt;
+    &lt;tr&gt;
+      &lt;th&gt;カクテル各種&lt;/th&gt;
+      &lt;td&gt;520円&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</code>
+</pre>
+		</section>
+	</div>","","","","2018-02-27 20:31:17","2018-02-27 20:30:21"
+"14","<div class=""hlTitle"">
+		<h2>コードサンプル<br><span class=""fs16-700"">- カラー -</span></h2>
+	</div>
+	<div class=""container"">
+		<section class=""secArea"">
+			<h3 class=""hlSecTitle"">カラー</h3>
+			<p class=""aCenter"">このテーマでは、 Material Design の Color palette を使用しています。<br>
+				<site class=""fs12"">参照：<a href=""https://material.io/guidelines/style/color.html#color-color-palette"" target=""_blank"">https://material.io/guidelines/style/color.html#color-color-palette</a></site></p>
+			<ul class=""colorList"">
+				<li>red
+					<ul class=""colorListSub"">
+						<li class=""bgColor-red-50"">color：class=""<b>color-red-50</b>""<br>
+							background-color：class=""<b>bgColor-red-50</b>""</li>
+						<li class=""bgColor-red-100"">color：class=""<b>color-red-100</b>""<br>
+							background-color：class=""<b>bgColor-red-100</b>""</li>
+						<li class=""bgColor-red-200"">color：class=""<b>color-red-200</b>""<br>
+							background-color：class=""<b>bgColor-red-200</b>""</li>
+						<li class=""bgColor-red-300"">color：class=""<b>color-red-300</b>""<br>
+							background-color：class=""<b>bgColor-red-300</b>""</li>
+						<li class=""bgColor-red-400"">color：class=""<b>color-red-400</b>""<br>
+							background-color：class=""<b>bgColor-red-400</b>""</li>
+						<li class=""bgColor-red-500"">color：class=""<b>color-red-500</b>""<br>
+							background-color：class=""<b>bgColor-red-500</b>""</li>
+						<li class=""bgColor-red-600"">color：class=""<b>color-red-600</b>""<br>
+							background-color：class=""<b>bgColor-red-600</b>""</li>
+						<li class=""bgColor-red-700"">color：class=""<b>color-red-700</b>""<br>
+							background-color：class=""<b>bgColor-red-700</b>""</li>
+						<li class=""bgColor-red-800"">color：class=""<b>color-red-800</b>""<br>
+							background-color：class=""<b>bgColor-red-800</b>""</li>
+						<li class=""bgColor-red-900"">color：class=""<b>color-red-900</b>""<br>
+							background-color：class=""<b>bgColor-red-900</b>""</li>
+						<li class=""bgColor-red-a100"">color：class=""<b>color-red-a100</b>""<br>
+							background-color：class=""<b>bgColor-red-a100</b>""</li>
+						<li class=""bgColor-red-a200"">color：class=""<b>color-red-a200""</b><br>
+							background-color：class=""<b>bgColor-red-a200</b>""</li>
+						<li class=""bgColor-red-a400"">color：class=""<b>color-red-a400</b>""<br>
+							background-color：class=""<b>bgColor-red-a400</b>""</li>
+						<li class=""bgColor-red-a700"">color：class=""<b>color-red-a700</b>""<br>
+							background-color：class=""<b>bgColor-red-a700</b>""</li>
+					</ul>
+				</li>
+				<li>pink
+					<ul class=""colorListSub"">
+						<li class=""bgColor-pink-50"">color：class=""<b>color-pink-50</b>""<br>
+							background-color：class=""<b>bgColor-pink-50</b>""</li>
+						<li class=""bgColor-pink-100"">color：class=""<b>color-pink-100</b>""<br>
+							background-color：class=""<b>bgColor-pink-100</b>""</li>
+						<li class=""bgColor-pink-200"">color：class=""<b>color-pink-200</b>""<br>
+							background-color：class=""<b>bgColor-pink-200</b>""</li>
+						<li class=""bgColor-pink-300"">color：class=""<b>color-pink-300</b>""<br>
+							background-color：class=""<b>bgColor-pink-300</b>""</li>
+						<li class=""bgColor-pink-400"">color：class=""<b>color-pink-400</b>""<br>
+							background-color：class=""<b>bgColor-pink-400</b>""</li>
+						<li class=""bgColor-pink-500"">color：class=""<b>color-pink-500</b>""<br>
+							background-color：class=""<b>bgColor-pink-500</b>""</li>
+						<li class=""bgColor-pink-600"">color：class=""<b>color-pink-600</b>""<br>
+							background-color：class=""<b>bgColor-pink-600</b>""</li>
+						<li class=""bgColor-pink-700"">color：class=""<b>color-pink-700</b>""<br>
+							background-color：class=""<b>bgColor-pink-700</b>""</li>
+						<li class=""bgColor-pink-800"">color：class=""<b>color-pink-800</b>""<br>
+							background-color：class=""<b>bgColor-pink-800</b>""</li>
+						<li class=""bgColor-pink-900"">color：class=""<b>color-pink-900</b>""<br>
+							background-color：class=""<b>bgColor-pink-900</b>""</li>
+						<li class=""bgColor-pink-a100"">color：class=""<b>color-pink-a100</b>""<br>
+							background-color：class=""<b>bgColor-pink-a100</b>""</li>
+						<li class=""bgColor-pink-a200"">color：class=""<b>color-pink-a200""</b><br>
+							background-color：class=""<b>bgColor-pink-a200</b>""</li>
+						<li class=""bgColor-pink-a400"">color：class=""<b>color-pink-a400</b>""<br>
+							background-color：class=""<b>bgColor-pink-a400</b>""</li>
+						<li class=""bgColor-pink-a700"">color：class=""<b>color-pink-a700</b>""<br>
+							background-color：class=""<b>bgColor-pink-a700</b>""</li>
+					</ul>
+				</li>
+				<li>purple
+					<ul class=""colorListSub"">
+						<li class=""bgColor-purple-50"">color：class=""<b>color-purple-50</b>""<br>
+							background-color：class=""<b>bgColor-purple-50</b>""</li>
+						<li class=""bgColor-purple-100"">color：class=""<b>color-purple-100</b>""<br>
+							background-color：class=""<b>bgColor-purple-100</b>""</li>
+						<li class=""bgColor-purple-200"">color：class=""<b>color-purple-200</b>""<br>
+							background-color：class=""<b>bgColor-purple-200</b>""</li>
+						<li class=""bgColor-purple-300"">color：class=""<b>color-purple-300</b>""<br>
+							background-color：class=""<b>bgColor-purple-300</b>""</li>
+						<li class=""bgColor-purple-400"">color：class=""<b>color-purple-400</b>""<br>
+							background-color：class=""<b>bgColor-purple-400</b>""</li>
+						<li class=""bgColor-purple-500"">color：class=""<b>color-purple-500</b>""<br>
+							background-color：class=""<b>bgColor-purple-500</b>""</li>
+						<li class=""bgColor-purple-600"">color：class=""<b>color-purple-600</b>""<br>
+							background-color：class=""<b>bgColor-purple-600</b>""</li>
+						<li class=""bgColor-purple-700"">color：class=""<b>color-purple-700</b>""<br>
+							background-color：class=""<b>bgColor-purple-700</b>""</li>
+						<li class=""bgColor-purple-800"">color：class=""<b>color-purple-800</b>""<br>
+							background-color：class=""<b>bgColor-purple-800</b>""</li>
+						<li class=""bgColor-purple-900"">color：class=""<b>color-purple-900</b>""<br>
+							background-color：class=""<b>bgColor-purple-900</b>""</li>
+						<li class=""bgColor-purple-a100"">color：class=""<b>color-purple-a100</b>""<br>
+							background-color：class=""<b>bgColor-purple-a100</b>""</li>
+						<li class=""bgColor-purple-a200"">color：class=""<b>color-purple-a200""</b><br>
+							background-color：class=""<b>bgColor-purple-a200</b>""</li>
+						<li class=""bgColor-purple-a400"">color：class=""<b>color-purple-a400</b>""<br>
+							background-color：class=""<b>bgColor-purple-a400</b>""</li>
+						<li class=""bgColor-purple-a700"">color：class=""<b>color-purple-a700</b>""<br>
+							background-color：class=""<b>bgColor-purple-a700</b>""</li>
+					</ul>
+				</li>
+				<li>deep-purple
+					<ul class=""colorListSub"">
+						<li class=""bgColor-deep-purple-50"">color：class=""<b>color-deep-purple-50</b>""<br>
+							background-color：class=""<b>bgColor-deep-purple-50</b>""</li>
+						<li class=""bgColor-deep-purple-100"">color：class=""<b>color-deep-purple-100</b>""<br>
+							background-color：class=""<b>bgColor-deep-purple-100</b>""</li>
+						<li class=""bgColor-deep-purple-200"">color：class=""<b>color-deep-purple-200</b>""<br>
+							background-color：class=""<b>bgColor-deep-purple-200</b>""</li>
+						<li class=""bgColor-deep-purple-300"">color：class=""<b>color-deep-purple-300</b>""<br>
+							background-color：class=""<b>bgColor-deep-purple-300</b>""</li>
+						<li class=""bgColor-deep-purple-400"">color：class=""<b>color-deep-purple-400</b>""<br>
+							background-color：class=""<b>bgColor-deep-purple-400</b>""</li>
+						<li class=""bgColor-deep-purple-500"">color：class=""<b>color-deep-purple-500</b>""<br>
+							background-color：class=""<b>bgColor-deep-purple-500</b>""</li>
+						<li class=""bgColor-deep-purple-600"">color：class=""<b>color-deep-purple-600</b>""<br>
+							background-color：class=""<b>bgColor-deep-purple-600</b>""</li>
+						<li class=""bgColor-deep-purple-700"">color：class=""<b>color-deep-purple-700</b>""<br>
+							background-color：class=""<b>bgColor-deep-purple-700</b>""</li>
+						<li class=""bgColor-deep-purple-800"">color：class=""<b>color-deep-purple-800</b>""<br>
+							background-color：class=""<b>bgColor-deep-purple-800</b>""</li>
+						<li class=""bgColor-deep-purple-900"">color：class=""<b>color-deep-purple-900</b>""<br>
+							background-color：class=""<b>bgColor-deep-purple-900</b>""</li>
+						<li class=""bgColor-deep-purple-a100"">color：class=""<b>color-deep-purple-a100</b>""<br>
+							background-color：class=""<b>bgColor-deep-purple-a100</b>""</li>
+						<li class=""bgColor-deep-purple-a200"">color：class=""<b>color-deep-purple-a200""</b><br>
+							background-color：class=""<b>bgColor-deep-purple-a200</b>""</li>
+						<li class=""bgColor-deep-purple-a400"">color：class=""<b>color-deep-purple-a400</b>""<br>
+							background-color：class=""<b>bgColor-deep-purple-a400</b>""</li>
+						<li class=""bgColor-deep-purple-a700"">color：class=""<b>color-deep-purple-a700</b>""<br>
+							background-color：class=""<b>bgColor-deep-purple-a700</b>""</li>
+					</ul>
+				</li>
+				<li>indigo
+					<ul class=""colorListSub"">
+						<li class=""bgColor-indigo-50"">color：class=""<b>color-indigo-50</b>""<br>
+							background-color：class=""<b>bgColor-indigo-50</b>""</li>
+						<li class=""bgColor-indigo-100"">color：class=""<b>color-indigo-100</b>""<br>
+							background-color：class=""<b>bgColor-indigo-100</b>""</li>
+						<li class=""bgColor-indigo-200"">color：class=""<b>color-indigo-200</b>""<br>
+							background-color：class=""<b>bgColor-indigo-200</b>""</li>
+						<li class=""bgColor-indigo-300"">color：class=""<b>color-indigo-300</b>""<br>
+							background-color：class=""<b>bgColor-indigo-300</b>""</li>
+						<li class=""bgColor-indigo-400"">color：class=""<b>color-indigo-400</b>""<br>
+							background-color：class=""<b>bgColor-indigo-400</b>""</li>
+						<li class=""bgColor-indigo-500"">color：class=""<b>color-indigo-500</b>""<br>
+							background-color：class=""<b>bgColor-indigo-500</b>""</li>
+						<li class=""bgColor-indigo-600"">color：class=""<b>color-indigo-600</b>""<br>
+							background-color：class=""<b>bgColor-indigo-600</b>""</li>
+						<li class=""bgColor-indigo-700"">color：class=""<b>color-indigo-700</b>""<br>
+							background-color：class=""<b>bgColor-indigo-700</b>""</li>
+						<li class=""bgColor-indigo-800"">color：class=""<b>color-indigo-800</b>""<br>
+							background-color：class=""<b>bgColor-indigo-800</b>""</li>
+						<li class=""bgColor-indigo-900"">color：class=""<b>color-indigo-900</b>""<br>
+							background-color：class=""<b>bgColor-indigo-900</b>""</li>
+						<li class=""bgColor-indigo-a100"">color：class=""<b>color-indigo-a100</b>""<br>
+							background-color：class=""<b>bgColor-indigo-a100</b>""</li>
+						<li class=""bgColor-indigo-a200"">color：class=""<b>color-indigo-a200""</b><br>
+							background-color：class=""<b>bgColor-indigo-a200</b>""</li>
+						<li class=""bgColor-indigo-a400"">color：class=""<b>color-indigo-a400</b>""<br>
+							background-color：class=""<b>bgColor-indigo-a400</b>""</li>
+						<li class=""bgColor-indigo-a700"">color：class=""<b>color-indigo-a700</b>""<br>
+							background-color：class=""<b>bgColor-indigo-a700</b>""</li>
+					</ul>
+				</li>
+				<li>blue
+					<ul class=""colorListSub"">
+						<li class=""bgColor-blue-50"">color：class=""<b>color-blue-50</b>""<br>
+							background-color：class=""<b>bgColor-blue-50</b>""</li>
+						<li class=""bgColor-blue-100"">color：class=""<b>color-blue-100</b>""<br>
+							background-color：class=""<b>bgColor-blue-100</b>""</li>
+						<li class=""bgColor-blue-200"">color：class=""<b>color-blue-200</b>""<br>
+							background-color：class=""<b>bgColor-blue-200</b>""</li>
+						<li class=""bgColor-blue-300"">color：class=""<b>color-blue-300</b>""<br>
+							background-color：class=""<b>bgColor-blue-300</b>""</li>
+						<li class=""bgColor-blue-400"">color：class=""<b>color-blue-400</b>""<br>
+							background-color：class=""<b>bgColor-blue-400</b>""</li>
+						<li class=""bgColor-blue-500"">color：class=""<b>color-blue-500</b>""<br>
+							background-color：class=""<b>bgColor-blue-500</b>""</li>
+						<li class=""bgColor-blue-600"">color：class=""<b>color-blue-600</b>""<br>
+							background-color：class=""<b>bgColor-blue-600</b>""</li>
+						<li class=""bgColor-blue-700"">color：class=""<b>color-blue-700</b>""<br>
+							background-color：class=""<b>bgColor-blue-700</b>""</li>
+						<li class=""bgColor-blue-800"">color：class=""<b>color-blue-800</b>""<br>
+							background-color：class=""<b>bgColor-blue-800</b>""</li>
+						<li class=""bgColor-blue-900"">color：class=""<b>color-blue-900</b>""<br>
+							background-color：class=""<b>bgColor-blue-900</b>""</li>
+						<li class=""bgColor-blue-a100"">color：class=""<b>color-blue-a100</b>""<br>
+							background-color：class=""<b>bgColor-blue-a100</b>""</li>
+						<li class=""bgColor-blue-a200"">color：class=""<b>color-blue-a200""</b><br>
+							background-color：class=""<b>bgColor-blue-a200</b>""</li>
+						<li class=""bgColor-blue-a400"">color：class=""<b>color-blue-a400</b>""<br>
+							background-color：class=""<b>bgColor-blue-a400</b>""</li>
+						<li class=""bgColor-blue-a700"">color：class=""<b>color-blue-a700</b>""<br>
+							background-color：class=""<b>bgColor-blue-a700</b>""</li>
+					</ul>
+				</li>
+				<li>light-blue
+					<ul class=""colorListSub"">
+						<li class=""bgColor-light-blue-50"">color：class=""<b>color-light-blue-50</b>""<br>
+							background-color：class=""<b>bgColor-light-blue-50</b>""</li>
+						<li class=""bgColor-light-blue-100"">color：class=""<b>color-light-blue-100</b>""<br>
+							background-color：class=""<b>bgColor-light-blue-100</b>""</li>
+						<li class=""bgColor-light-blue-200"">color：class=""<b>color-light-blue-200</b>""<br>
+							background-color：class=""<b>bgColor-light-blue-200</b>""</li>
+						<li class=""bgColor-light-blue-300"">color：class=""<b>color-light-blue-300</b>""<br>
+							background-color：class=""<b>bgColor-light-blue-300</b>""</li>
+						<li class=""bgColor-light-blue-400"">color：class=""<b>color-light-blue-400</b>""<br>
+							background-color：class=""<b>bgColor-light-blue-400</b>""</li>
+						<li class=""bgColor-light-blue-500"">color：class=""<b>color-light-blue-500</b>""<br>
+							background-color：class=""<b>bgColor-light-blue-500</b>""</li>
+						<li class=""bgColor-light-blue-600"">color：class=""<b>color-light-blue-600</b>""<br>
+							background-color：class=""<b>bgColor-light-blue-600</b>""</li>
+						<li class=""bgColor-light-blue-700"">color：class=""<b>color-light-blue-700</b>""<br>
+							background-color：class=""<b>bgColor-light-blue-700</b>""</li>
+						<li class=""bgColor-light-blue-800"">color：class=""<b>color-light-blue-800</b>""<br>
+							background-color：class=""<b>bgColor-light-blue-800</b>""</li>
+						<li class=""bgColor-light-blue-900"">color：class=""<b>color-light-blue-900</b>""<br>
+							background-color：class=""<b>bgColor-light-blue-900</b>""</li>
+						<li class=""bgColor-light-blue-a100"">color：class=""<b>color-light-blue-a100</b>""<br>
+							background-color：class=""<b>bgColor-light-blue-a100</b>""</li>
+						<li class=""bgColor-light-blue-a200"">color：class=""<b>color-light-blue-a200""</b><br>
+							background-color：class=""<b>bgColor-light-blue-a200</b>""</li>
+						<li class=""bgColor-light-blue-a400"">color：class=""<b>color-light-blue-a400</b>""<br>
+							background-color：class=""<b>bgColor-light-blue-a400</b>""</li>
+						<li class=""bgColor-light-blue-a700"">color：class=""<b>color-light-blue-a700</b>""<br>
+							background-color：class=""<b>bgColor-light-blue-a700</b>""</li>
+					</ul>
+				</li>
+				<li>cyan
+					<ul class=""colorListSub"">
+						<li class=""bgColor-cyan-50"">color：class=""<b>color-cyan-50</b>""<br>
+							background-color：class=""<b>bgColor-cyan-50</b>""</li>
+						<li class=""bgColor-cyan-100"">color：class=""<b>color-cyan-100</b>""<br>
+							background-color：class=""<b>bgColor-cyan-100</b>""</li>
+						<li class=""bgColor-cyan-200"">color：class=""<b>color-cyan-200</b>""<br>
+							background-color：class=""<b>bgColor-cyan-200</b>""</li>
+						<li class=""bgColor-cyan-300"">color：class=""<b>color-cyan-300</b>""<br>
+							background-color：class=""<b>bgColor-cyan-300</b>""</li>
+						<li class=""bgColor-cyan-400"">color：class=""<b>color-cyan-400</b>""<br>
+							background-color：class=""<b>bgColor-cyan-400</b>""</li>
+						<li class=""bgColor-cyan-500"">color：class=""<b>color-cyan-500</b>""<br>
+							background-color：class=""<b>bgColor-cyan-500</b>""</li>
+						<li class=""bgColor-cyan-600"">color：class=""<b>color-cyan-600</b>""<br>
+							background-color：class=""<b>bgColor-cyan-600</b>""</li>
+						<li class=""bgColor-cyan-700"">color：class=""<b>color-cyan-700</b>""<br>
+							background-color：class=""<b>bgColor-cyan-700</b>""</li>
+						<li class=""bgColor-cyan-800"">color：class=""<b>color-cyan-800</b>""<br>
+							background-color：class=""<b>bgColor-cyan-800</b>""</li>
+						<li class=""bgColor-cyan-900"">color：class=""<b>color-cyan-900</b>""<br>
+							background-color：class=""<b>bgColor-cyan-900</b>""</li>
+						<li class=""bgColor-cyan-a100"">color：class=""<b>color-cyan-a100</b>""<br>
+							background-color：class=""<b>bgColor-cyan-a100</b>""</li>
+						<li class=""bgColor-cyan-a200"">color：class=""<b>color-cyan-a200""</b><br>
+							background-color：class=""<b>bgColor-cyan-a200</b>""</li>
+						<li class=""bgColor-cyan-a400"">color：class=""<b>color-cyan-a400</b>""<br>
+							background-color：class=""<b>bgColor-cyan-a400</b>""</li>
+						<li class=""bgColor-cyan-a700"">color：class=""<b>color-cyan-a700</b>""<br>
+							background-color：class=""<b>bgColor-cyan-a700</b>""</li>
+					</ul>
+				</li>
+				<li>teal
+					<ul class=""colorListSub"">
+						<li class=""bgColor-teal-50"">color：class=""<b>color-teal-50</b>""<br>
+							background-color：class=""<b>bgColor-teal-50</b>""</li>
+						<li class=""bgColor-teal-100"">color：class=""<b>color-teal-100</b>""<br>
+							background-color：class=""<b>bgColor-teal-100</b>""</li>
+						<li class=""bgColor-teal-200"">color：class=""<b>color-teal-200</b>""<br>
+							background-color：class=""<b>bgColor-teal-200</b>""</li>
+						<li class=""bgColor-teal-300"">color：class=""<b>color-teal-300</b>""<br>
+							background-color：class=""<b>bgColor-teal-300</b>""</li>
+						<li class=""bgColor-teal-400"">color：class=""<b>color-teal-400</b>""<br>
+							background-color：class=""<b>bgColor-teal-400</b>""</li>
+						<li class=""bgColor-teal-500"">color：class=""<b>color-teal-500</b>""<br>
+							background-color：class=""<b>bgColor-teal-500</b>""</li>
+						<li class=""bgColor-teal-600"">color：class=""<b>color-teal-600</b>""<br>
+							background-color：class=""<b>bgColor-teal-600</b>""</li>
+						<li class=""bgColor-teal-700"">color：class=""<b>color-teal-700</b>""<br>
+							background-color：class=""<b>bgColor-teal-700</b>""</li>
+						<li class=""bgColor-teal-800"">color：class=""<b>color-teal-800</b>""<br>
+							background-color：class=""<b>bgColor-teal-800</b>""</li>
+						<li class=""bgColor-teal-900"">color：class=""<b>color-teal-900</b>""<br>
+							background-color：class=""<b>bgColor-teal-900</b>""</li>
+						<li class=""bgColor-teal-a100"">color：class=""<b>color-teal-a100</b>""<br>
+							background-color：class=""<b>bgColor-teal-a100</b>""</li>
+						<li class=""bgColor-teal-a200"">color：class=""<b>color-teal-a200""</b><br>
+							background-color：class=""<b>bgColor-teal-a200</b>""</li>
+						<li class=""bgColor-teal-a400"">color：class=""<b>color-teal-a400</b>""<br>
+							background-color：class=""<b>bgColor-teal-a400</b>""</li>
+						<li class=""bgColor-teal-a700"">color：class=""<b>color-teal-a700</b>""<br>
+							background-color：class=""<b>bgColor-teal-a700</b>""</li>
+					</ul>
+				</li>
+				<li>green
+					<ul class=""colorListSub"">
+						<li class=""bgColor-green-50"">color：class=""<b>color-green-50</b>""<br>
+							background-color：class=""<b>bgColor-green-50</b>""</li>
+						<li class=""bgColor-green-100"">color：class=""<b>color-green-100</b>""<br>
+							background-color：class=""<b>bgColor-green-100</b>""</li>
+						<li class=""bgColor-green-200"">color：class=""<b>color-green-200</b>""<br>
+							background-color：class=""<b>bgColor-green-200</b>""</li>
+						<li class=""bgColor-green-300"">color：class=""<b>color-green-300</b>""<br>
+							background-color：class=""<b>bgColor-green-300</b>""</li>
+						<li class=""bgColor-green-400"">color：class=""<b>color-green-400</b>""<br>
+							background-color：class=""<b>bgColor-green-400</b>""</li>
+						<li class=""bgColor-green-500"">color：class=""<b>color-green-500</b>""<br>
+							background-color：class=""<b>bgColor-green-500</b>""</li>
+						<li class=""bgColor-green-600"">color：class=""<b>color-green-600</b>""<br>
+							background-color：class=""<b>bgColor-green-600</b>""</li>
+						<li class=""bgColor-green-700"">color：class=""<b>color-green-700</b>""<br>
+							background-color：class=""<b>bgColor-green-700</b>""</li>
+						<li class=""bgColor-green-800"">color：class=""<b>color-green-800</b>""<br>
+							background-color：class=""<b>bgColor-green-800</b>""</li>
+						<li class=""bgColor-green-900"">color：class=""<b>color-green-900</b>""<br>
+							background-color：class=""<b>bgColor-green-900</b>""</li>
+						<li class=""bgColor-green-a100"">color：class=""<b>color-green-a100</b>""<br>
+							background-color：class=""<b>bgColor-green-a100</b>""</li>
+						<li class=""bgColor-green-a200"">color：class=""<b>color-green-a200""</b><br>
+							background-color：class=""<b>bgColor-green-a200</b>""</li>
+						<li class=""bgColor-green-a400"">color：class=""<b>color-green-a400</b>""<br>
+							background-color：class=""<b>bgColor-green-a400</b>""</li>
+						<li class=""bgColor-green-a700"">color：class=""<b>color-green-a700</b>""<br>
+							background-color：class=""<b>bgColor-green-a700</b>""</li>
+					</ul>
+				</li>
+				<li>light-green
+					<ul class=""colorListSub"">
+						<li class=""bgColor-light-green-50"">color：class=""<b>color-light-green-50</b>""<br>
+							background-color：class=""<b>bgColor-light-green-50</b>""</li>
+						<li class=""bgColor-light-green-100"">color：class=""<b>color-light-green-100</b>""<br>
+							background-color：class=""<b>bgColor-light-green-100</b>""</li>
+						<li class=""bgColor-light-green-200"">color：class=""<b>color-light-green-200</b>""<br>
+							background-color：class=""<b>bgColor-light-green-200</b>""</li>
+						<li class=""bgColor-light-green-300"">color：class=""<b>color-light-green-300</b>""<br>
+							background-color：class=""<b>bgColor-light-green-300</b>""</li>
+						<li class=""bgColor-light-green-400"">color：class=""<b>color-light-green-400</b>""<br>
+							background-color：class=""<b>bgColor-light-green-400</b>""</li>
+						<li class=""bgColor-light-green-500"">color：class=""<b>color-light-green-500</b>""<br>
+							background-color：class=""<b>bgColor-light-green-500</b>""</li>
+						<li class=""bgColor-light-green-600"">color：class=""<b>color-light-green-600</b>""<br>
+							background-color：class=""<b>bgColor-light-green-600</b>""</li>
+						<li class=""bgColor-light-green-700"">color：class=""<b>color-light-green-700</b>""<br>
+							background-color：class=""<b>bgColor-light-green-700</b>""</li>
+						<li class=""bgColor-light-green-800"">color：class=""<b>color-light-green-800</b>""<br>
+							background-color：class=""<b>bgColor-light-green-800</b>""</li>
+						<li class=""bgColor-light-green-900"">color：class=""<b>color-light-green-900</b>""<br>
+							background-color：class=""<b>bgColor-light-green-900</b>""</li>
+						<li class=""bgColor-light-green-a100"">color：class=""<b>color-light-green-a100</b>""<br>
+							background-color：class=""<b>bgColor-light-green-a100</b>""</li>
+						<li class=""bgColor-light-green-a200"">color：class=""<b>color-light-green-a200""</b><br>
+							background-color：class=""<b>bgColor-light-green-a200</b>""</li>
+						<li class=""bgColor-light-green-a400"">color：class=""<b>color-light-green-a400</b>""<br>
+							background-color：class=""<b>bgColor-light-green-a400</b>""</li>
+						<li class=""bgColor-light-green-a700"">color：class=""<b>color-light-green-a700</b>""<br>
+							background-color：class=""<b>bgColor-light-green-a700</b>""</li>
+					</ul>
+				</li>
+				<li>lime
+					<ul class=""colorListSub"">
+						<li class=""bgColor-lime-50"">color：class=""<b>color-lime-50</b>""<br>
+							background-color：class=""<b>bgColor-lime-50</b>""</li>
+						<li class=""bgColor-lime-100"">color：class=""<b>color-lime-100</b>""<br>
+							background-color：class=""<b>bgColor-lime-100</b>""</li>
+						<li class=""bgColor-lime-200"">color：class=""<b>color-lime-200</b>""<br>
+							background-color：class=""<b>bgColor-lime-200</b>""</li>
+						<li class=""bgColor-lime-300"">color：class=""<b>color-lime-300</b>""<br>
+							background-color：class=""<b>bgColor-lime-300</b>""</li>
+						<li class=""bgColor-lime-400"">color：class=""<b>color-lime-400</b>""<br>
+							background-color：class=""<b>bgColor-lime-400</b>""</li>
+						<li class=""bgColor-lime-500"">color：class=""<b>color-lime-500</b>""<br>
+							background-color：class=""<b>bgColor-lime-500</b>""</li>
+						<li class=""bgColor-lime-600"">color：class=""<b>color-lime-600</b>""<br>
+							background-color：class=""<b>bgColor-lime-600</b>""</li>
+						<li class=""bgColor-lime-700"">color：class=""<b>color-lime-700</b>""<br>
+							background-color：class=""<b>bgColor-lime-700</b>""</li>
+						<li class=""bgColor-lime-800"">color：class=""<b>color-lime-800</b>""<br>
+							background-color：class=""<b>bgColor-lime-800</b>""</li>
+						<li class=""bgColor-lime-900"">color：class=""<b>color-lime-900</b>""<br>
+							background-color：class=""<b>bgColor-lime-900</b>""</li>
+						<li class=""bgColor-lime-a100"">color：class=""<b>color-lime-a100</b>""<br>
+							background-color：class=""<b>bgColor-lime-a100</b>""</li>
+						<li class=""bgColor-lime-a200"">color：class=""<b>color-lime-a200""</b><br>
+							background-color：class=""<b>bgColor-lime-a200</b>""</li>
+						<li class=""bgColor-lime-a400"">color：class=""<b>color-lime-a400</b>""<br>
+							background-color：class=""<b>bgColor-lime-a400</b>""</li>
+						<li class=""bgColor-lime-a700"">color：class=""<b>color-lime-a700</b>""<br>
+							background-color：class=""<b>bgColor-lime-a700</b>""</li>
+					</ul>
+				</li>
+				<li>yellow
+					<ul class=""colorListSub"">
+						<li class=""bgColor-yellow-50"">color：class=""<b>color-yellow-50</b>""<br>
+							background-color：class=""<b>bgColor-yellow-50</b>""</li>
+						<li class=""bgColor-yellow-100"">color：class=""<b>color-yellow-100</b>""<br>
+							background-color：class=""<b>bgColor-yellow-100</b>""</li>
+						<li class=""bgColor-yellow-200"">color：class=""<b>color-yellow-200</b>""<br>
+							background-color：class=""<b>bgColor-yellow-200</b>""</li>
+						<li class=""bgColor-yellow-300"">color：class=""<b>color-yellow-300</b>""<br>
+							background-color：class=""<b>bgColor-yellow-300</b>""</li>
+						<li class=""bgColor-yellow-400"">color：class=""<b>color-yellow-400</b>""<br>
+							background-color：class=""<b>bgColor-yellow-400</b>""</li>
+						<li class=""bgColor-yellow-500"">color：class=""<b>color-yellow-500</b>""<br>
+							background-color：class=""<b>bgColor-yellow-500</b>""</li>
+						<li class=""bgColor-yellow-600"">color：class=""<b>color-yellow-600</b>""<br>
+							background-color：class=""<b>bgColor-yellow-600</b>""</li>
+						<li class=""bgColor-yellow-700"">color：class=""<b>color-yellow-700</b>""<br>
+							background-color：class=""<b>bgColor-yellow-700</b>""</li>
+						<li class=""bgColor-yellow-800"">color：class=""<b>color-yellow-800</b>""<br>
+							background-color：class=""<b>bgColor-yellow-800</b>""</li>
+						<li class=""bgColor-yellow-900"">color：class=""<b>color-yellow-900</b>""<br>
+							background-color：class=""<b>bgColor-yellow-900</b>""</li>
+						<li class=""bgColor-yellow-a100"">color：class=""<b>color-yellow-a100</b>""<br>
+							background-color：class=""<b>bgColor-yellow-a100</b>""</li>
+						<li class=""bgColor-yellow-a200"">color：class=""<b>color-yellow-a200""</b><br>
+							background-color：class=""<b>bgColor-yellow-a200</b>""</li>
+						<li class=""bgColor-yellow-a400"">color：class=""<b>color-yellow-a400</b>""<br>
+							background-color：class=""<b>bgColor-yellow-a400</b>""</li>
+						<li class=""bgColor-yellow-a700"">color：class=""<b>color-yellow-a700</b>""<br>
+							background-color：class=""<b>bgColor-yellow-a700</b>""</li>
+					</ul>
+				</li>
+				<li>amber
+					<ul class=""colorListSub"">
+						<li class=""bgColor-amber-50"">color：class=""<b>color-amber-50</b>""<br>
+							background-color：class=""<b>bgColor-amber-50</b>""</li>
+						<li class=""bgColor-amber-100"">color：class=""<b>color-amber-100</b>""<br>
+							background-color：class=""<b>bgColor-amber-100</b>""</li>
+						<li class=""bgColor-amber-200"">color：class=""<b>color-amber-200</b>""<br>
+							background-color：class=""<b>bgColor-amber-200</b>""</li>
+						<li class=""bgColor-amber-300"">color：class=""<b>color-amber-300</b>""<br>
+							background-color：class=""<b>bgColor-amber-300</b>""</li>
+						<li class=""bgColor-amber-400"">color：class=""<b>color-amber-400</b>""<br>
+							background-color：class=""<b>bgColor-amber-400</b>""</li>
+						<li class=""bgColor-amber-500"">color：class=""<b>color-amber-500</b>""<br>
+							background-color：class=""<b>bgColor-amber-500</b>""</li>
+						<li class=""bgColor-amber-600"">color：class=""<b>color-amber-600</b>""<br>
+							background-color：class=""<b>bgColor-amber-600</b>""</li>
+						<li class=""bgColor-amber-700"">color：class=""<b>color-amber-700</b>""<br>
+							background-color：class=""<b>bgColor-amber-700</b>""</li>
+						<li class=""bgColor-amber-800"">color：class=""<b>color-amber-800</b>""<br>
+							background-color：class=""<b>bgColor-amber-800</b>""</li>
+						<li class=""bgColor-amber-900"">color：class=""<b>color-amber-900</b>""<br>
+							background-color：class=""<b>bgColor-amber-900</b>""</li>
+						<li class=""bgColor-amber-a100"">color：class=""<b>color-amber-a100</b>""<br>
+							background-color：class=""<b>bgColor-amber-a100</b>""</li>
+						<li class=""bgColor-amber-a200"">color：class=""<b>color-amber-a200""</b><br>
+							background-color：class=""<b>bgColor-amber-a200</b>""</li>
+						<li class=""bgColor-amber-a400"">color：class=""<b>color-amber-a400</b>""<br>
+							background-color：class=""<b>bgColor-amber-a400</b>""</li>
+						<li class=""bgColor-amber-a700"">color：class=""<b>color-amber-a700</b>""<br>
+							background-color：class=""<b>bgColor-amber-a700</b>""</li>
+					</ul>
+				</li>
+				<li>orange
+					<ul class=""colorListSub"">
+						<li class=""bgColor-orange-50"">color：class=""<b>color-orange-50</b>""<br>
+							background-color：class=""<b>bgColor-orange-50</b>""</li>
+						<li class=""bgColor-orange-100"">color：class=""<b>color-orange-100</b>""<br>
+							background-color：class=""<b>bgColor-orange-100</b>""</li>
+						<li class=""bgColor-orange-200"">color：class=""<b>color-orange-200</b>""<br>
+							background-color：class=""<b>bgColor-orange-200</b>""</li>
+						<li class=""bgColor-orange-300"">color：class=""<b>color-orange-300</b>""<br>
+							background-color：class=""<b>bgColor-orange-300</b>""</li>
+						<li class=""bgColor-orange-400"">color：class=""<b>color-orange-400</b>""<br>
+							background-color：class=""<b>bgColor-orange-400</b>""</li>
+						<li class=""bgColor-orange-500"">color：class=""<b>color-orange-500</b>""<br>
+							background-color：class=""<b>bgColor-orange-500</b>""</li>
+						<li class=""bgColor-orange-600"">color：class=""<b>color-orange-600</b>""<br>
+							background-color：class=""<b>bgColor-orange-600</b>""</li>
+						<li class=""bgColor-orange-700"">color：class=""<b>color-orange-700</b>""<br>
+							background-color：class=""<b>bgColor-orange-700</b>""</li>
+						<li class=""bgColor-orange-800"">color：class=""<b>color-orange-800</b>""<br>
+							background-color：class=""<b>bgColor-orange-800</b>""</li>
+						<li class=""bgColor-orange-900"">color：class=""<b>color-orange-900</b>""<br>
+							background-color：class=""<b>bgColor-orange-900</b>""</li>
+						<li class=""bgColor-orange-a100"">color：class=""<b>color-orange-a100</b>""<br>
+							background-color：class=""<b>bgColor-orange-a100</b>""</li>
+						<li class=""bgColor-orange-a200"">color：class=""<b>color-orange-a200""</b><br>
+							background-color：class=""<b>bgColor-orange-a200</b>""</li>
+						<li class=""bgColor-orange-a400"">color：class=""<b>color-orange-a400</b>""<br>
+							background-color：class=""<b>bgColor-orange-a400</b>""</li>
+						<li class=""bgColor-orange-a700"">color：class=""<b>color-orange-a700</b>""<br>
+							background-color：class=""<b>bgColor-orange-a700</b>""</li>
+					</ul>
+				</li>
+				<li>deep-orange
+					<ul class=""colorListSub"">
+						<li class=""bgColor-deep-orange-50"">color：class=""<b>color-deep-orange-50</b>""<br>
+							background-color：class=""<b>bgColor-deep-orange-50</b>""</li>
+						<li class=""bgColor-deep-orange-100"">color：class=""<b>color-deep-orange-100</b>""<br>
+							background-color：class=""<b>bgColor-deep-orange-100</b>""</li>
+						<li class=""bgColor-deep-orange-200"">color：class=""<b>color-deep-orange-200</b>""<br>
+							background-color：class=""<b>bgColor-deep-orange-200</b>""</li>
+						<li class=""bgColor-deep-orange-300"">color：class=""<b>color-deep-orange-300</b>""<br>
+							background-color：class=""<b>bgColor-deep-orange-300</b>""</li>
+						<li class=""bgColor-deep-orange-400"">color：class=""<b>color-deep-orange-400</b>""<br>
+							background-color：class=""<b>bgColor-deep-orange-400</b>""</li>
+						<li class=""bgColor-deep-orange-500"">color：class=""<b>color-deep-orange-500</b>""<br>
+							background-color：class=""<b>bgColor-deep-orange-500</b>""</li>
+						<li class=""bgColor-deep-orange-600"">color：class=""<b>color-deep-orange-600</b>""<br>
+							background-color：class=""<b>bgColor-deep-orange-600</b>""</li>
+						<li class=""bgColor-deep-orange-700"">color：class=""<b>color-deep-orange-700</b>""<br>
+							background-color：class=""<b>bgColor-deep-orange-700</b>""</li>
+						<li class=""bgColor-deep-orange-800"">color：class=""<b>color-deep-orange-800</b>""<br>
+							background-color：class=""<b>bgColor-deep-orange-800</b>""</li>
+						<li class=""bgColor-deep-orange-900"">color：class=""<b>color-deep-orange-900</b>""<br>
+							background-color：class=""<b>bgColor-deep-orange-900</b>""</li>
+						<li class=""bgColor-deep-orange-a100"">color：class=""<b>color-deep-orange-a100</b>""<br>
+							background-color：class=""<b>bgColor-deep-orange-a100</b>""</li>
+						<li class=""bgColor-deep-orange-a200"">color：class=""<b>color-deep-orange-a200""</b><br>
+							background-color：class=""<b>bgColor-deep-orange-a200</b>""</li>
+						<li class=""bgColor-deep-orange-a400"">color：class=""<b>color-deep-orange-a400</b>""<br>
+							background-color：class=""<b>bgColor-deep-orange-a400</b>""</li>
+						<li class=""bgColor-deep-orange-a700"">color：class=""<b>color-deep-orange-a700</b>""<br>
+							background-color：class=""<b>bgColor-deep-orange-a700</b>""</li>
+					</ul>
+				</li>
+				<li>brown
+					<ul class=""colorListSub"">
+						<li class=""bgColor-brown-50"">color：class=""<b>color-brown-50</b>""<br>
+							background-color：class=""<b>bgColor-brown-50</b>""</li>
+						<li class=""bgColor-brown-100"">color：class=""<b>color-brown-100</b>""<br>
+							background-color：class=""<b>bgColor-brown-100</b>""</li>
+						<li class=""bgColor-brown-200"">color：class=""<b>color-brown-200</b>""<br>
+							background-color：class=""<b>bgColor-brown-200</b>""</li>
+						<li class=""bgColor-brown-300"">color：class=""<b>color-brown-300</b>""<br>
+							background-color：class=""<b>bgColor-brown-300</b>""</li>
+						<li class=""bgColor-brown-400"">color：class=""<b>color-brown-400</b>""<br>
+							background-color：class=""<b>bgColor-brown-400</b>""</li>
+						<li class=""bgColor-brown-500"">color：class=""<b>color-brown-500</b>""<br>
+							background-color：class=""<b>bgColor-brown-500</b>""</li>
+						<li class=""bgColor-brown-600"">color：class=""<b>color-brown-600</b>""<br>
+							background-color：class=""<b>bgColor-brown-600</b>""</li>
+						<li class=""bgColor-brown-700"">color：class=""<b>color-brown-700</b>""<br>
+							background-color：class=""<b>bgColor-brown-700</b>""</li>
+						<li class=""bgColor-brown-800"">color：class=""<b>color-brown-800</b>""<br>
+							background-color：class=""<b>bgColor-brown-800</b>""</li>
+						<li class=""bgColor-brown-900 color-white"">color：class=""<b>color-brown-900</b>""<br>
+							background-color：class=""<b>bgColor-brown-900</b>""</li>
+					</ul>
+				</li>
+				<li>grey
+					<ul class=""colorListSub"">
+						<li class=""bgColor-grey-50"">color：class=""<b>color-grey-50</b>""<br>
+							background-color：class=""<b>bgColor-grey-50</b>""</li>
+						<li class=""bgColor-grey-100"">color：class=""<b>color-grey-100</b>""<br>
+							background-color：class=""<b>bgColor-grey-100</b>""</li>
+						<li class=""bgColor-grey-200"">color：class=""<b>color-grey-200</b>""<br>
+							background-color：class=""<b>bgColor-grey-200</b>""</li>
+						<li class=""bgColor-grey-300"">color：class=""<b>color-grey-300</b>""<br>
+							background-color：class=""<b>bgColor-grey-300</b>""</li>
+						<li class=""bgColor-grey-400"">color：class=""<b>color-grey-400</b>""<br>
+							background-color：class=""<b>bgColor-grey-400</b>""</li>
+						<li class=""bgColor-grey-500"">color：class=""<b>color-grey-500</b>""<br>
+							background-color：class=""<b>bgColor-grey-500</b>""</li>
+						<li class=""bgColor-grey-600"">color：class=""<b>color-grey-600</b>""<br>
+							background-color：class=""<b>bgColor-grey-600</b>""</li>
+						<li class=""bgColor-grey-700"">color：class=""<b>color-grey-700</b>""<br>
+							background-color：class=""<b>bgColor-grey-700</b>""</li>
+						<li class=""bgColor-grey-800"">color：class=""<b>color-grey-800</b>""<br>
+							background-color：class=""<b>bgColor-grey-800</b>""</li>
+						<li class=""bgColor-grey-900 color-white"">color：class=""<b>color-grey-900</b>""<br>
+							background-color：class=""<b>bgColor-grey-900</b>""</li>
+					</ul>
+				</li>
+				<li>blue-grey
+					<ul class=""colorListSub"">
+						<li class=""bgColor-blue-grey-50"">color：class=""<b>color-blue-grey-50</b>""<br>
+							background-color：class=""<b>bgColor-blue-grey-50</b>""</li>
+						<li class=""bgColor-blue-grey-100"">color：class=""<b>color-blue-grey-100</b>""<br>
+							background-color：class=""<b>bgColor-blue-grey-100</b>""</li>
+						<li class=""bgColor-blue-grey-200"">color：class=""<b>color-blue-grey-200</b>""<br>
+							background-color：class=""<b>bgColor-blue-grey-200</b>""</li>
+						<li class=""bgColor-blue-grey-300"">color：class=""<b>color-blue-grey-300</b>""<br>
+							background-color：class=""<b>bgColor-blue-grey-300</b>""</li>
+						<li class=""bgColor-blue-grey-400"">color：class=""<b>color-blue-grey-400</b>""<br>
+							background-color：class=""<b>bgColor-blue-grey-400</b>""</li>
+						<li class=""bgColor-blue-grey-500"">color：class=""<b>color-blue-grey-500</b>""<br>
+							background-color：class=""<b>bgColor-blue-grey-500</b>""</li>
+						<li class=""bgColor-blue-grey-600"">color：class=""<b>color-blue-grey-600</b>""<br>
+							background-color：class=""<b>bgColor-blue-grey-600</b>""</li>
+						<li class=""bgColor-blue-grey-700"">color：class=""<b>color-blue-grey-700</b>""<br>
+							background-color：class=""<b>bgColor-blue-grey-700</b>""</li>
+						<li class=""bgColor-blue-grey-800"">color：class=""<b>color-blue-grey-800</b>""<br>
+							background-color：class=""<b>bgColor-blue-grey-800</b>""</li>
+						<li class=""bgColor-blue-grey-900 color-white"">color：class=""<b>color-blue-grey-900</b>""<br>
+							background-color：class=""<b>bgColor-blue-grey-900</b>""</li>
+					</ul>
+				</li>
+				<li>white &amp; black
+					<ul class=""colorListSub"">
+						<li class=""bgColor-white"">color：class=""<b>color-white</b>""<br>
+							background-color：class=""<b>bgColor-white</b>""</li>
+						<li class=""bgColor-black color-white"">color：class=""<b>color-black</b>""<br>
+							background-color：class=""<b>bgColor-black</b>""</li>
+					</ul>
+				</li>
+			</ul>
+		</section>","","","","2018-02-27 20:32:53","2018-02-27 20:31:28"
+"15","<div class=""hlTitle"">
+		<h2>コードサンプル<br><span class=""fs16-700"">- フォント -</span></h2>
+	</div>
+	<div class=""container"">
+		<section class=""secArea"">
+			<h3 class=""hlSecTitle"">フォントファミリー</h3>
+			<p class=""aCenter"">基本フォントは Noto Sans JP の サンセリフ と セリフ を使用しています。</p>
+			<div class=""rowBox-2elem"">
+				<div class=""boxInner"">
+					<p class=""fontNotoSans fs24"">Noto Sans JP sans-serif<br>
+					サンセリフ</p>
+				</div>
+				<div class=""boxInner"">
+					<p class=""fontNotoSerif fs24"">Noto Sans JP serif<br>
+					セリフ</p>
+				</div>
+			</div>
+			<pre class=""preContents"">
+<span class=""preContentsHead"">Example code</span>
+<code>&lt;p class=&quot;fontNotoSans&quot;&gt;サンセリフ&lt;/p&gt;
+&lt;p class=&quot;fontNotoSerif&quot;&gt;セリフ&lt;/p&gt;</code>
+</pre>
+		</section>
+		
+		<section class=""secArea"">
+			<h3 class=""hlSecTitle"">フォントサイズ</h3>
+			<div class=""rowBox-2elem"">
+				<div class=""boxInner"">
+					<ul>
+						<li class=""fs16"">フォントサイズ 16px（1rem）　デフォルト<br></li>
+						<li class=""fs16-100"">フォントサイズ 16px（1rem） ウエイト100</li>
+						<li class=""fs16-300"">フォントサイズ 16px（1rem） ウエイト300</li>
+						<li class=""fs16-350"">フォントサイズ 16px（1rem） ウエイト350</li>
+						<li class=""fs16-400"">フォントサイズ 16px（1rem） ウエイト400</li>
+						<li class=""fs16-500"">フォントサイズ 16px（1rem） ウエイト500</li>
+						<li class=""fs16-700"">フォントサイズ 16px（1rem） ウエイト700</li>
+						<li class=""fs16-900"">フォントサイズ 16px（1rem） ウエイト900</li>
+					</ul>
+				</div>
+				<div class=""boxInner"">
+					<ul>
+						<li class=""fs22"">フォントサイズ 22px（1.375rem）　デフォルト<br></li>
+						<li class=""fs22-100"">フォントサイズ 22px（1.375rem） ウエイト100</li>
+						<li class=""fs22-300"">フォントサイズ 22px（1.375rem） ウエイト300</li>
+						<li class=""fs22-350"">フォントサイズ 22px（1.375rem） ウエイト350</li>
+						<li class=""fs22-400"">フォントサイズ 22px（1.375rem） ウエイト400</li>
+						<li class=""fs22-500"">フォントサイズ 22px（1.375rem） ウエイト500</li>
+						<li class=""fs22-700"">フォントサイズ 22px（1.375rem） ウエイト700</li>
+						<li class=""fs22-900"">フォントサイズ 22px（1.375rem） ウエイト900</li>
+					</ul>
+				</div>
+			</div>
+<pre class=""preContents"">
+<span class=""preContentsHead"">Example code</span>
+<code>&lt;ul&gt;
+  &lt;li class=&quot;fs16&quot;&gt;フォントサイズ 16px（1rem）　デフォルト&lt;br&gt;&lt;/li&gt;
+  &lt;li class=&quot;fs16-100&quot;&gt;フォントサイズ 16px（1rem） ウエイト100&lt;/li&gt;
+  &lt;li class=&quot;fs16-300&quot;&gt;フォントサイズ 16px（1rem） ウエイト300&lt;/li&gt;
+  &lt;li class=&quot;fs16-350&quot;&gt;フォントサイズ 16px（1rem） ウエイト350&lt;/li&gt;
+  &lt;li class=&quot;fs16-400&quot;&gt;フォントサイズ 16px（1rem） ウエイト400&lt;/li&gt;
+  &lt;li class=&quot;fs16-500&quot;&gt;フォントサイズ 16px（1rem） ウエイト500&lt;/li&gt;
+  &lt;li class=&quot;fs16-700&quot;&gt;フォントサイズ 16px（1rem） ウエイト700&lt;/li&gt;
+  &lt;li class=&quot;fs16-900&quot;&gt;フォントサイズ 16px（1rem） ウエイト900&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+  &lt;li class=&quot;fs22&quot;&gt;フォントサイズ 22px（1.375rem）　デフォルト&lt;br&gt;&lt;/li&gt;
+  &lt;li class=&quot;fs22-100&quot;&gt;フォントサイズ 22px（1.375rem） ウエイト100&lt;/li&gt;
+  &lt;li class=&quot;fs22-300&quot;&gt;フォントサイズ 22px（1.375rem） ウエイト300&lt;/li&gt;
+  &lt;li class=&quot;fs22-350&quot;&gt;フォントサイズ 22px（1.375rem） ウエイト350&lt;/li&gt;
+  &lt;li class=&quot;fs22-400&quot;&gt;フォントサイズ 22px（1.375rem） ウエイト400&lt;/li&gt;
+  &lt;li class=&quot;fs22-500&quot;&gt;フォントサイズ 22px（1.375rem） ウエイト500&lt;/li&gt;
+  &lt;li class=&quot;fs22-700&quot;&gt;フォントサイズ 22px（1.375rem） ウエイト700&lt;/li&gt;
+  &lt;li class=&quot;fs22-900&quot;&gt;フォントサイズ 22px（1.375rem） ウエイト900&lt;/li&gt;
+&lt;/ul&gt;
+
+※ サイズは 10px ～ 32px まで用意しています。</code>
+</pre>
+		</section>
+	</div>","","","","2018-03-03 10:56:02","2018-02-27 21:22:58"
+"16","<div class=""hlTitle"">
+<h2>情報活用事業</h2>
+</div>
+
+<div class=""container"">
+<div class=""secArea aCenter"">
+<p class=""readData"">YMFGのグループ子会社として、地域内の事業者の皆様が抱える様々な経営課題に対して、<br class=""spNone"" />
+データ分析およびAIの導入・活用を通じて業務の改善や効率化を推進し、<br class=""spNone"" />
+地域内企業の生産性を高めて地域経済の活性化に取り組みます。</p>
+
+<figure class=""figData""><img alt=""情報活用事業"" src=""<?php $this->BcBaser->themeUrl() ?>/img/data/img_data.png"" /></figure>
+</div>
+
+<section class=""secArea"">
+<h3 class=""hlSecTitle"">データ分析サービス</h3>
+
+<div class=""rowBox-2elem"">
+<div class=""boxInner w65"">
+<p class=""hlSecTitleSub"">地域企業に対するデータ・ドリブン・マーケティングの実行支援</p>
+
+<ul class=""businessList"">
+	<li>お客様からデータをお預かりし、各種ツールを活用してデータ分析を行い、お客様のマーケティングに役立つ情報として提供します。</li>
+	<li>社内に蓄積された、従来は分析に用いられることが少なかった大量のデータを有効に活用し、経営の高度化や業務の可視化・効率化の実現を支援します。</li>
+	<li>テーマの抽出や整理、情報の所在の整理を通じて、各社に最適なソリューションを提案します。</li>
+</ul>
+</div>
+
+<div class=""boxInner w35""><img alt="""" src=""<?php $this->BcBaser->themeUrl() ?>/img/data/img_data1.jpg"" /></div>
+</div>
+
+<div class=""rowBox-2elem-reverse"">
+<div class=""boxInner w65"">
+<p class=""hlSecTitleSub"">企業活動に役立つ様々なデータの提供</p>
+
+<ul class=""businessList"">
+	<li>各産業分野や企業等が保有する様々なデータの所在を把握し、同種データの統合・時系列データの収集・異業種データの組み合わせ等を検討し、それらを実現することにより、データの価値向上を目指します。</li>
+	<li>各種統計情報やオープンデータを含む外部データと社内に蓄積された情報を組み合わせることにより、従来のデータ分析の枠を超えた、新たな価値提供を目指します。</li>
+</ul>
+</div>
+
+<div class=""boxInner w35""><img alt="""" src=""<?php $this->BcBaser->themeUrl() ?>/img/data/img_data2.jpg"" /></div>
+</div>
+</section>
+
+<section class=""secArea"">
+<h3 class=""hlSecTitle"">AIソリューションサービス</h3>
+
+<div class=""rowBox-2elem"">
+<div class=""boxInner w65"">
+<p class=""hlSecTitleSub"">AI導入による業務改善・効率化支援</p>
+
+<ul class=""businessList"">
+	<li>AI活用の領域を明確にした上で、実現に向けて必要となるデータや技術の選定と実際の導入を支援します。</li>
+	<li>各社の課題解決に向け、AIをどのように活用すべきか、社内外のデータをどのように組み合わせて取り組むべきか、お客様と共に実現の方策検討に取り組みます。</li>
+	<li>AIを取り巻く各種の基礎技術や応用技術、強化技術を適切に組み合わせて、企業の有する専門技術の継承等に取り組みます。</li>
+</ul>
+</div>
+
+<div class=""boxInner w35""><img alt="""" src=""<?php $this->BcBaser->themeUrl() ?>/img/data/img_data3.jpg"" /></div>
+</div>
+
+<div class=""rowBox-2elem-reverse"">
+<div class=""boxInner w65"">
+<p class=""hlSecTitleSub"">アナログデータからデジタルデータへの移行支援</p>
+
+<ul class=""businessList"">
+	<li>文字認識や画像認識等にAI技術を活用することにより、これまで人の目に頼っていた情報認識のデジタル化（データ化）を支援します。</li>
+	<li>AIの学習をより高度化・最適化することを目指し、社会インフラや工場を始めとする様々な情報のデータ化支援に取り組みます。</li>
+</ul>
+</div>
+
+<div class=""boxInner w35""><img alt="""" src=""<?php $this->BcBaser->themeUrl() ?>/img/data/img_data4.jpg"" /></div>
+</div>
+</section>
+
+<section class=""secArea"">
+<h3 class=""hlSecTitle"">AIの普及促進活動</h3>
+
+<div class=""rowBox-2elem"">
+<div class=""boxInner w65"">
+<p class=""hlSecTitleSub"">AIに関する基礎知識を習得するためのセミナー実施</p>
+
+<ul class=""businessList"">
+	<li>AIおよびデータ利活用の普及促進のため、AIの持つ可能性やデータの有効活用に関するセミナーを行います。</li>
+	<li>地域内の事業者や学生の皆様、その他様々な方への情報提供を通じて、地域のデータリテラシーの向上に取り組みます。</li>
+</ul>
+</div>
+
+<div class=""boxInner w35""><img alt="""" src=""<?php $this->BcBaser->themeUrl() ?>/img/data/img_data5.jpg"" /></div>
+</div>
+
+<div class=""rowBox-2elem-reverse"">
+<div class=""boxInner w65"">
+<p class=""hlSecTitleSub"">AIやデータ分析を活用した課題解決型の実践セミナー実施</p>
+
+<ul class=""businessList"">
+	<li>参加者が実際に抱える課題やデータを用いて、課題解決に取り組む実践セミナーを行います。</li>
+	<li>複数の事業者同士で連携して地域や企業の課題解決に取り組むような場作りにも積極的に取り組みます。</li>
+</ul>
+</div>
+
+<div class=""boxInner w35""><img alt="""" src=""<?php $this->BcBaser->themeUrl() ?>/img/data/img_data6.jpg"" /></div>
+</div>
+</section>
+</div>","","","","2018-08-30 12:14:54","2018-07-28 15:03:50"
+"17","<div class=""hlTitle"">
+<h2>メディア事業</h2>
+</div>
+
+<div class=""container"">
+<div class=""secArea aCenter"">
+<p class=""readMedia"">YMFGのグループ子会社として、地域内の魅力ある商品・サービスを発掘し、<br class=""spNone"" />
+地域の貴重な資産・資源として企業や人の想いを、より魅力的な形で世の中に伝えていくことで、<br class=""spNone"" />
+認知度を高め消費を促し地域経済の活性化に取り組みます。</p>
+
+<figure class=""figMedia""><img alt=""メディア事業"" src=""<?php $this->BcBaser->themeUrl() ?>/img/media/img_media.png"" /></figure>
+</div>
+
+<section class=""secArea"">
+<h3 class=""hlSecTitle"">広告サービス</h3>
+
+<div class=""rowBox-2elem"">
+<div class=""boxInner w65"">
+<p class=""hlSecTitleSub"">グループネットワークを活用した地域資源の発掘支援</p>
+
+<ul class=""businessList"">
+	<li>YMFGのネットワークを活用して地域内企業や商品の価値・魅力を見出し、発信します。</li>
+</ul>
+&nbsp;
+
+<p class=""hlSecTitleSub"">効果的な情報発信によるブランディング支援</p>
+
+<ul class=""businessList"">
+	<li>企業の多面的な魅力訴求や有益な情報発信を通じたブランディング支援いたします。</li>
+	<li>ヒアリングを通じてクライアントの意思を尊重したブランドイメージを具体化させ企画・制作を行い提案します。</li>
+</ul>
+</div>
+
+<div class=""boxInner w35""><img alt="""" src=""<?php $this->BcBaser->themeUrl() ?>/img/media/img_media1.jpg"" /></div>
+</div>
+</section>
+
+<section class=""secArea"">
+<h3 class=""hlSecTitle"">プロモーション支援サービス</h3>
+
+<div class=""rowBox-2elem-reverse"">
+<div class=""boxInner w65"">
+<p class=""hlSecTitleSub"">アクセスデータを活用したマーケティング支援</p>
+
+<ul class=""businessList"">
+	<li>弊社が運営するメディアへの掲載記事へのアクセスデータを元にデータ分析を行い、マーケティングデータとして提供いたします。</li>
+</ul>
+&nbsp;
+
+<p class=""hlSecTitleSub"">プロモーション企画の提案実行支援</p>
+
+<ul class=""businessList"">
+	<li>アクセスデータ分析結果および商圏エリアデータを元に効果的なプロモーション企画を立案し実行支援を行います。</li>
+</ul>
+</div>
+
+<div class=""boxInner w35""><img alt="""" src=""<?php $this->BcBaser->themeUrl() ?>/img/media/img_media2.jpg"" /></div>
+</div>
+</section>
+
+<section class=""secArea"">
+<h3 class=""hlSecTitle"">Webメディア運営</h3>
+
+<div class=""rowBox-2elem"">
+<div class=""boxInner w65"">
+<p class=""hlSecTitleSub"">地域情報Webサイト「ここいろ」の運営</p>
+
+<p>地域で熱い思いを持って活動する方々、素材や製法にこだわりを持って作られたモノ、地域内外からぜひ訪れてほしいスポット等に、秘められたストーリーと思いを伝える記事を制作し広く発信します。</p>
+</div>
+
+<div class=""boxInner w35""><img alt="""" src=""<?php $this->BcBaser->themeUrl() ?>/img/media/img_media3_cocoiro.jpg"" /></div>
+</div>
+</section>
+</div>","","","","2018-08-30 12:16:32","2018-07-28 15:06:05"
+"18","<div class=""hlTitle"">
+<h2>プライバシーポリシー</h2>
+</div>
+
+<div class=""container"">
+<div class=""secArea"">
+<p>当社は、お客様からの信頼を第一と考え、以下の方針に沿ってお客様の情報を厳格に管理し、個人情報の保護に関する法律（以下、個人情報保護法といいます。）、行政手続における特定の個人を識別するための番号の利用等に関する法律（以下、マイナンバー法といいます。）等の関係法令等を遵守するとともに、正確性・機密性の保持と安全性の確保に努めることを宣言します。</p>
+</div>
+
+<section class=""secArea"">
+<h3 class=""hlSecTitle"">1. 個人情報を収集する目的</h3>
+
+<p>お客様との取引を安全確実に進め、より良いサービスを提供させていただくため、お客様に関する必要最小限の情報を収集させていただいております。これらの情報は、下記の利用目的のために利用し、利用目的の達成に必要な範囲を超えた利用はいたしません。具体的な利用目的は次のとおりです。</p>
+
+<section class=""privacyBox"">
+<h4 class=""hlPrivacyBox"">個人情報の利用目的</h4>
+
+<ul class=""privacyList"">
+	<li>
+	<p>業務内容</p>
+
+	<ul class=""privacyList"">
+		<li>各種データ分析及びマーケティング業務の遂行、及びコンサルティング</li>
+		<li>AI等のIT技術を活用したソリューション提供による、業務高度化・効率化の支援</li>
+		<li>インターネット等のオンラインを利用した市場調査、各種広告・宣伝ならびに販売促進に関する業務</li>
+		<li>販売促進に関する各種イベント、展示会、キャンペーン等の企画、制作、運営、管理業務</li>
+		<li>その他上記に附帯または関連する一切の業務（今後取扱いが認められる業務を含む）</li>
+	</ul>
+	</li>
+	<li>
+	<p>利用目的</p>
+
+	<p>当社は、お客様の個人情報を、以下の利用目的で利用いたします。<br />
+	なお、特定の個人情報の利用目的が、法令等に基づき限定されている場合には、当該利用目的以外で利用いたしません。</p>
+
+	<ul class=""privacyList"">
+		<li>提供サービス利用者向けの連絡・メールマガジン・DM・お知らせ等の配信送付</li>
+		<li>広告・コンテンツ等の配信・表示</li>
+		<li>提供サービス利用状況の調査、分析、マーケティング</li>
+		<li>提供サービスの改善・新規サービスの開発、提案</li>
+		<li>各種イベント、展示会、キャンペーン、取材等の実施</li>
+		<li>提供サービスに関するご意見、お問い合わせ内容の回答</li>
+		<li>お取引等にかかる連絡</li>
+		<li>お客様に対して有用と思われる情報の提供</li>
+		<li>関係会社や提携会社等の商品やサービスの各種ご提案またはご提供のため</li>
+		<li>その他、利用者へのサービス提供を適切かつ円滑に履行するため</li>
+	</ul>
+	</li>
+</ul>
+</section>
+
+<p>なお、法令等により、人種、信条、門地、本籍地、保健医療または犯罪歴についての情報等の特別の非公開情報は、適切な業務運営その他の必要と認められる目的以外の目的に利用・第三者提供いたしません。<br />
+当社では、お客様ご本人にとって個人情報の利用目的が明確になるよう具体的に定めるとともに、例えば、各種アンケート等への回答に際しては、アンケートの集計のためのみに利用するなど取得の場面に応じ、利用目的を限定するよう努めます。</p>
+
+<p>（個人番号の利用目的）<br />
+上記にかかわらず、当社はお客様の個人番号（個人を識別するための番号であり、住民票コードを変換して得られる12桁の番号をいいます。）を、その利用目的の達成に必要な範囲内においてこれを取扱います。個人番号について、マイナンバー法で認められている利用目的以外では利用いたしません。具体的な利用目的は次のとおりです。</p>
+
+<div class=""privacyBox"">
+<p>個人番号の利用目的</p>
+当社は、お客様の個人番号を以下の利用目的で利用いたします。
+
+<ul class=""privacyList"">
+	<li>法令に基づき作成する支払調書作成事務のため</li>
+</ul>
+</div>
+</section>
+
+<section class=""secArea"">
+<h3 class=""hlSecTitle"">2. 収集する個人情報の種類</h3>
+
+<p>お客様からお預かりする情報には、一般的にはお客様の氏名、住所、生年月日、電話番号、勤務先などがあります。これら以外にも、収集の目的に合理的に必要な項目が含まれます。</p>
+</section>
+
+<section class=""secArea"">
+<h3 class=""hlSecTitle"">3. 個人情報の収集方法</h3>
+
+<p>当社は充分な安全管理措置をとった上で、例えば以下のように、ご記入、ご入力されたお客様の個人情報を取得しています。</p>
+
+<p>（例）</p>
+
+<ul>
+	<li>取引に関する申込書、契約書等の書類やweb画面上により直接提供を受ける場合</li>
+	<li>共同利用する旨公表したグループ銀行等の共同利用者や業務委託者（当社が業務を受託する相手先）から個人情報の提供を受ける場合</li>
+	<li>お客様の同意にもとづき、第三者から個人情報の提供を受ける場合</li>
+</ul>
+</section>
+
+<section class=""secArea"">
+<h3 class=""hlSecTitle"">4. 個人情報取得時の取扱</h3>
+
+<p>当社は、個人情報の取得にあたり、あらかじめ利用目的をこの個人情報保護方針（プライバシーポリシー）に掲載することにより公表することとしております。<br />
+あらかじめ公表していない場合には、特段の事情がない限り個人情報の取得時にその利用目的をご本人に通知するか、すみやかに公表させていただきます。<br />
+また、当社では、ご本人との間で契約を締結することに伴って契約書その他の書面に記載された個人情報をご本人から直接的に取得する場合には、特段の事情がない限りその利用目的を明示するか、またはその利用目的につき、ご本人の同意を頂いたうえで利用させていただくことにしております。</p>
+</section>
+
+<section class=""secArea"">
+<h3 class=""hlSecTitle"">5. 個人情報の外部への提供</h3>
+
+<p>当社では、法令により認められる場合等を除いて、お客様の同意を得る等の必要な手続きを経ることなく、お客様の情報を外部の第三者に提供することはありません。</p>
+</section>
+
+<section class=""secArea"">
+<h3 class=""hlSecTitle"">6. 個人データの外部委託</h3>
+
+<p>当社では、例えば以下のような場合に、個人データの取扱を委託しています。</p>
+
+<p>（委託する事務等の例）</p>
+
+<ul>
+	<li>各種システムの開発・運用・保守に関わる業務</li>
+	<li>webサイトの管理に関わる業務</li>
+	<li>コンテンツ制作に関わる業務</li>
+	<li>お客様への御案内や情報提供、各種配送業務</li>
+</ul>
+</section>
+
+<section class=""secArea"">
+<h3 class=""hlSecTitle"">7. 個人情報の管理方法</h3>
+
+<p>お客様の情報を正確、最新なものにするよう常に適切な措置をとっています。また、お客様の情報への不当なアクセス、破壊、改ざん、漏洩などが行われることを防止するため、安全管理には万全を尽くします。</p>
+</section>
+
+<section class=""secArea"">
+<h3 class=""hlSecTitle"">8. お客様からの当社保有個人データに関する開示等のご請求</h3>
+
+<p>お客様からご自身に関する当社保有個人データについて、開示、訂正、利用停止等のご請求があった場合には、ご本人であることの確認または正当な代理人からのご請求であることを確認させていただいたうえで対応させていただきます。<br />
+これらの手続きについては、当社所定の依頼書の提出が必要です。詳しくは、下記のお問い合わせ先にご相談ください。</p>
+</section>
+
+<section class=""secArea"">
+<h3 class=""hlSecTitle"">9. 個人情報保護関連社内規定等の整備と実施</h3>
+
+<p>当社は、お客様情報（個人番号を含む）の保護を実行するため、関連規定を定めるとともに、お客様情報の保護および適正な管理方法等に関する社員教育を実施して適正な取扱を徹底いたします。</p>
+</section>
+
+<section class=""secArea"">
+<h3 class=""hlSecTitle"">10. 個人情報の取扱に関する質問および苦情のお申し出</h3>
+
+<p>当社は、個人情報の保護に万全を期しますが、当社の個人情報の取扱に関する質問や苦情のお申し出に対しては、誠実な対応に努めさせていただきます。なお、個人情報の取扱に関する質問や苦情は、下記のお問い合わせ先で承ります。</p>
+</section>
+
+<section class=""privacyBox"">
+<h4>【お問い合わせ先】</h4>
+
+<p>株式会社データ・キュービック<br />
+山口県下関市竹崎町四丁目2番36号<br />
+TEL：083-227&ndash;2902</p>
+</section>
+
+<p class=""aRight"">平成30年7月31日制定</p>
+</div>","","","","2018-08-07 09:32:14","2018-07-30 20:20:48"
+"19","<div class=""hlTitle"">
+			<h2>個人データ安全管理方針</h2>
+		</div>
+		<div class=""container"">
+			<section class=""secArea"">
+				<h3 class=""hlSecTitle"">内容</h3>
+				<p>山ロフィナンシャルグループの方針に基づき、「個人データ安全管理方針」を以下の通りとし、対外的に公表する。</p>
+				<section class=""privacyBox"">
+					<h4 class=""hlPrivacyBox"">個人データ安全管理方針</h4>
+					<p>当社は、お客様からの信頼を第ーと考え、以下の基本方針に沿つて個人データを厳格に管理し、個人情報保護法等の関係法令や規範を遵守するとともに、個人データの安全管理に努めることを宣言します。</p>
+					<ul class=""privacyList"">
+						<li>
+							<p><b>個人データの安全管理方法</b></p>
+							当社は、個人データヘの不当なアクセス、破壊、改ざん、漏えいなどが行われることを防止するため、使用するコンピュータに対してはウィルスチェックプログラムによるコンピュータウィルス検知を徹底するなど個人データの厳重な安全管理対策を実施いたします。<br>
+							また、個人データの安全管理に関する組織・体制や社内規定等の態勢を整備・実施するとともに、情報セキュリティに関する環境の変化や個人データの安全管理に関する法令・規範の改正に合わせて継続的に管理態勢を見直し、個人データの安全管理に努めます。
+						</li>
+						<li>
+							<p><b>組織・体制</b></p>
+							当社は、情報資産管理主管部署を設置するとともに統括責任者を任命して個人データの安全管理を実施いたします。
+						</li>
+						<li>
+							<p><b>社内規定等の整備と実施</b></p>
+							当社は、個人データの安全管理を実行するために、「情報資産管理規程」・「システム管理対策基準」等の関連規定類を定めるとともに、個人データの適正な管理方法等に関する社員教育を徹底いたします。
+						</li>
+						<li>
+							<p><b>個人データの安全管理に関するご質問および苦情のお申出</b></p>
+							当社は個人データの安全管理に万全を期しますが、万ー、当社の個人データの安全管理に関してご質問や苦情のお申出がございましたら、当社担当部署で承り、誠実な対応に努めさせていただきます。
+						</li>
+					</ul>
+				</section>
+			</section>
+			<p class=""aRight"">以上</p>
+		</div>","","","","2018-08-07 09:33:19","2018-08-07 09:32:32"
+"20","<div class=""hlTitle"">
+			<h2>SNS利用規約</h2>
+		</div>
+		<div class=""container"">
+			<section class=""secArea"">
+				<h3 class=""hlSecTitle"">はじめに</h3>
+				<p>株式会社データ・キュービックは、所有するソーシャルメディア公式アカウントの運営に関して、次の通りご利用規約（以下、「本規約」といいます）を定めています。</p>
+				<section class=""privacyBox"">
+					<h4 class=""hlPrivacyBox"">株式会社データ・キュービックが運営するソーシャルメディアアカウント</h4>
+					<ul class=""privacyList"">
+						<li><p>公式Facebookページ「ここいろ」</p>
+							URL : <a href=""https://www.facebook.com/cocoiro.dqvic"" target=""_blank"">https://www.facebook.com/cocoiro.dqvic</a>
+						</li>
+						<li><p>公式Instagramビジネスプロフィール「ここいろ」</p>
+							URL : <a href=""https://www.instagram.com/cocoiro.dqvic"" target=""_blank"">https://www.instagram.com/cocoiro.dqvic</a>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class=""secArea"">
+				<h3 class=""hlSecTitle"">本規約の適用範囲・変更</h3>
+				<ul>
+					<li>本規約は、株式会社データ・キュービック（以下、「当社」といいます）が運営する公式アカウント（以下、「当アカウント」といいます）をご利用されるすべてのみなさまに適用されるものとします。</li>
+					<li>ご利用者のみなさまが当アカウントをご利用になる場合、本規約を承諾されたものとみなします。</li>
+					<li>当社は、ご利用のみなさまの事前の承諾および事後の通知等を要することなく、本規約を変更できるものとします。変更後は当社のウェブサイト上に掲載した時点より、効力を生じるものとします。</li>
+				</ul>
+			</section>
+			<section class=""secArea"">
+				<h3 class=""hlSecTitle"">投稿・コメントへの回答について</h3>
+				<p>ご利用のみなさまから投稿されたコメントにつきましては、業務等の参考にさせていただきますが、原則として、当社から個別の回答はいたしません。ご意見・ご質問・ご要望につきましては、当社へお問い合わせください。</p>
+			</section>
+			<section class=""secArea"">
+				<h3 class=""hlSecTitle"">基本情報へのアクセス</h3>
+				<p>当アカウントのファンおよびフォロワーとしてご登録いただいた場合は、ご利用者のお名前やプロフィール、写真、性別等、ご利用者がアカウント設定上公開しているすべての基本情報へ、当アカウントからのアクセスを許諾されたものとみなします。<br>
+					また、イベントやキャンペーンの円滑な遂行のため、ダイレクトメッセージを送信させていただく場合がございます。</p>
+			</section>
+			<section class=""secArea"">
+				<h3 class=""hlSecTitle"">禁止行為</h3>
+				<p>当社は当アカウントの利用にあたり、以下に該当もしくは該当する恐れのある行為を禁止します。禁止行為にあたる投稿・コメントは予告なく削除することがあります。</p>
+				<ul>
+					<li>第三者または当社に迷惑、不利益もしくは損害を与える行為</li>
+					<li>第三者または当社の商品やサービスを誹謗中傷する行為</li>
+					<li>第三者または当社を誹謗中傷し、第三者または当社の名誉を毀損する行為</li>
+					<li>当社を含む第三者になりすます行為</li>
+					<li>第三者または当社の商標権、著作権そのた知的財産権、プライバシーその他の権利を侵害する行為</li>
+					<li>政治活動、選挙活動、宗教活動またはこれらに類似する行為</li>
+					<li>金利・為替・株式市場等のマーケットの動向について断定的判断を提供する行為</li>
+					<li>法律や法令、公序良俗に反する行為</li>
+					<li>犯罪に結びつく行為、または恐れのある行為</li>
+					<li>アフィリエイト、広告、宣伝目的の内容が含まれる投稿やデータ送信行為</li>
+					<li>Facebook／Instagramの利用規約に違反する行為</li>
+					<li>その他、当社が不適切と判断する行為</li>
+				</ul>
+			</section>
+			<section class=""secArea"">
+				<h3 class=""hlSecTitle"">免責事項</h3>
+				<ul>
+					<li>当アカウントに当社が掲載する情報は、情報提供を主な目的としています。</li>
+					<li>当アカウントで当社が発信する情報は、必ずしも当社の公式発表・見解を表すものではございません。当社の公式発表・見解は、当社のホームページで行います。</li>
+					<li>当社は、当アカウント上に公開されている情報を予告なく変更・削除することがあります。また、やむをえない事由によりご利用者のみなさまに予告なく当アカウントの公開を中断あるいは中止する場合があります。</li>
+					<li>当アカウントはFacebook／Instagramよって運営されており、その機能および安全性に関して、当社はいかなる保証もするものではありません。</li>
+					<li>当社は、ご利用者によって投稿された情報について一切責任を負いません。利用者間、またはご利用者と第三者の間でトラブルまたは紛争が生じた場合、ご利用者が自己の責任において当該トラブルまたは紛争を解決するものとし、当社は一切責任を負いません。</li>					<li>ご利用者が当社に対し、損害賠償請求権等の何らかの請求権を有する場合、その発生原因が生じた日から1年以内に権利行使をしなければ、当該権利は失効するものとします。</li>
+				</ul>
+			</section>
+			<section class=""secArea"">
+				<h3 class=""hlSecTitle"">準拠法・管轄</h3>
+				<p>本規約は日本法に準拠し、解釈・適用されるものとします。万一、当アカウントの利用に関して紛争が生じた場合は、当社本社所在地を管轄とする裁判所を管轄裁判所とします。</p>
+			</section>
+		</div>","","","","2018-08-28 21:47:44","2018-08-27 22:07:35"
